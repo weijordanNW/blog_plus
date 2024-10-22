@@ -7,11 +7,17 @@ export interface LinkData {
 
 export const friends: LinkData[] = [
   {
-    name: "上冬十二",
+    name: "子冥",
     desc: "到最后，竟庆幸于夕阳仍留在身上",
     icon: "/logo.svg",
-    link: "https://oragekk.me/",
+    link: "https://weijodan.top",
   },
+  // {
+  //   name: "上冬十二",
+  //   desc: "到最后，竟庆幸于夕阳仍留在身上",
+  //   icon: "/logo.svg",
+  //   link: "https://oragekk.me/",
+  // },
   {
     name: "廿壴(GANXB2)博客",
     desc: "探讨WEB技术.交流日常生活.感悟短暂人生.分享简单快乐",

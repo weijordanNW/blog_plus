@@ -12,7 +12,7 @@ description: 「一生短暂，过程很美」 致力于分享自己涉及和了
 head:
   - - meta
     - name: keywords
-      content: oragekk, 子冥, Oragekk Blog, 博客, 个人博客, 极客, geek, 大前端, 设计, iOS, Flutter, Vue
+      content: 子冥, Blog, 博客, 个人博客, 极客, geek, 大前端, 设计,  Vue
 projects:
   - icon: /logo.svg
     name: 关于本站

@@ -3,7 +3,8 @@ description: Create a report to help us improve
 title: "[Bug]"
 labels:
   - bug
-assignees: Oragekk
+# assignees: Oragekk
+assignees: Weijodan
 body:
   - type: checkboxes
     id: checklist

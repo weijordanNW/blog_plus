@@ -3,12 +3,14 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 export default MyTheme({
   hotReload: true,
-  hostname: "https://oragekk.me",// 域名
+  // hostname: "https://oragekk.me",// 域名
+  hostname: "https://weijodan.top",// 域名
   themeColor: true,
   fullscreen: true,
   author: {
     name: "子冥",
-    url: "https://orgaekk.me",// 个人主页
+    // url: "https://orgaekk.me",// 个人主页
+    url: "https://weijodan.top",// 个人主页
   },
 
   iconAssets: [
@@ -20,7 +22,8 @@ export default MyTheme({
 
   logo: "/logo.svg",
 
-  repo: "OrageKK/oragekk.github.io",// 仓库地址
+  // repo: "OrageKK/oragekk.github.io",// 仓库地址
+  repo: "https://github.com/weijordanNW?tab=repositories",// 仓库地址
 
   docsDir: "src",
 
