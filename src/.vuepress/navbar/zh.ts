@@ -52,8 +52,8 @@ export const zhNavbar = navbar([
   {
     text: "说说",
     icon: "news",
-    // link: "/news/",
-    link: "/",
+    link: "/news/",
+    // link: "/",
   },
   // 留言板
   {
@@ -65,8 +65,8 @@ export const zhNavbar = navbar([
   {
     text: "友链",
     icon: "link",
-    // link: "/friend",
-    link: "/",
+    link: "/friend",
+    // link: "/",
   },
   // 关于
   {
