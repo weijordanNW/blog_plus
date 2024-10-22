@@ -153,7 +153,8 @@ export default MyTheme({
     comment: {
       provider: "Waline",
       // serverURL: "https://talk.oragekk.me/", // your server url
-      serverURL: "https://blog-comment-two-ochre.vercel.app",// your server url
+      // serverURL: "https://blog-comment-two-ochre.vercel.app",// your server url
+      serverURL: "https://blogcomment-omega.vercel.app/",// your server url
       reaction: true,
       requiredMeta: ["nick", 'mail'],
       wordLimit: 300,
