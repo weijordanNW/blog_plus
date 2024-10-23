@@ -34,6 +34,14 @@ export const zhNavbar = navbar([
           { text: "博客相关", icon: "blog", link: "" },
         ],
       },
+      // 项目相关
+      {
+        text: "项目相关",
+        prefix: "/project/",
+        children: [
+          { text: "部署", icon: "blog", link: "" },
+        ],
+      },
     ],
   },
   // 软件教程

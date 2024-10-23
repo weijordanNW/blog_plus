@@ -70,6 +70,12 @@ export const zhSidebar = sidebar({
       link: "blog/",
     },
     {
+      text: "项目相关",
+      icon: "blog",
+      prefix: "project/",
+      link: "project/",
+    },
+    {
       text: "站点收藏",
       icon: "sitemap",
       prefix: "site",
@@ -97,5 +103,6 @@ export const zhSidebar = sidebar({
   "/posts/Web/": "structure",
   "/site/": "structure",
   "/blog": "structure",
+  "/project": "structure",
   "/tutorial": "structure",
 });
