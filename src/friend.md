@@ -21,29 +21,29 @@ import MyCoverLink from "@MyCoverLink";
 @tab 🌴General
 
 ```yml
-昵称: "上冬十二",
-简介: "到最后，竟庆幸于夕阳仍留在身上",
-头像: "https://oragekk.me/logo.svg",
-连接: "https://oragekk.me/"
+昵称: "子冥",
+简介: "waiting for",
+头像: "https://weijodan.top/logo.svg",
+连接: "https://weijodan.top/"
 ```
 
 @tab json
 
 ```json
 {
-  "name": "上冬十二",
-  "desc": "到最后，竟庆幸于夕阳仍留在身上",
-  "ico": "https://oragekk.me/logo.svg",
-  "link": "https://oragekk.me/"
+  "name": "子冥",
+  "desc": "waiting for",
+  "ico": "https://weijodan.top/logo.svg",
+  "link": "https://weijodan.top/"
 }
 ```
 @tab yml
 
 ```yml
-- name: "上冬十二",
-- desc: "到最后，竟庆幸于夕阳仍留在身上",
-- ico: "https://oragekk.me/logo.svg",
-- link: "https://oragekk.me/"
+- name: "子冥",
+- desc: "waiting for",
+- ico: "https://weijodan.top/logo.svg",
+- link: "https://weijodan.top/"
 ```
 
 :::

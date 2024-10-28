@@ -3,13 +3,11 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 export default MyTheme({
   hotReload: true,
-  // hostname: "https://oragekk.me",// 域名
   hostname: "https://weijodan.top",// 域名
   themeColor: true,
   fullscreen: true,
   author: {
     name: "子冥",
-    // url: "https://orgaekk.me",// 个人主页
     url: "https://weijodan.top",// 个人主页
   },
 
@@ -22,7 +20,6 @@ export default MyTheme({
 
   logo: "/logo.svg",
 
-  // repo: "OrageKK/oragekk.github.io",// 仓库地址
   repo: "https://github.com/weijordanNW?tab=repositories",// 仓库地址
 
   docsDir: "src",
@@ -42,9 +39,9 @@ export default MyTheme({
       BiliBili: "https://space.bilibili.com/102611372?spm_id_from=333.999.0.0",
       // Bitbucket: "https://example.com",
       // Dingding: "https://example.com",
-      Discord: "https://example.com",
+      // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
+      Email: "1985615319@qq.com",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
@@ -56,17 +53,22 @@ export default MyTheme({
       // Linkedin: "https://example.com",
       // Pinterest: "https://example.com",
       // Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
+      // QQ: "https://example.com",
+      // Qzone: "https://example.com",
       // Reddit: "https://example.com",
       // Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
+      // Steam: "https://example.com",
+      // Twitter: "https://example.com",
+      // Wechat: "https://example.com",
+      // Weibo: "https://example.com",
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
-      Zhihu: "https://example.com",
+      Zhihu: "https://www.zhihu.com/",
+      // 自定义
+      Flowus: {
+        icon: "https://cdn2.flowus.cn/assets/_next/static/media/home-logo.78d948f2.png",
+        link: "https://flowus.cn/share/309cdcc3-8f77-4c7b-8057-55ab76451472?code=MWEDM0",
+      },
 
       // VuePressThemeHope: {
       //   // icon: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -97,7 +99,7 @@ export default MyTheme({
       displayFooter: false,
 
       blog: {
-        description: "到最后，竟庆幸于夕阳仍留在身上",
+        description: "waiting for",
         intro: "/intro.html",
       },
 

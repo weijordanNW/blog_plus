@@ -2,7 +2,7 @@
 
 # 博客源码
 
-地址：[https://oragekk.me](https://oragekk.me)
+地址：[https://weijodan.top](https://weijodan.top)
 
 基于`vuepress2.x`和`vuepress-theme-hope`开发，基于TypeScript使用vue3编写组件
 
@@ -41,13 +41,13 @@
    - [vuepress-plugin-meting2](https://github.com/OrageKK/vuepress-plugin-meting2) （播放器插件，可以全局使用和md文件使用） -->
 4. **引用外部内容**
 
-   <!-- - [vuepress-plugin-oh-my-live2d](https://github.com/oh-my-live2d/vuepress-plugin-oh-my-live2d) 看板娘插件
+   - [vuepress-plugin-oh-my-live2d](https://github.com/oh-my-live2d/vuepress-plugin-oh-my-live2d) 看板娘插件
 
    - 不蒜子统计
 
    - [@moefy-canvas/theme-popper](https://github.com/moefyit/moefy-canvas)原有插件只支持vuepress1.x，自己基于moefy-canvas进行了支持vuepress2.x的本地化插件开发
 
-   - [@vuepress/plugin-google-analytics](https://v2.vuepress.vuejs.org/zh/reference/plugin/google-analytics.html) 支持Google Analytics 4 正好看到通知原来的UA也要被强制转换了，所以更换了G4 -->
+   - [@vuepress/plugin-google-analytics](https://v2.vuepress.vuejs.org/zh/reference/plugin/google-analytics.html) 支持Google Analytics 4 正好看到通知原来的UA也要被强制转换了，所以更换了G4
 5. **配置内容**
    - navbar
    - sidebar
@@ -63,7 +63,7 @@
    - 引入字体，品如手写体，夏行楷体
    - waline 增加自定义emoji，并修改展示样式
    - 个性log
-   <!-- - 自动推送新文章url到搜索引擎（百度、Bing、Google）👉[详细配置](https://oragekk.me/blog/auto-push.html) -->
+   <!-- - 自动推送新文章url到搜索引擎（百度、Bing、Google）👉[详细配置](https://weijodan.top/blog/auto-push.html) -->
 
 
 ## 使用方式

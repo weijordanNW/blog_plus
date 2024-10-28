@@ -8,9 +8,15 @@ export interface LinkData {
 export const friends: LinkData[] = [
   {
     name: "子冥",
-    desc: "到最后，竟庆幸于夕阳仍留在身上",
+    desc: "waiting for",
     icon: "/logo.svg",
     link: "https://weijodan.top",
+  },
+  {
+    name: 'KASUIEの次元', //网站的名称
+    desc: '喜欢温柔的人', //网站的描述
+    icon: 'https://kasuie.cc/avatar.webp', //网站的图标/或你的头像
+    link: 'https://kasuie.cc', //网站的地址
   },
   // {
   //   name: "上冬十二",
@@ -140,5 +146,5 @@ export const friends: LinkData[] = [
   }
 ];
 export const invalid: LinkData[] = [
-  
+
 ];

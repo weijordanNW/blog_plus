@@ -33,8 +33,8 @@
 <script setup lang="ts">
 import { ref, reactive, computed, onMounted } from "vue";
 import { useWindowSize } from "@theme-hope/composables/index";
-const githubLink = "https://github.com/OrageKK/sponsor-page";
-const paypalLink = "https://www.paypal.me/oragekk";
+const githubLink = "https://github.com/weijordanNW/sponsor-page";
+const paypalLink = "https://www.paypal.me/weijodan";
 const qrCodes = reactive({
   // btc_donate: "/assets/images/BTCQR.png",
   alipay_donate: "/assets/images/AliPayQR.jpg",
