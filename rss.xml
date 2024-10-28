@@ -6,8 +6,8 @@
     <link>https://weijodan.top/</link>
     <description>Mr.子冥的博客</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 28 Oct 2024 09:15:24 GMT</pubDate>
-    <lastBuildDate>Mon, 28 Oct 2024 09:15:24 GMT</lastBuildDate>
+    <pubDate>Mon, 28 Oct 2024 09:17:05 GMT</pubDate>
+    <lastBuildDate>Mon, 28 Oct 2024 09:17:05 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>域名</category>
@@ -991,7 +991,7 @@
       <link>https://weijodan.top/about.html</link>
       <guid>https://weijodan.top/about.html</guid>
       <source url="https://weijodan.top/rss.xml">关于本站</source>
-      <description>关于本站 ✨📒 详细记录一下此次建站过程 开始 之前的博客是基于jekyll打造的，要添加和定制化的东西都只能基于html+js+css完成，有些麻烦，所以一直有想更换引擎的想法 直到偶然间发现vuepress，首先是被vue3+typescript+vite吸引，然后看到默认主题属实有点不合符我的期待，自己动手成本又太高，也没有太急着去折腾，直到无...</description>
+      <description>关于本站 ✨📒 详细记录一下此次建站过程 开始 偶然间发现vuepress，首先是被vue3+typescript+vite吸引，然后看到默认主题属实有点不合符我的期待，自己动手成本又太高，也没有太急着去折腾，直到无意中发现了 vuepress-theme-hope，漂亮的外观一下子就吸引到我了，然后去官网深入研究了一番，发现二次开发的成本并不高，对...</description>
       <category>Blog</category>
       <pubDate>Tue, 14 Mar 2023 21:45:45 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -1000,8 +1000,9 @@
 <p>详细记录一下此次建站过程</p>
 </div>
 <h2>开始</h2>
-<p>之前的博客是基于jekyll打造的，要添加和定制化的东西都只能基于html+js+css完成，有些麻烦，所以一直有想更换引擎的想法<br>
-直到偶然间发现vuepress，首先是被<code>vue3</code>+<code>typescript</code>+<code>vite</code>吸引，然后看到默认主题属实有点不合符我的期待，自己动手成本又太高，也没有太急着去折腾，直到无意中发现了<br>
+<!-- 之前的博客是基于jekyll打造的，要添加和定制化的东西都只能基于html+js+css完成，有些麻烦，所以一直有想更换引擎的想法
+直到 -->
+<p>偶然间发现vuepress，首先是被<code>vue3</code>+<code>typescript</code>+<code>vite</code>吸引，然后看到默认主题属实有点不合符我的期待，自己动手成本又太高，也没有太急着去折腾，直到无意中发现了<br>
 <a href="https://theme-hope.vuejs.press/zh/" target="_blank" rel="noopener noreferrer">vuepress-theme-hope</a>，漂亮的外观一下子就吸引到我了，然后去官网深入研究了一番，发现二次开发的成本并不高，对于我来说比较友好，基本都是基于选项的配置型，和一小部分的定制开发，也可以基于vue来写，这让我觉得很合适。所以，一步步折腾了起来……</p>
 <h2>Markdown增强</h2>
 <p>hope主题的markdown效果是出乎意料的好，而且支持了很多普通markdown不支持的东西，如自定义容器、带tab的代码块，最方便的是可以直接写流程图了，可选高亮主题（本站代码高亮基于shikiPlugin,虽不如默认的prismjs轻量高效，但能提供更准确的语法高亮）具体效果看这里☞<a href="/demo/markdown.html" target="_blank">Markdown展示</a></p>
@@ -1086,9 +1087,9 @@
 <li>vuepress-plugin-canvas（支持彩虹背景和动态几何图形两种）</li>
 <li>vuepress-plugin-gradient-cover （遮罩背景）</li>
 <li>vuepress-plugin-hitokoto （一言插件）</li>
-<li>vuepress-plugin-live2DAssist （看板娘辅助，由于子页有sidebar，看板娘会挡住，所以写了一个子页隐藏的小东西）</li>
-<li>vuepress-plugin-popper （鼠标特效，基于<a href="https://github.com/moefyit/moefy-canvas" target="_blank" rel="noopener noreferrer">@moefy-canvas/theme-popper</a>）</li>
 </ul>
+<!-- - vuepress-plugin-live2DAssist （看板娘辅助，由于子页有sidebar，看板娘会挡住，所以写了一个子页隐藏的小东西）
+- vuepress-plugin-popper （鼠标特效，基于[@moefy-canvas/theme-popper](https://github.com/moefyit/moefy-canvas)） -->
 </li>
 <li>
 <p><strong>引用外部内容</strong></p>
@@ -1135,7 +1136,8 @@
 <blockquote>
 <p>未完待续，持续优化中</p>
 </blockquote>
-<p>本地插件，喜欢自取，源码公开，点击右上角，github图标即可，当然不要忘记点个✨哦</p>
+<!-- > 
+本地插件，喜欢自取，源码公开，点击右上角，github图标即可，当然不要忘记点个✨哦 -->
 ]]></content:encoded>
     </item>
     <item>
