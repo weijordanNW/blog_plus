@@ -1,0 +1,46 @@
+# 排除 node_modules 目录，因为它会在 Docker 容器中重新安装
+node_modules
+
+# 排除 pnpm 的存储目录
+.pnpm-store
+
+# 排除 npm 缓存目录
+.npm
+
+# 排除编辑器的临时文件
+*.swp
+*.swo
+*.swn
+
+# 排除 IDE 和编辑器的配置文件
+.idea
+.vscode
+
+# 排除日志文件
+*.log
+
+# 排除依赖锁定文件
+pnpm-lock.yaml
+package-lock.json
+
+# 排除配置文件，如果它们包含了敏感信息或不是构建必需的
+*.config.js
+
+# 排除测试目录
+test
+tests
+
+# 排除文档目录
+docs
+
+# 排除构建输出目录
+build
+dist
+
+# 排除任何其他不需要的文件或目录
+*.tmp
+node_modules/
+.git
+.gitignore
+.DS_Store
+npm-debug.log

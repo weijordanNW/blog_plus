@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  blog:
+    image: weijordan/blog_plus:latest
+    ports:
+      - "3002:80"
+    networks:
+      - webnet
+
+networks:
+  webnet:
