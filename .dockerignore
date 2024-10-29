@@ -34,8 +34,8 @@ tests
 docs
 
 # 排除构建输出目录
-build
-dist
+; build
+; dist
 
 # 排除任何其他不需要的文件或目录
 *.tmp
