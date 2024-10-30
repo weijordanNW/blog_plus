@@ -6,10 +6,13 @@
     <link>https://weijodan.top/</link>
     <description>Mr.子冥的博客</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 29 Oct 2024 03:11:11 GMT</pubDate>
-    <lastBuildDate>Tue, 29 Oct 2024 03:11:11 GMT</lastBuildDate>
+    <pubDate>Wed, 30 Oct 2024 10:11:25 GMT</pubDate>
+    <lastBuildDate>Wed, 30 Oct 2024 10:11:25 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Docker</category>
+    <category>运维</category>
+    <category>云计算</category>
     <category>域名</category>
     <category>部署</category>
     <category>python</category>
@@ -36,6 +39,1007 @@
     <category>Flutter</category>
     <category>Dart</category>
     <category>前端跨平台</category>
+    <item>
+      <title>Docker 学习</title>
+      <link>https://weijodan.top/posts/%E8%BF%90%E7%BB%B4/docker/Docker%20%E5%AD%A6%E4%B9%A0.html</link>
+      <guid>https://weijodan.top/posts/%E8%BF%90%E7%BB%B4/docker/Docker%20%E5%AD%A6%E4%B9%A0.html</guid>
+      <source url="https://weijodan.top/rss.xml">Docker 学习</source>
+      <description>文档 https://www.yuque.com/leifengyang/sutong/au0lv3sv3eldsmn8 视频 https://www.bilibili.com/video/BV1Bg4fesE9K?spm_id_from=333.788.player.switch&amp;vd_source=ac6ab4c3cdc5d0193edf55fd7...</description>
+      <category>Docker</category>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>文档</p>
+<p><a href="https://www.yuque.com/leifengyang/sutong/au0lv3sv3eldsmn8" target="_blank" rel="noopener noreferrer">https://www.yuque.com/leifengyang/sutong/au0lv3sv3eldsmn8</a></p>
+<p>视频</p>
+<p><a href="https://www.bilibili.com/video/BV1Bg4fesE9K?spm_id_from=333.788.player.switch&amp;vd_source=ac6ab4c3cdc5d0193edf55fd77ba0b4f&amp;p=9" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1Bg4fesE9K?spm_id_from=333.788.player.switch&amp;vd_source=ac6ab4c3cdc5d0193edf55fd77ba0b4f&amp;p=9</a></p>
+<p>Vagrant下载 <a href="https://www.vagrantup.com/downloads.html" target="_blank" rel="noopener noreferrer">https://www.vagrantup.com/downloads.html</a></p>
+<p>Virtualbox 5.1下载 <a href="https://www.virtualbox.org/wiki/Download_Old_Builds_5_1" target="_blank" rel="noopener noreferrer">https://www.virtualbox.org/wiki/Download_Old_Builds_5_1</a></p>
+<p>Docker国内源安装 <a href="https://get.daocloud.io/#install-docker" target="_blank" rel="noopener noreferrer">https://get.daocloud.io/#install-docker</a></p>
+<p>Docker官方网站 <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">https://www.docker.com/</a></p>
+<p>Docker官方文档中心 <a href="https://docs.docker.com/" target="_blank" rel="noopener noreferrer">https://docs.docker.com/</a></p>
+<p>DockerHub <a href="https://hub.docker.com/" target="_blank" rel="noopener noreferrer">https://hub.docker.com/</a></p>
+<!-- <h2 id="crz9q">安装</h2> -->
+<h2>安装</h2>
+<p>国内常见云平台：</p>
+<blockquote>
+<p><a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=50sid5bu&amp;utm_source=50sid5bu" target="_blank" rel="noopener noreferrer">阿里云</a>、<br>
+<a href="https://curl.qcloud.com/iyFTRSJb" target="_blank" rel="noopener noreferrer">腾讯云</a>、<br>
+<a href="https://activity.huaweicloud.com/discount_area_v5/index.html?fromacct=d1a6f32e-d6d0-4702-9213-eafe022a0708&amp;utm_source=bGVpZmVuZ3lhbmc==&amp;utm_medium=cps&amp;utm_campaign=201905" target="_blank" rel="noopener noreferrer">华为云</a>、<br>
+<a href="https://www.qingcloud.com/" target="_blank" rel="noopener noreferrer">青云</a>......</p>
+</blockquote>
+<blockquote>
+<p>使用 CentOS 7.9</p>
+<p>WindTerm下载：<a href="https://github.com/kingToolbox/WindTerm/releases/download/2.6.0/WindTerm_2.6.1_Windows_Portable_x86_64.zip" target="_blank" rel="noopener noreferrer">https://github.com/kingToolbox/WindTerm/releases/download/2.6.0/WindTerm_2.6.1_Windows_Portable_x86_64.zip</a></p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">移除旧版本docker</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">sudo</span><span style="color:#E06C75;--shiki-dark:#E06C75"> yum</span><span style="color:#E06C75;--shiki-dark:#E06C75"> remove</span><span style="color:#E06C75;--shiki-dark:#E06C75"> docker</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">                  docker</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">client</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">                  docker</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">client</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">latest</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">                  docker</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">common</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">                  docker</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">latest</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">                  docker</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">latest</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">logrotate</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">                  docker</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">logrotate</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">                  docker</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">engine</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">配置docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> yum源</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">。</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">sudo</span><span style="color:#E06C75;--shiki-dark:#E06C75"> yum</span><span style="color:#E06C75;--shiki-dark:#E06C75"> install</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">y</span><span style="color:#E06C75;--shiki-dark:#E06C75"> yum</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">utils</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">sudo</span><span style="color:#E06C75;--shiki-dark:#E06C75"> yum</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">config</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">manager</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">--</span><span style="color:#E06C75;--shiki-dark:#E06C75">add</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">repo</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">http</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">//mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">安装</span><span style="color:#E06C75;--shiki-dark:#E06C75"> 最新</span><span style="color:#E06C75;--shiki-dark:#E06C75"> docker</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">sudo</span><span style="color:#E06C75;--shiki-dark:#E06C75"> yum</span><span style="color:#E06C75;--shiki-dark:#E06C75"> install</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">y</span><span style="color:#E06C75;--shiki-dark:#E06C75"> docker</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">ce</span><span style="color:#E06C75;--shiki-dark:#E06C75"> docker</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">ce</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">cli</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> containerd</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">io</span><span style="color:#E06C75;--shiki-dark:#E06C75"> docker</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">buildx</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">plugin</span><span style="color:#E06C75;--shiki-dark:#E06C75"> docker</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">compose</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">plugin</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">启动</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">&amp;</span><span style="color:#E06C75;--shiki-dark:#E06C75"> 开机启动docker</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">； </span><span style="color:#E06C75;--shiki-dark:#E06C75">enable</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> +</span><span style="color:#E06C75;--shiki-dark:#E06C75"> start</span><span style="color:#E06C75;--shiki-dark:#E06C75"> 二合一</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">systemctl</span><span style="color:#E06C75;--shiki-dark:#E06C75"> enable</span><span style="color:#E06C75;--shiki-dark:#E06C75"> docker</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> --</span><span style="color:#E06C75;--shiki-dark:#E06C75">now</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">配置加速</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">sudo</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mkdir</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">p</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> /</span><span style="color:#E06C75;--shiki-dark:#E06C75">etc</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">sudo</span><span style="color:#E06C75;--shiki-dark:#E06C75"> tee</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> /</span><span style="color:#E06C75;--shiki-dark:#E06C75">etc</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">daemon</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">json</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> &lt;&lt;-</span><span style="color:#98C379;--shiki-dark:#98C379">'EOF'</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">{</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">    "registry-mirrors"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: [</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">        "https://registry.dockermirror.com"</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    ]</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">EOF</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">sudo</span><span style="color:#E06C75;--shiki-dark:#E06C75"> systemctl</span><span style="color:#E06C75;--shiki-dark:#E06C75"> daemon</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">reload</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">sudo</span><span style="color:#E06C75;--shiki-dark:#E06C75"> systemctl</span><span style="color:#E06C75;--shiki-dark:#E06C75"> restart</span><span style="color:#E06C75;--shiki-dark:#E06C75"> docker</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- <h2 id="wXF7E">介绍</h2> -->
+<h2>介绍</h2>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729820157097-f84ac46a-bae4-4aac-88f6-0d0b67dd0887.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729820926847-7bca161b-aa59-476d-81a6-4578da3305c9.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<!-- <h2 id="Lael5">命令操作</h2> -->
+<h2>命令操作</h2>
+<!-- <h3 id="adW4p">总结</h3> -->
+<h3>总结</h3>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729842975229-600137ef-e82d-4ce3-88e6-8720fb6d6840.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729843036525-38dae0e4-a003-493e-b910-6aa5140370e2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729824003973-83e7b023-d9e8-4d31-bfa6-f7d612277131.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<!-- <h4 id="e81Zx">镜像</h4> -->
+<h3>镜像</h3>
+<p>检素docker search</p>
+<p>下载docker pull</p>
+<p>列表docker images</p>
+<p>删除docker rmi</p>
+<!-- <h4 id="hJLda">容器</h4> -->
+<h3>容器</h3>
+<p>运行：docker run</p>
+<p>查看：docker ps</p>
+<p>停止：docker stop</p>
+<p>启动：docker start</p>
+<p>重启：dockerrestart</p>
+<p>状态：dockerstats</p>
+<p>日志：docker logs</p>
+<p>进入：docker exec</p>
+<p>删除docker rm</p>
+<!-- <h4 id="rXSpc">分享</h4> -->
+<h3>分享</h3>
+<p>提交：docker commit</p>
+<p>保存：docker save</p>
+<p>加载：docker load</p>
+<p>登录docker login</p>
+<p>命名：docker tag</p>
+<p>推送docker push</p>
+<div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">查看运行中的容器</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> ps</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">查看所有容器</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> ps</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">a</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">搜索镜像</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> search</span><span style="color:#E06C75;--shiki-dark:#E06C75"> nginx</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">下载镜像</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> pull</span><span style="color:#E06C75;--shiki-dark:#E06C75"> nginx</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">下载指定版本镜像</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> pull</span><span style="color:#E06C75;--shiki-dark:#E06C75"> nginx</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#D19A66;--shiki-dark:#D19A66">1.26</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#D19A66;--shiki-dark:#D19A66">0</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">查看所有镜像</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> images</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">删除指定id的镜像</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> rmi</span><span style="color:#E06C75;--shiki-dark:#E06C75"> e784f4560448</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">运行一个新容器</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> run</span><span style="color:#E06C75;--shiki-dark:#E06C75"> nginx</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">停止容器</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> stop</span><span style="color:#E06C75;--shiki-dark:#E06C75"> keen_blackwell</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">启动容器</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> start</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 592</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">重启容器</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> restart</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 592</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">查看容器资源占用情况</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> stats</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 592</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">查看容器日志</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> logs</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 592</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">删除指定容器</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> rm</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 592</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">强制删除指定容器</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> rm</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">f</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 592</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">后台启动容器</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> run</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">d</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> --</span><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mynginx</span><span style="color:#E06C75;--shiki-dark:#E06C75"> nginx</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">后台启动并暴露端口</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> run</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">d</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> --</span><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mynginx</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">p</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 80</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#D19A66;--shiki-dark:#D19A66">80</span><span style="color:#E06C75;--shiki-dark:#E06C75"> nginx</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">进入容器内部</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> exec</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">it</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mynginx</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> /</span><span style="color:#E06C75;--shiki-dark:#E06C75">bin</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">bash</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">提交容器变化打成一个新的镜像</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> commit</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">m</span><span style="color:#98C379;--shiki-dark:#98C379"> "update index.html"</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mynginx</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mynginx</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#E06C75;--shiki-dark:#E06C75">v1</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#D19A66;--shiki-dark:#D19A66">0</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">保存镜像为指定文件</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> save</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">o</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> mynginx</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">tar</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mynginx</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#E06C75;--shiki-dark:#E06C75">v1</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#D19A66;--shiki-dark:#D19A66">0</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">删除多个镜像</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> rmi</span><span style="color:#E06C75;--shiki-dark:#E06C75"> bde7d154a67f</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> 94543</span><span style="color:#E06C75;--shiki-dark:#E06C75">a6c1aef</span><span style="color:#E06C75;--shiki-dark:#E06C75"> e784f4560448</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">加载镜像</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> load</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">i</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> mynginx</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">tar</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> </span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">登录</span><span style="color:#E06C75;--shiki-dark:#E06C75"> docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> hub</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> login</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">重新给镜像打标签</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> tag</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mynginx</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#E06C75;--shiki-dark:#E06C75">v1</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#D19A66;--shiki-dark:#D19A66">0</span><span style="color:#E06C75;--shiki-dark:#E06C75"> leifengyang</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">mynginx</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#E06C75;--shiki-dark:#E06C75">v1</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#D19A66;--shiki-dark:#D19A66">0</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"># </span><span style="color:#E06C75;--shiki-dark:#E06C75">推送镜像</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> push</span><span style="color:#E06C75;--shiki-dark:#E06C75"> leifengyang</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">mynginx</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#E06C75;--shiki-dark:#E06C75">v1</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#D19A66;--shiki-dark:#D19A66">0</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>下载镜像</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729822414283-735d890e-3d38-4958-b30c-eb431b71fab2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>启动容器</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729822572918-b6498af7-9650-48fb-a590-c8c1a300f259.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>修改页面</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729823211587-3ca1f057-5716-4a79-a6ee-ad43af898e05.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>保存镜像</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729823263526-081a8901-a0de-4330-81d0-cbd5574c2933.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729823360471-767e723a-a9ab-4471-a326-2476ecda413c.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>分享社区</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729823909584-d858562b-6868-4fac-9646-050eb01f75ef.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>登录</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729823568218-864c1420-08b9-43e5-a494-f9d427708901.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>改名</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729823642450-bdc8d369-391c-4506-95b9-a2cf9b4b12d1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>推送</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729823675695-3e79129d-b384-45bb-857a-e2ba328b7030.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>做一个最新的版本镜像</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729823852355-31778881-ff22-4a8c-a052-abaeab331e63.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<!-- <h2 id="Q9rJP">批量删除容器</h2> -->
+<h2>批量删除容器</h2>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729824260846-0a4f8797-9f89-4db1-898a-030e97dee986.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>查询所有容器id</p>
+<p>docker ps -aq</p>
+<p>删除所有容器id</p>
+<p>docker rm $(docker ps -aq)</p>
+<p>强制删除所有容器id</p>
+<p>docker rm -f $(docker ps -aq)</p>
+<h2>存储-目录挂载</h2>
+将容器和linux主机挂载
+<p>删除容器不会影响主机,再次进行挂载时,容器会同步修改内容配置</p>
+<div class="language-javascript" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> run</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">d</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">p</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 99</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#D19A66;--shiki-dark:#D19A66">80</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">v</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> /</span><span style="color:#E06C75;--shiki-dark:#E06C75">app</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">nghtml</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">usr</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">share</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">nginx</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">html</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">v</span><span style="color:#E06C75;--shiki-dark:#E06C75"> ngconf</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">etc</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">nginx</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">--</span><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#E06C75;--shiki-dark:#E06C75"> app03</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">nginx</span></span></code></pre>
+</div><figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729824736408-497e0409-012d-40b8-860e-33804865e36b.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>问题</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729825217573-29f2c35d-df08-4278-8b8c-6a130aa74d7b.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>目录挂载：-v/app/nghtml::/usr/share/,nginx/html</p>
+<!-- <h2 id="DfP5A">存储-卷映射</h2> -->
+<h2>存储-卷映射</h2>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729825360574-09f63dec-1107-4576-bf4e-4d5c5a7a6aa0.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>卷映射：-v ngconf::/etc/nginx</p>
+<p>卷目录位置: /var/lib/docker/volumes/</p>
+<!-- <h2 id="h4Var">Docker 网络-自定义网络</h2> -->
+<h2>Docker 网络-自定义网络</h2>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729843668483-dad2f425-fbe5-424f-b312-8a6fccb470e7.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>即容器内的网络互相交互</p>
+<p>容器创建时候会创建 docker0 他们共用一个网关,互相之间通过分配的docker0 进行交互</p>
+<p>通过 ip 的话ip 如果有改变就不太好,最好的方式是通过域名</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729826351879-59292c26-da80-4297-816b-19705adc3502.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729826389787-30d08075-4f37-4370-be67-8cda5a640ae9.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<!-- <h4 id="sKOUu">创建自定义网络</h4> -->
+<h3>创建自定义网络</h3>
+<p>docker network create mynet</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729844076692-2e3e2d7c-6535-4c87-8131-ad28a9718741.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729842817870-2364e2f2-ebe9-4c1e-ae68-2d34da54dfee.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729826493511-9f41b24b-d563-44b8-9223-c593e37bb4b7.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729826538580-fcf64b07-a338-4860-a1be-8b5f7629dd08.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<!-- <h4 id="zm8a6">将容器加入网络</h4> -->
+<h3>将容器加入网络</h3>
+<p>docker run -d -p 99:80 --name app2 --network mynet nginx</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729826605358-25165241-b3dc-4a49-9a97-e33b236b32f7.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<!-- <h4 id="U2F8c">则两容器的 ip 都在同一个网段下</h4> -->
+<h3>则两容器的 ip 都在同一个网段下</h3>
+<p>docker inspect app1</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729826675604-7cbb9579-80ea-4ff4-b209-82c0570eaaa2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729826689171-13e1322c-d39f-477b-86ea-17af33bfddb7.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>容器之间 就可以通过 容器名来访问</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729826876391-3b58ea97-90d9-410b-90e6-e2775121c8f3.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<!-- <h2 id="osg5j">网络-Redis-主从集群</h2> -->
+<h2>网络-Redis-主从集群</h2>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729827157273-df3895ed-6f46-4d73-95e2-20bf55530b2c.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">自定义网络</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> network</span><span style="color:#E06C75;--shiki-dark:#E06C75"> create</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mynet</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">主节点</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> run</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">d</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">p</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 6379</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#D19A66;--shiki-dark:#D19A66">6379</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">v</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> /</span><span style="color:#E06C75;--shiki-dark:#E06C75">app</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">rd1</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">bitnami</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">redis</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">data</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">e</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> REDIS_REPLICATION_MODE</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#E06C75;--shiki-dark:#E06C75">master</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">e</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> REDIS_PASSWORD</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#D19A66;--shiki-dark:#D19A66">123456</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">--</span><span style="color:#E06C75;--shiki-dark:#E06C75">network</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mynet</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> --</span><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#E06C75;--shiki-dark:#E06C75"> redis01</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">bitnami</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">redis</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">#</span><span style="color:#E06C75;--shiki-dark:#E06C75">从节点</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> run</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">d</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">p</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 6380</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#D19A66;--shiki-dark:#D19A66">6379</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">v</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> /</span><span style="color:#E06C75;--shiki-dark:#E06C75">app</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">rd2</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">bitnami</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">redis</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">data</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">e</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> REDIS_REPLICATION_MODE</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#E06C75;--shiki-dark:#E06C75">slave</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">e</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> REDIS_MASTER_HOST</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#E06C75;--shiki-dark:#E06C75">redis01</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">e</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> REDIS_MASTER_PORT_NUMBER</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#D19A66;--shiki-dark:#D19A66">6379</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">e</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> REDIS_MASTER_PASSWORD</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#D19A66;--shiki-dark:#D19A66">123456</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">e</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> REDIS_PASSWORD</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#D19A66;--shiki-dark:#D19A66">123456</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">--</span><span style="color:#E06C75;--shiki-dark:#E06C75">network</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mynet</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> --</span><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#E06C75;--shiki-dark:#E06C75"> redis02</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">bitnami</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">redis</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果没有权限,则给其打开</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729827361948-c0a9ae9e-df19-4b93-abfd-fef705316374.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<!-- <h2 id="GFyvB">启动MySQL</h2> -->
+<h2>启动MySQL</h2>
+<div class="language-javascript" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">docker</span><span style="color:#E06C75;--shiki-dark:#E06C75"> run</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">d</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> -</span><span style="color:#E06C75;--shiki-dark:#E06C75">p</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 3306</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#D19A66;--shiki-dark:#D19A66">3306</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">v</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> /</span><span style="color:#E06C75;--shiki-dark:#E06C75">app</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">myconf</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">etc</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">mysql</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">conf</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">d</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">v</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> /</span><span style="color:#E06C75;--shiki-dark:#E06C75">app</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">mydata</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#C678DD;--shiki-dark:#C678DD">var</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">lib</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">/mysql \</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">e</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> MYSQL_ROOT_PASSWORD</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#D19A66;--shiki-dark:#D19A66">123456</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> \</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">mysql</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#D19A66;--shiki-dark:#D19A66">8.0</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#D19A66;--shiki-dark:#D19A66">37</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">debian</span></span></code></pre>
+</div><!-- <h2 id="tGh0V">Docker Compose</h2> -->
+<h2>Docker Compose</h2>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729828233448-a6b535d3-9d8f-4606-a31e-4c41bb583310.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<!-- <h3 id="TFyZ1">案例启动 wordpress</h3> -->
+<h3>案例启动 wordpress</h3>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729828327988-e3d9052e-20ce-4c6b-a06c-89f5b065bb3f.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<!-- <h3 id="sN6zZ">命令式安装</h3> -->
+<h3>命令式安装</h3>
+<p>建议</p>
+<p>compose.yaml</p>
+<div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">myblog</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">services</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  mysql</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">mysql</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">mysql</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#D19A66;--shiki-dark:#D19A66">8.0</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#98C379;--shiki-dark:#98C379"> "3306:3306"</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> MYSQL_ROOT_PASSWORD</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#D19A66;--shiki-dark:#D19A66">123456</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> MYSQL_DATABASE</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#E06C75;--shiki-dark:#E06C75">wordpress</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mysql</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">data</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#C678DD;--shiki-dark:#C678DD">var</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">lib</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">/mysql</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> /</span><span style="color:#E06C75;--shiki-dark:#E06C75">app</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">myconf</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">etc</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">mysql</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">conf</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">d</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    restart</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">always</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    networks</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#E06C75;--shiki-dark:#E06C75"> blog</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  wordpress</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">wordpress</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#98C379;--shiki-dark:#98C379"> "8080:80"</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      WORDPRESS_DB_HOST</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">mysql</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      WORDPRESS_DB_USER</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">root</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      WORDPRESS_DB_PASSWORD</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">123456</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      WORDPRESS_DB_NAME</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">wordpress</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#E06C75;--shiki-dark:#E06C75"> wordpress</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#C678DD;--shiki-dark:#C678DD">var</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">www</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">/html</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    restart</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">always</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    networks</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#E06C75;--shiki-dark:#E06C75"> blog</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    depends_on</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mysql</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  mysql</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">data</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  wordpress</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">networks</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  blog</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- <h3 id="bVhl6">compose.yaml</h3> -->
+<h3>compose.yaml</h3>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729828611337-4c041ca6-06d7-4604-9206-aed137fd886b.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">myblog</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">services</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  mysql</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">mysql</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">mysql</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#D19A66;--shiki-dark:#D19A66">8.0</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#98C379;--shiki-dark:#98C379"> "3306:3306"</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> MYSQL_ROOT_PASSWORD</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#D19A66;--shiki-dark:#D19A66">123456</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> MYSQL_DATABASE</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#E06C75;--shiki-dark:#E06C75">wordpress</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mysql</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">data</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#C678DD;--shiki-dark:#C678DD">var</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">lib</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">/mysql</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> /</span><span style="color:#E06C75;--shiki-dark:#E06C75">app</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">myconf</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">etc</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">mysql</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">conf</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">d</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    restart</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">always</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    networks</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#E06C75;--shiki-dark:#E06C75"> blog</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  wordpress</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">wordpress</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#98C379;--shiki-dark:#98C379"> "8080:80"</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      WORDPRESS_DB_HOST</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">mysql</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      WORDPRESS_DB_USER</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">root</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      WORDPRESS_DB_PASSWORD</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">123456</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      WORDPRESS_DB_NAME</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">wordpress</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#E06C75;--shiki-dark:#E06C75"> wordpress</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">/</span><span style="color:#C678DD;--shiki-dark:#C678DD">var</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">/</span><span style="color:#E06C75;--shiki-dark:#E06C75">www</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">/html</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    restart</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">always</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    networks</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#E06C75;--shiki-dark:#E06C75"> blog</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    depends_on</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">      -</span><span style="color:#E06C75;--shiki-dark:#E06C75"> mysql</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  mysql</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">-</span><span style="color:#E06C75;--shiki-dark:#E06C75">data</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  wordpress</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">networks</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  blog</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729828981962-bb167b21-f475-4b02-8bfb-6c069dbb346e.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>粘贴进去</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729828995369-210f0330-788d-48c0-8d6a-ee75bb6cf17a.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>启动</p>
+<p>docker compose -f compose.yaml up -d</p>
+<p>移除容器,但是没有移除卷和镜像</p>
+<p>docker compose -f compose.yaml down</p>
+<p>移除包括卷和镜像</p>
+<p>docker compose -f compose.yaml down --rmi all -v</p>
+<p>docker compose只会修改你变动过的文件</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729829072343-22c1713e-f318-4e35-a96a-10956befc356.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<!-- <h2 id="EO2TZ">特性</h2> -->
+<h2>特性</h2>
+<ul>
+<li>增量更新
+<ul>
+<li>修改 Docker Compose 文件。重新启动应用。只会触发修改项的重新启动。</li>
+</ul>
+</li>
+<li>数据不删
+<ul>
+<li>默认就算down了容器，所有挂载的卷不会被移除。比较安全</li>
+</ul>
+</li>
+</ul>
+<!-- <h2 id="ESRAe">Dockerfile-制作镜像</h2> -->
+<h2>Dockerfile-制作镜像</h2>
+<div class="language-javascript" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">FROM</span><span style="color:#E06C75;--shiki-dark:#E06C75"> openjdk</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#D19A66;--shiki-dark:#D19A66">17</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">LABEL</span><span style="color:#E06C75;--shiki-dark:#E06C75"> author</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#E06C75;--shiki-dark:#E06C75">leifengyang</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">COPY</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> app</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">jar</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> /</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">app</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">jar</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">EXPOSE</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 8080</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">ENTRYPOINT</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> [</span><span style="color:#98C379;--shiki-dark:#98C379">"java"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span><span style="color:#98C379;--shiki-dark:#98C379">"-jar"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span><span style="color:#98C379;--shiki-dark:#98C379">"/app.jar"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">]</span></span></code></pre>
+</div><p>构建</p>
+<p>docker build -f Dockerfile -t myjavaapp:v1.0</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729838007863-23de8313-e497-4f41-bbaa-afe9a75a9429.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>制作镜像官网</p>
+<p><a href="https://docs.docker.com/reference/dockerfile/" target="_blank" rel="noopener noreferrer">https://docs.docker.com/reference/dockerfile/</a></p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729838024691-77752112-fc16-4a17-bad1-d2060b028b2d.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<!-- <h3 id="dekHS">Dockerfile-镜像分层机制</h3> -->
+<h3>Dockerfile-镜像分层机制</h3>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729838734007-ea86baaf-bcdb-43cd-8de6-38f0a069cfa7.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729838815396-e1620653-a0fa-4ec5-b6e1-62c4d76de1d2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729838844467-db29b02f-c74b-4bb3-a8a2-0a3d5beb669f.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<!-- <h2 id="X2zt2">附录 - 1. 一键安装超多中间件</h2> -->
+<h2>附录 - 1. 一键安装超多中间件</h2>
+<p>一键安装这些组件,使用下面的 yaml 文件</p>
+<p>选择需要的使用</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729838872259-9532501b-3a43-431e-8b8c-00c1cc61dd60.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>前置操作</p>
+<div class="language-yaml line-numbers-mode" data-ext="yaml" data-title="yaml"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">#Disable memory paging and swapping performance</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">sudo swapoff -a</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># Edit the sysctl config file</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">sudo vi /etc/sysctl.conf</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># Add a line to define the desired value</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># or change the value if the key exists,</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># and then save your changes.</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">vm.max_map_count=262144</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># Reload the kernel parameters using sysctl</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">sudo sysctl -p</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># Verify that the change was applied by checking the value</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">cat /proc/sys/vm/max_map_count</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>然后准备一个 compose.yaml 文件</p>
+<figure><img src="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729839047874-a069f2c9-1a61-412a-bfb3-d427faddbf65.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<!-- <h2 id="emc7H">yaml</h2> -->
+<h2>yaml</h2>
+<p>注意：</p>
+<ul>
+<li>将下面文件中 <code>kafka</code> 的  <code>&lt;font style="color:rgb(0, 0, 0);background-color:rgb(242, 244, 248);"&gt;119.45.147.122&lt;/font&gt;</code> 改为你自己的服务器IP。</li>
+<li>所有容器都做了时间同步，这样容器的时间和linux主机的时间就一致了</li>
+</ul>
+<p>准备一个 <code>compose.yaml</code>文件，内容如下：</p>
+<div class="language-yaml line-numbers-mode" data-ext="yaml" data-title="yaml"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">devsoft</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">services</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  redis</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">bitnami/redis:latest</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    restart</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">always</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">redis</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">REDIS_PASSWORD=123456</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">'6379:6379'</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">redis-data:/bitnami/redis/data</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">redis-conf:/opt/bitnami/redis/mounted-etc</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/etc/localtime:/etc/localtime:ro</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  mysql</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">mysql:8.0.31</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    restart</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">always</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">mysql</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">MYSQL_ROOT_PASSWORD=123456</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">'3306:3306'</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">'33060:33060'</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">mysql-conf:/etc/mysql/conf.d</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">mysql-data:/var/lib/mysql</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/etc/localtime:/etc/localtime:ro</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  rabbit</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">rabbitmq:3-management</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    restart</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">always</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">rabbitmq</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"5672:5672"</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"15672:15672"</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">RABBITMQ_DEFAULT_USER=rabbit</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">RABBITMQ_DEFAULT_PASS=rabbit</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">RABBITMQ_DEFAULT_VHOST=dev</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">rabbit-data:/var/lib/rabbitmq</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">rabbit-app:/etc/rabbitmq</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/etc/localtime:/etc/localtime:ro</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  opensearch-node1</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">opensearchproject/opensearch:2.13.0</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">opensearch-node1</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">cluster.name=opensearch-cluster</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Name the cluster</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">node.name=opensearch-node1</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Name the node that will run in this container</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">discovery.seed_hosts=opensearch-node1,opensearch-node2</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Nodes to look for when discovering the cluster</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">cluster.initial_cluster_manager_nodes=opensearch-node1,opensearch-node2</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Nodes eligibile to serve as cluster manager</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">bootstrap.memory_lock=true</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Disable JVM heap memory swapping</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m"</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Set min and max JVM heap sizes to at least 50% of system RAM</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"DISABLE_INSTALL_DEMO_CONFIG=true"</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Prevents execution of bundled demo script which installs demo certificates and security configurations to OpenSearch</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"DISABLE_SECURITY_PLUGIN=true"</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Disables Security plugin</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ulimits</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      memlock</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        soft</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">-1</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Set memlock to unlimited (no soft or hard limit)</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        hard</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">-1</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      nofile</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        soft</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">65536</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Maximum number of open files for the opensearch user - set to at least 65536</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        hard</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">65536</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">opensearch-data1:/usr/share/opensearch/data</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Creates volume called opensearch-data1 and mounts it to the container</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/etc/localtime:/etc/localtime:ro</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">9200:9200</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # REST API</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">9600:9600</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Performance Analyzer</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  opensearch-node2</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">opensearchproject/opensearch:2.13.0</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">opensearch-node2</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">cluster.name=opensearch-cluster</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Name the cluster</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">node.name=opensearch-node2</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Name the node that will run in this container</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">discovery.seed_hosts=opensearch-node1,opensearch-node2</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Nodes to look for when discovering the cluster</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">cluster.initial_cluster_manager_nodes=opensearch-node1,opensearch-node2</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Nodes eligibile to serve as cluster manager</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">bootstrap.memory_lock=true</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Disable JVM heap memory swapping</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m"</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Set min and max JVM heap sizes to at least 50% of system RAM</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"DISABLE_INSTALL_DEMO_CONFIG=true"</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Prevents execution of bundled demo script which installs demo certificates and security configurations to OpenSearch</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"DISABLE_SECURITY_PLUGIN=true"</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Disables Security plugin</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ulimits</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      memlock</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        soft</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">-1</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Set memlock to unlimited (no soft or hard limit)</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        hard</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">-1</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      nofile</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        soft</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">65536</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Maximum number of open files for the opensearch user - set to at least 65536</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        hard</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">65536</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/etc/localtime:/etc/localtime:ro</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">opensearch-data2:/usr/share/opensearch/data</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Creates volume called opensearch-data2 and mounts it to the container</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  opensearch-dashboards</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">opensearchproject/opensearch-dashboards:2.13.0</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">opensearch-dashboards</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">5601:5601</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Map host port 5601 to container port 5601</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    expose</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"5601"</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # Expose port 5601 for web access to OpenSearch Dashboards</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">'OPENSEARCH_HOSTS=["http://opensearch-node1:9200","http://opensearch-node2:9200"]'</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"DISABLE_SECURITY_DASHBOARDS_PLUGIN=true"</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # disables security dashboards plugin in OpenSearch Dashboards</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/etc/localtime:/etc/localtime:ro</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  zookeeper</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">bitnami/zookeeper:3.9</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">zookeeper</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    restart</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">always</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"2181:2181"</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"zookeeper_data:/bitnami"</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/etc/localtime:/etc/localtime:ro</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">ALLOW_ANONYMOUS_LOGIN=yes</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  kafka</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'bitnami/kafka:3.4'</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">kafka</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    restart</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">always</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    hostname</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">kafka</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">'9092:9092'</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">'9094:9094'</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">KAFKA_CFG_NODE_ID=0</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">KAFKA_CFG_PROCESS_ROLES=controller,broker</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">KAFKA_CFG_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093,EXTERNAL://0.0.0.0:9094</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092,EXTERNAL://119.45.147.122:9094</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=CONTROLLER:PLAINTEXT,EXTERNAL:PLAINTEXT,PLAINTEXT:PLAINTEXT</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">KAFKA_CFG_CONTROLLER_QUORUM_VOTERS=0@kafka:9093</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">ALLOW_PLAINTEXT_LISTENER=yes</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"KAFKA_HEAP_OPTS=-Xmx512m -Xms512m"</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">kafka-conf:/bitnami/kafka/config</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">kafka-data:/bitnami/kafka/data</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/etc/localtime:/etc/localtime:ro</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  kafka-ui</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">kafka-ui</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">provectuslabs/kafka-ui:latest</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    restart</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">always</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">8080:8080</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      DYNAMIC_CONFIG_ENABLED</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      KAFKA_CLUSTERS_0_NAME</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">kafka-dev</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">kafka:9092</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">kafkaui-app:/etc/kafkaui</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/etc/localtime:/etc/localtime:ro</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  nacos</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">nacos/nacos-server:v2.3.1</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">nacos</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">8848:8848</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">9848:9848</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">PREFER_HOST_MODE=hostname</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">MODE=standalone</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">JVM_XMX=512m</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">JVM_XMS=512m</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">SPRING_DATASOURCE_PLATFORM=mysql</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">MYSQL_SERVICE_HOST=nacos-mysql</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">MYSQL_SERVICE_DB_NAME=nacos_devtest</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">MYSQL_SERVICE_PORT=3306</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">MYSQL_SERVICE_USER=nacos</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">MYSQL_SERVICE_PASSWORD=nacos</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">MYSQL_SERVICE_DB_PARAM=characterEncoding=utf8&amp;connectTimeout=1000&amp;socketTimeout=3000&amp;autoReconnect=true&amp;useUnicode=true&amp;useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;allowPublicKeyRetrieval=true</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">NACOS_AUTH_IDENTITY_KEY=2222</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">NACOS_AUTH_IDENTITY_VALUE=2xxx</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">NACOS_AUTH_TOKEN=SecretKey012345678901234567890123456789012345678901234567890123456789</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">NACOS_AUTH_ENABLE=true</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/app/nacos/standalone-logs/:/home/nacos/logs</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/etc/localtime:/etc/localtime:ro</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    depends_on</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      nacos-mysql</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        condition</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">service_healthy</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  nacos-mysql</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">nacos-mysql</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    build</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      context</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">.</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      dockerfile_inline</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#C678DD;--shiki-dark:#C678DD">|</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">        FROM mysql:8.0.31</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">        ADD https://raw.githubusercontent.com/alibaba/nacos/2.3.2/distribution/conf/mysql-schema.sql /docker-entrypoint-initdb.d/nacos-mysql.sql</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">        RUN chown -R mysql:mysql /docker-entrypoint-initdb.d/nacos-mysql.sql</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">        EXPOSE 3306</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">        CMD ["mysqld", "--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">nacos/mysql:8.0.30</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    environment</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">MYSQL_ROOT_PASSWORD=root</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">MYSQL_DATABASE=nacos_devtest</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">MYSQL_USER=nacos</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">MYSQL_PASSWORD=nacos</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">LANG=C.UTF-8</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">nacos-mysqldata:/var/lib/mysql</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/etc/localtime:/etc/localtime:ro</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"13306:3306"</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    healthcheck</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      test</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: [ </span><span style="color:#98C379;--shiki-dark:#98C379">"CMD"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">"mysqladmin"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> ,</span><span style="color:#98C379;--shiki-dark:#98C379">"ping"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">"-h"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">"localhost"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> ]</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      interval</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">5s</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      timeout</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">10s</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      retries</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">10</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  prometheus</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">prom/prometheus:v2.52.0</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">prometheus</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    restart</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">always</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">9090:9090</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">prometheus-data:/prometheus</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">prometheus-conf:/etc/prometheus</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/etc/localtime:/etc/localtime:ro</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  grafana</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">grafana/grafana:10.4.2</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">grafana</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    restart</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">always</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">3000:3000</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">grafana-data:/var/lib/grafana</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/etc/localtime:/etc/localtime:ro</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  redis-data</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  redis-conf</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  mysql-conf</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  mysql-data</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  rabbit-data</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  rabbit-app</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  opensearch-data1</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  opensearch-data2</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  nacos-mysqldata</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  zookeeper_data</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  kafka-conf</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  kafka-data</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  kafkaui-app</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  prometheus-data</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  prometheus-conf</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  grafana-data</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- <h2 id="YU7xG">启动</h2> -->
+<h2>启动</h2>
+<div class="language-yaml" data-ext="yaml" data-title="yaml"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 在 compose.yaml 文件所在的目录下执行</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">docker compose up -d</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 等待启动所有容器</span></span></code></pre>
+</div><div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>tip：如果重启了服务器，可能有些容器会启动失败。再执行一遍 <code>docker compose up -d</code>即可。所有程序都可运行成功，并且不会丢失数据。请放心使用。</p>
+</div>
+<!-- <h2 id="T8mps">访问</h2> -->
+<h2>访问</h2>
+<p>如果不会,看视频访问操作</p>
+<p><a href="https://www.bilibili.com/video/BV1Bg4fesE9K?spm_id_from=333.788.player.switch&amp;vd_source=ac6ab4c3cdc5d0193edf55fd77ba0b4f&amp;p=24" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1Bg4fesE9K?spm_id_from=333.788.player.switch&amp;vd_source=ac6ab4c3cdc5d0193edf55fd77ba0b4f&amp;p=24</a></p>
+<ul>
+<li>zookeeper可视化工具下载：
+<ul>
+<li><a href="https://github.com/vran-dev/PrettyZoo/releases/download/v2.1.1/prettyZoo-win.zip" target="_blank" rel="noopener noreferrer">https://github.com/vran-dev/PrettyZoo/releases/download/v2.1.1/prettyZoo-win.zip</a></li>
+</ul>
+</li>
+<li>redis可视化工具下载：
+<ul>
+<li><a href="https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.6.4/Another-Redis-Desktop-Manager.1.6.4.exe" target="_blank" rel="noopener noreferrer">https://github.com/qishibo/AnotherRedisDesktopManager/releases/download/v1.6.4/Another-Redis-Desktop-Manager.1.6.4.exe</a></li>
+</ul>
+</li>
+</ul>
+<p>| 组件（容器名）                 | 介绍            | 访问地址                    | 账号/密码          | 特性                |<br>
+|</p>
+]]></content:encoded>
+      <enclosure url="https://cdn.nlark.com/yuque/0/2024/png/45821596/1729820157097-f84ac46a-bae4-4aac-88f6-0d0b67dd0887.png" type="image/png"/>
+    </item>
+    <item>
+      <title>开发环境通过github CICD 将Docker镜像自动发布项目到DockerHub</title>
+      <link>https://weijodan.top/posts/%E8%BF%90%E7%BB%B4/docker/autoDockerHub.html</link>
+      <guid>https://weijodan.top/posts/%E8%BF%90%E7%BB%B4/docker/autoDockerHub.html</guid>
+      <source url="https://weijodan.top/rss.xml">开发环境通过github CICD 将Docker镜像自动发布项目到DockerHub</source>
+      <description>1.准备工作 登录到Docker账户 官网：Docker Hub 首先，确保已经安装了Docker并且登录到Docker账户。如果没有账户，需要注册一个新的账户。 （也可以用github直接登录的） 1.1 dockerhub token https://hub.docker.com/settings/security 登录dockerhub，在用户的...</description>
+      <category>运维</category>
+      <category>Docker</category>
+      <category>云计算</category>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<!-- <h2 id="1.%E7%99%BB%E5%BD%95%E5%88%B0Docker%E8%B4%A6%E6%88%B7">1.准备工作</h2> -->
+<h2>1.准备工作</h2>
+<p>登录到Docker账户</p>
+<p>官网：<a href="https://hub.docker.com/" target="_blank" rel="noopener noreferrer">Docker Hub</a></p>
+<p>首先，确保已经安装了Docker并且登录到Docker账户。如果没有账户，需要注册一个新的账户。</p>
+<figure><figcaption></figcaption></figure>
+<p>（也可以用github直接登录的）</p>
+<!-- <h3 id="1.1-dockerhub-token">1.1 dockerhub token</h3> -->
+<h3>1.1 dockerhub token</h3>
+<p><a href="https://hub.docker.com/settings/security" target="_blank" rel="noopener noreferrer">https://hub.docker.com/settings/security</a></p>
+<p>登录dockerhub，在用户的account settings里面获取用户token</p>
+<figure><figcaption></figcaption></figure>
+<p>或者</p>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<p>将其添加到github仓库的secrets里面，具体位置是仓库设置中的 Secrets and variables 里面的 Actions 栏目中，如下图所示，添加 Repository secrets。</p>
+<p>进入你的项目仓库</p>
+<figure><figcaption></figcaption></figure>
+<p>需要添加的是 <code>DOCKER_USERNAME</code>为你的docker用户名（注意是用户名，不是邮箱），还有 <code>DOCKER_TOKEN</code>为刚刚我们在dockerhub中获取的token。</p>
+<!-- <h3 id="9ea5d211">1.2 获取github操作token</h3> -->
+<h3>1.2 获取github操作token</h3>
+<p><a href="https://github.com/settings/tokens" target="_blank" rel="noopener noreferrer">https://github.com/settings/tokens</a></p>
+<p>到GitHub的用户设置中，创建一个token，需要给予repo、workflow、packages权限。如果你不知道给予什么权限，直接全给他选上，保障这个token不泄露给外部就可以了。</p>
+<figure><figcaption></figcaption></figure>
+<p>另外，expiration是过期日期，如果你担心泄漏造成问题，可以设置一个过期时间，但是需要到时间后去更新仓库的secrets。</p>
+<figure><figcaption></figcaption></figure>
+<p>点击确定以后会得到token，复制他，同样是到github仓库的secrets里面添加一个 <code>RELEASE_TOKEN</code> 变量。</p>
+<!-- <h2 id="7074033f">2.上传workflows文件</h2> -->
+<h2>2.上传workflows文件</h2>
+<!-- <h3 id="390f4a45">2.1 添加如下yml文件</h3>
+# -->
+<h3>2.1 添加如下yml文件</h3>
+<p>前期的准备工作已经搞定了，现在就是添加一个github action的yml文件了。</p>
+<p>在你的仓库里面创建一个 <code>.github/workflows</code>文件夹，并在里面创建一个 <code>.yml</code>文件，写入如下内容。</p>
+<div class="language-yaml line-numbers-mode" data-ext="yaml" data-title="yaml"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">docker images cicd</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 触发器设置</span></span>
+<span class="line"><span style="color:#D19A66;--shiki-dark:#D19A66">on</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  push</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    branches</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: [ </span><span style="color:#98C379;--shiki-dark:#98C379">"main"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> ]</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  pull_request</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    branches</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: [ </span><span style="color:#98C379;--shiki-dark:#98C379">"main"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> ]</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 项目任务，任务之间可以并行调度</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">jobs</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  build</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # 选择云端运行的环境</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    runs-on</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">ubuntu-latest</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    steps</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">    # uses代表使用一个模块，此处使用的是checkout模块，将github项目文件导入到当前环境中</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    - </span><span style="color:#E06C75;--shiki-dark:#E06C75">uses</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">actions/checkout@v3</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">    # 使用with跟在后面来为前面的模块输入参数</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      with</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        submodules</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'true'</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    - </span><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">Set up QEMU</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      uses</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">docker/setup-qemu-action@v2</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    - </span><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">Set up Docker Buildx</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      uses</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">docker/setup-buildx-action@v2</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    - </span><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">Login to DockerHub</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      uses</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">docker/login-action@v2</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      with</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">    # 这里用到了github的secrets功能，避免账户和密码随仓库泄露</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">       username</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">${{ secrets.DOCKER_USERNAME }}</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">       password</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">${{ secrets.DOCKER_TOKEN }}</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">    # 设置当前的发行版本tag</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    - </span><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">Release version</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      id</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">release_version</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      run</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#C678DD;--shiki-dark:#C678DD">|</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">        app_version=$(cat version.py |sed -ne "s/APP_VERSION\s=\s'v\(.*\)'/\1/gp")</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">        echo "app_version=$app_version" &gt;&gt; $GITHUB_ENV</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">    # 开始构建镜像</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    - </span><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">Build and push</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      uses</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">docker/build-push-action@v2</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      with</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        context</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">.</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        file</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">Dockerfile</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        build-args</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#C678DD;--shiki-dark:#C678DD">|</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">          GITHUB_TOKEN=${{ secrets.RELEASE_TOKEN }}</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        platforms</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#C678DD;--shiki-dark:#C678DD">|</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">          linux/amd64</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">          linux/arm64</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">          linux/arm</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        push</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">        # 指定用户/仓库名</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        tags</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#C678DD;--shiki-dark:#C678DD">|</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">          ${{ secrets.DOCKER_USERNAME }}/blog_plus:latest</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">          ${{ secrets.DOCKER_USERNAME }}/blog_plus:${{ env.app_version }}</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">    # 这里是通过md文件自动生成dockerhub描述的模块，也可以不需要</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    - </span><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">Docker Hub Description</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      uses</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">peter-evans/dockerhub-description@v3</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      with</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        username</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">${{ secrets.DOCKER_USERNAME }}</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        password</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">${{ secrets.DOCKER_PASSWORD }}</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        repository</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">${{ secrets.DOCKER_USERNAME }}/blog_plus</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        readme-filepath</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">./README.md</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>对这里面的内容做一定说明，其中 <code>secrets.</code>使用的就是我们刚刚添加到github仓库中的变量，分别用于<a href="https://so.csdn.net/so/search?q=%E8%AE%BF%E9%97%AEgithub&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">访问github</a>仓库和登录dockerhub。</p>
+<p>你会发现最末尾通过readme文件自动生成dockerhub的描述部分，多出来了一个上文没有提到的 <code>secrets.DOCKER_PASSWORD</code>，这个是你dockerhub账户的密码。如果你不需要自动生成dockerhub的描述，那就可以把最后一个 <code>Docker Hub Description</code>条目直接删除了，否则需要添加这个secrets。</p>
+<p>项目中我使用了 <code>version.py</code>文件来存放最新的版本号，该文件需要在项目的根路径中创建，内容格式如下</p>
+<div class="language-yaml" data-ext="yaml" data-title="yaml"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#98C379;--shiki-dark:#98C379">APP_VERSION = '版本号'</span></span></code></pre>
+</div><p>使用这个workflows文件，你只需要修改 <code>${{ secrets.DOCKER_USERNAME }}/blog_plus</code>里面右侧的镜像名字为你的项目名字，将 <code>file: dockerfile</code>这里的dockerfile设置为你项目中dockerfile的文件路径就可以了</p>
+<p>另外，在这个yml中，指定了三个平台的<a href="https://so.csdn.net/so/search?q=docker%E9%95%9C%E5%83%8F&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">docker镜像</a>，这里可以根据你自己的实际需要来减少一些平台。毕竟大部分用户用的都是amd64（即x86）的电脑，如果没有用户需要使用arm平台，可以把后两项删除，以加快github action的运行速度。</p>
+<div class="language-yaml" data-ext="yaml" data-title="yaml"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        platforms</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#C678DD;--shiki-dark:#C678DD">|</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">          linux/amd64</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">          linux/arm64</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">          linux/arm</span></span></code></pre>
+</div><p>最终完成action的截图如下</p>
+<figure><figcaption></figcaption></figure>
+<!-- <h3 id="8976971e">2.2 关于GITHUB_REPOSITORY_NAME_PART环境变量</h3> -->
+<h3>2.2 关于GITHUB_REPOSITORY_NAME_PART环境变量</h3>
+<p>在别的github action教学文章中，会提到使用 <code>${{ env.GITHUB_REPOSITORY_NAME_PART }}</code>来直接用github的仓库名字作为镜像名。但经过我的测试，这个方法不适用于本文的这个workflows文件，使用该环境变量会导致容器的名字多出来一个尾随的 <code>/</code>，最终的镜像名字变成了 <code>用户名/镜像名/:tag</code>，不符dockerhub中镜像的命名规范。以下是具体的actions执行错误截图。</p>
+<figure><figcaption></figcaption></figure>
+<!-- <h2 id="BQZ4j">3. 实例 前端项目打包</h2>
+ -->
+<h2>3. 实例 前端项目打包</h2>
+<!-- <h3 id="ZruPs">3.1.本地 build 出 dist 目录</h3> -->
+<h2>3.1.本地 build 出 dist 目录</h2>
+<p>由于本人项目是vuepress的项目, 通过打包的  dist 文件在 根目录下的 src/.vuepress/dist 里</p>
+<p>注意:如果 .gitignore 文件里面屏蔽了  src/.vuepress/dist/ 得禁用掉,得上传到github执行工作流,因为</p>
+<figure><figcaption></figcaption></figure>
+<!-- <h3 id="p5jyQ">3.2 根目录下创建 Dockerfile文件而不是dockerfile免得报错</h3> -->
+<h2>3.2 根目录下创建 Dockerfile文件而不是dockerfile免得报错</h2>
+<div class="language-yaml line-numbers-mode" data-ext="yaml" data-title="yaml"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 使用与你本地环境一致的 Node.js 版本</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">FROM node:21.7.1</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 设置工作目录</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">WORKDIR /app</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 复制项目文件到工作目录</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">COPY . .</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 使用 Nginx 作为服务器</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">FROM nginx:latest</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 将构建好的静态文件复制到 Nginx 的默认目录</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 确保路径与你 VuePress 构建输出一致</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">COPY --from=0 /app/src/.vuepress/dist /usr/share/nginx/html</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 暴露 80 端口</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">EXPOSE 80</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 启动 Nginx 服务</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">CMD ["nginx", "-g", "daemon off;"]</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 使用镜像</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># docker pull weijordan/blog_plus</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">#运行</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># docker run -d \</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">#   --name blog_plus \</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">#   -p 3002:80 \</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">#   -v /myDocker/blog_plus:/app \</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">#   weijordan/blog_plus</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 查看</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># docker ps</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注意:这里的环境 得改成与你本地环境一致,不然容易报错</p>
+<!-- <h3 id="t9IC9">3.3. 也可以用docker-compose.yml 来创建容器</h3> -->
+<h3>3.3. 也可以用docker-compose.yml 来创建容器</h3>
+<div class="language-yaml line-numbers-mode" data-ext="yaml" data-title="yaml"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># version: '3'  # docker-compose的版本</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">services</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  blog_plus</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 服务名称</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">weijordan/blog_plus</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # 镜像名称</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    container_name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">blog_plus</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # 容器名称</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    ports</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">"3002:80"</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # 将容器的80端口映射到宿主机的8080端口</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    volumes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">/myDocker/blog_plus:/app</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # 将宿主机的/data/blog_plus目录映射到容器内的/app目录</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">    # environment:</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">    #   - EXAMPLE_VAR=example_value  # 如果需要，设置环境变量</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    restart</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">unless-stopped</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # 容器退出时总是重启</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    networks</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      - </span><span style="color:#98C379;--shiki-dark:#98C379">webnet</span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"> # 加入网络</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">networks</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  webnet</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 定义网络</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # 使用外部网络，如果存在则使用，不存在则创建</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">    # external: true # 外部网络</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">    # name: nginx_proxy # 网络名称</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">    # 如果不存在则创建网络</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">    # driver: bridge # 网络类型</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # 运行容器</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # docker-compose up -d</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # 检查运行情况</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # docker-compose ps</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # 停止并移除容器</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # docker-compose down</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # 停止容器</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # docker-compose stop</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # 启动容器</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # docker-compose start</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # 重启容器</span></span>
+<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">  # docker-compose restart</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果使用的是 宝塔面板 的话,可以直接用模版创建 或者 cli</p>
+<!-- <h2 id="the-end">The end</h2> -->
+<h2>The end</h2>
+<p>不过，根据github actions上的warning，我这个workflows文件已经是老版本的了，里面使用的很多特性都即将不再支持，所以只是个临时用用的权宜之计，后续得去找个另外的yaml文件来处理这个docker镜像了。</p>
+<h2>参考</h2>
+<p>使用github action来自动发布项目到dockerhub。参考 <a href="https://msdemt.github.io/p/github-action-build-docker/" target="_blank" rel="noopener noreferrer">https://msdemt.github.io/p/github-action-build-docker/</a> 博客</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Docker 基本组成</title>
+      <link>https://weijodan.top/posts/%E8%BF%90%E7%BB%B4/docker/docker%20%E5%9F%BA%E6%9C%AC%E7%BB%84%E6%88%90.html</link>
+      <guid>https://weijodan.top/posts/%E8%BF%90%E7%BB%B4/docker/docker%20%E5%9F%BA%E6%9C%AC%E7%BB%84%E6%88%90.html</guid>
+      <source url="https://weijodan.top/rss.xml">Docker 基本组成</source>
+      <description>镜像(image) docker镜像就好比是一个模板，可以通过这个模板来创建容器服务，tomcat镜像==&amp;gt;run=&amp;gt;tomcat(01容器（提供服务器）， 通过这个镜像可以创建多个容器（最终服务运行或者项目运行就是在容器中的）。 容器 Docker利用容器技术，独立运行一个或者一个组应用，通过镜像来创建的。 启动，停止，删除，基本命令！ 目前就可以把...</description>
+      <category>Docker</category>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<figure><figcaption></figcaption></figure>
+<!-- <h3 id="H2exR">**镜像(image):**</h3> -->
+<h3>镜像(image)</h3>
+<p>docker镜像就好比是一个模板，可以通过这个模板来创建容器服务，tomcat镜像==&gt;run=&gt;tomcat(01容器（提供服务器），</p>
+<p>通过这个镜像可以创建多个容器（最终服务运行或者项目运行就是在容器中的）。</p>
+<!-- <h3 id="npWq8">**容器(container):**</h3> -->
+<h3>容器</h3>
+<p>Docker利用容器技术，独立运行一个或者一个组应用，通过镜像来创建的。</p>
+<p>启动，停止，删除，基本命令！</p>
+<p>目前就可以把这个容器理解为就是一个简易的iux系统</p>
+<!-- <h3 id="hmvyk">**仓库(repository)：**</h3> -->
+<h3>仓库</h3>
+<p>仓库就是存放镜像的地方！</p>
+<p>仓库分为公有仓库和私有仓库！</p>
+<p>Docker Hub（默认是国外的）</p>
+<p>阿里云…都有容器服务器(配置镜像加速！)</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Docker 概述</title>
+      <link>https://weijodan.top/posts/%E8%BF%90%E7%BB%B4/docker/docker%E6%A6%82%E8%BF%B0.html</link>
+      <guid>https://weijodan.top/posts/%E8%BF%90%E7%BB%B4/docker/docker%E6%A6%82%E8%BF%B0.html</guid>
+      <source url="https://weijodan.top/rss.xml">Docker 概述</source>
+      <description>聊聊Docker Docker是基于Go语信开发的！开源项目！ 官网：https:www.docker.com 文档地址：htps:/docs.docker.com/ Docker的文档是超级详细的！ 仓库地址：https:lhub.docker.com Docker出现的目的？ 一款产品：开发上线两套环境！应用环境，应用配置！ 开发一运维。问题：我在...</description>
+      <category>Docker</category>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>聊聊Docker</p>
+<p>Docker是基于Go语信开发的！开源项目！</p>
+<p>官网：https:www.docker.com</p>
+<p>文档地址：htps:/docs.docker.com/   Docker的文档是超级详细的！</p>
+<p>仓库地址：https:lhub.docker.com</p>
+<!-- <h2 id="q5MUN">Docker为什么出现？</h2> -->
+<h2>Docker出现的目的？</h2>
+<p>一款产品：开发上线两套环境！应用环境，应用配置！</p>
+<p>开发一运维。问题：我在我的电脑上可以运行！版本更新，导致服务不可用！对于运维来说，考验就十分大？</p>
+<p>环境配置是十分的麻烦，每一个机器都要部署环境(集群Redis、.ES、Hadoop.…)!费时费力。</p>
+<p>发布一个项目(jar+(Redis MySQL jdk ES)),项目能不能都带上环境安装打包！</p>
+<p>之前在服务器配置一个应用的环境Redis MySQL jdk ES Hadoop,配置超麻烦了，不能够跨平台。</p>
+<p>Windows,最后发布到Linux!</p>
+<p>传统：开发jar,运维来做！</p>
+<p>现在：开发打包部署上线，一套流程做完！</p>
+<p>java -apk-发布（应用商店）-张三使用apk-安装即可用！</p>
+<p>java --jar（环境）-打包项目带上环境（镜像）-(Dockert仓库：商店)…下载我们发布的镜像-直接运行即可！</p>
+<p>Docker的思想就来自于集装箱！</p>
+<p>RE-多个应用（端口冲突）-原来都是交叉的！</p>
+<p>隔离：Dockeri核心思想！打包装箱！每个箱子是互相隔离的。</p>
+<p>水果</p>
+<p>生化武器</p>
+<p>Docker通过隔离机制，可以将服务器利用到极致！</p>
+<p>I</p>
+<p>本质：所有的技术都是因为出现了一些问题，我们需要去解决，才去学习！。</p>
+<!-- <h2 id="QkNDL">Docker的历史</h2> -->
+<h2>Docker的历史</h2>
+<p>2010年，几个搞T的年轻人，就在美国成立了一家公司</p>
+<p>dotCloud</p>
+<p>做一些pass的云计算服务！XC有关的容器技术！</p>
+<p>他们将自己的技术（容器化技术）命名就是Docker!</p>
+<p>Docker刚刚诞生的时候，没有引起行业的注意！dotCloud,就活不下去！</p>
+<h2>开源</h2>
+<p>开发源代码！</p>
+<p>2013年，Docker开源！</p>
+<p>Docker越来越多的人发现了docker的优点！火了，Docker每个月都会更新一个版本！</p>
+<p>2014年4月9日，Docker1.0发布！</p>
+<p>Docker为什么这么火？十分的轻巧！</p>
+<p>在容器技术出来之前，我们都是使用虚拟机技术！</p>
+<p>虚拟机：在window中装一个Vmware,通过这个软件我们可以虚拟出来一台或者多台电脑！笨重！</p>
+<p>虚拟机也是属于虚拟化技术，Docker容器技术，也是一种虚拟化技术！</p>
+<p>vm:1 inux centos)原生镜像(一个电脑！)隔离，需要开启多个虚拟机！</p>
+<p>几个G几分钟</p>
+<p>docker:隔离，镜像(最核心的环境4m+jdk+mysq1)十分的小巧，运行镜像就可以了！小巧！</p>
+<p>几个MKB秒级启动！</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>域名购买,域名绑定和解析,项目绑定自定义域名教程</title>
       <link>https://weijodan.top/project/domain.html</link>
