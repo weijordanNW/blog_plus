@@ -7,7 +7,6 @@ WORKDIR /app
 # 复制项目文件到工作目录
 COPY . .
 
-
 # 使用 Nginx 作为服务器
 FROM nginx:latest
 
@@ -20,3 +19,17 @@ EXPOSE 80
 
 # 启动 Nginx 服务
 CMD ["nginx", "-g", "daemon off;"]
+
+
+# 使用
+# docker pull weijordan/blog_plus
+
+#运行
+# docker run -d \
+#   --name blog_plus \
+#   -p 3002:80 \
+#   -v /myDocker/blog_plus:/app \
+#   weijordan/blog_plus
+
+# 查看
+# docker ps

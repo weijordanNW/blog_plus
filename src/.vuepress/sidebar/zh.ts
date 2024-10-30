@@ -49,6 +49,12 @@ export const zhSidebar = sidebar({
           prefix: "Python/",
           link: "Python/",
         },
+        {
+          text: "运维",
+          icon: "code",
+          prefix: "运维/",
+          link: "运维/",
+        },
         // {
         //   text: "Rust",
         //   icon: "hk-rust",
@@ -96,6 +102,7 @@ export const zhSidebar = sidebar({
     },
   ],
   "/posts/Linux/": "structure",
+  "/posts/运维/": "structure",
   // "/posts/Python/": "structure",
   "/posts/cross-platform/Flutter/": "structure",
   "/posts/cross-platform/ReactNative/": "structure",

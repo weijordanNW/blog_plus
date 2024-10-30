@@ -4,7 +4,7 @@
 
 地址：[https://weijodan.top](https://weijodan.top)
 
-基于`vuepress2.x`和`vuepress-theme-hope`开发，基于TypeScript使用vue3编写组件
+基于 `vuepress2.x`和 `vuepress-theme-hope`开发，基于TypeScript使用vue3编写组件
 
 ## 框架支持
 
@@ -19,10 +19,10 @@
 基于原主题进行了继承，个性化内容如下，主要自定义内容分为
 
 1. **自定义布局**
+
    - NotFound.vue
    - Layout.vue(增加打赏组件)
    - News.vue(说说列表布局)
-
 2. **自定义组件**
 
    - BlogHero.vue
@@ -30,25 +30,23 @@
    - Sponsor.vue（打赏组件）
    - NewsList.vue （说说列表）
    - NewsItem.vue （说说item）
-
 3. **插件开发**
 
    - vuepress-plugin-canvas（支持彩虹背景和动态几何图形两种）
    - vuepress-plugin-gradient-cover （遮罩背景）
    - vuepress-plugin-hitokoto （一言插件）
    - vuepress-plugin-live2DAssist （看板娘辅助，由于子页有sidebar，看板娘会挡住，所以写了一个子页隐藏的小东西）
+
    <!-- - vuepress-plugin-popper （鼠标特效，基于[@moefy-canvas/theme-popper](https://github.com/moefyit/moefy-canvas)）
    - [vuepress-plugin-meting2](https://github.com/OrageKK/vuepress-plugin-meting2) （播放器插件，可以全局使用和md文件使用） -->
 4. **引用外部内容**
 
    - [vuepress-plugin-oh-my-live2d](https://github.com/oh-my-live2d/vuepress-plugin-oh-my-live2d) 看板娘插件
-
    - 不蒜子统计
-
    - [@moefy-canvas/theme-popper](https://github.com/moefyit/moefy-canvas)原有插件只支持vuepress1.x，自己基于moefy-canvas进行了支持vuepress2.x的本地化插件开发
-
    - [@vuepress/plugin-google-analytics](https://v2.vuepress.vuejs.org/zh/reference/plugin/google-analytics.html) 支持Google Analytics 4 正好看到通知原来的UA也要被强制转换了，所以更换了G4
 5. **配置内容**
+
    - navbar
    - sidebar
    - 评论基于 [Waline](https://waline.js.org/)
@@ -56,17 +54,61 @@
    - 启用 copyright 版权信息插件
    - feed rss插件
    - 增加文章类型-说说，为说说markdown图片添加预览选择器
-
 6. **零碎**
+
    - 运行时间统计
    - CSS 样式美化
    - 引入字体，品如手写体，夏行楷体
    - waline 增加自定义emoji，并修改展示样式
    - 个性log
+
    <!-- - 自动推送新文章url到搜索引擎（百度、Bing、Google）👉[详细配置](https://weijodan.top/blog/auto-push.html) -->
 
-
 ## 使用方式
+
 因本项目为个人项目，其中有很多个性化配置，不建议直接clone使用，可以选择你喜欢的内容模块（本地插件、本地替换组件）到自己项目中使用
 
- >详细介绍参考：[关于本站](https://weijodan/about)
+> 详细介绍参考：[关于本站](https://weijodan/about)
+
+## docker-compose 部署
+
+```
+# version: '3'  # docker-compose的版本
+
+services:
+  blog_plus: # 服务名称
+    image: weijordan/blog_plus # 镜像名称
+    container_name: blog_plus # 容器名称
+    ports:
+      - "3002:80"  # 将容器的80端口映射到宿主机的8080端口
+    volumes:
+      - /myDocker/blog_plus:/app  # 将宿主机的/data/blog_plus目录映射到容器内的/app目录
+    # environment:
+    #   - EXAMPLE_VAR=example_value  # 如果需要，设置环境变量
+    restart: unless-stopped # 容器退出时总是重启
+    networks:
+      - webnet # 加入网络
+
+networks:
+  webnet: # 定义网络
+  # 使用外部网络，如果存在则使用，不存在则创建
+    # external: true # 外部网络
+    # name: nginx_proxy # 网络名称
+    # 如果不存在则创建网络
+    # driver: bridge # 网络类型
+
+
+  # 运行容器
+  # docker-compose up -d
+  # 检查运行情况
+  # docker-compose ps
+  # 停止并移除容器
+  # docker-compose down
+  # 停止容器
+  # docker-compose stop
+  # 启动容器
+  # docker-compose start
+  # 重启容器
+  # docker-compose restart
+
+```
