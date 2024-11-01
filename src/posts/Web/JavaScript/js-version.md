@@ -1,19 +1,18 @@
 ---
 title: "JavaScript ES6"
 icon: es6
-date: 2015-09-22
+date: 2020-09-22
 category:
   - JavaScript
 tag:
   - JavaScript
   - 翻译
 ---
-
 JavaScript 有着很奇怪的命名史。
 
 1995 年，它作为网景浏览器（Netscape Navigator）的一部分首次发布，网景给这个新语言命名为 LiveScript。一年后，为了搭上当时媒体热炒 Java 的顺风车，临时改名为了 JavaScript _（当然，Java 和 JavaScript 的关系，就和雷锋和雷锋塔一样 —— 并没有什么关系）_
 
-<small class="img-hint">歪果仁的笑话怎么一点都不好笑</small>
+`<small class="img-hint">`歪果仁的笑话怎么一点都不好笑`</small>`
 
 > 译者注：[wikipedia 的 JavaScript 词条](https://en.wikipedia.org/wiki/JavaScript#History) 更详细的叙述了这段历史
 
@@ -49,10 +48,9 @@ JavaScript 有着很奇怪的命名史。
 - 如果你还不熟悉 ES6，Babel 有一个[很不错的特性概览](https://babeljs.io/docs/learn-es2015/)
 - 如果你希望深入 ES6，这里有两本很不错的书： Axel Rauschmayer 的 [Exploring ES6](http://exploringjs.com/)和 Nicholas Zakas 的 [Understanding ECMAScript 6](https://leanpub.com/understandinges6)。Axel 的博客 [2ality](http://www.2ality.com/) 也是很不错的 ES6 资源
 
-
-<small class="img-hint">来学 JavaScript 吧！</small>
+`<small class="img-hint">`来学 JavaScript 吧！`</small>`
 
 #### 著作权声明
 
-本文译自 [ES5, ES6, ES2016, ES.Next: What's going on with JavaScript versioning?](http://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning/)  
+本文译自 [ES5, ES6, ES2016, ES.Next: What&#39;s going on with JavaScript versioning?](http://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning/)
 译者 [黄玄](http://weibo.com/huxpro)，首次发布于 [Hux Blog](http://huangxuan.me)，转载请保留以上链接

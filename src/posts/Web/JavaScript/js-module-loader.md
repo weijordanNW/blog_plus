@@ -1,14 +1,13 @@
 ---
 title: "CommonJS，RequireJS，SeaJS 归纳笔记"
 icon: module
-date: 2015-05-25
+date: 2020-05-25
 category:
   - JavaScript
 tag:
   - 前端开发
   - JavaScript
 ---
-
 ## Foreword
 
 > Here comes Module!
@@ -55,7 +54,7 @@ exports.b = function () {
 };
 ```
 
-`exports`是一个内置对象，就像`require`是一个内置加载函数一样。如果你希望直接赋值一个完整的对象或者构造函数，覆写`module.exports`就可以了。
+`exports`是一个内置对象，就像 `require`是一个内置加载函数一样。如果你希望直接赋值一个完整的对象或者构造函数，覆写 `module.exports`就可以了。
 
 CommonJS 前身叫 ServerJS ，**后来希望能更加 COMMON，成为通吃各种环境的模块规范，改名为 CommonJS** 。CommonJS 最初只专注于 Server-side 而非浏览器环境，因此它采用了同步加载的机制，这对服务器环境（硬盘 I/O 速度）不是问题，而对浏览器环境（网速）来说并不合适。
 
@@ -84,7 +83,7 @@ CommonJS 前身叫 ServerJS ，**后来希望能更加 COMMON，成为通吃各�
 2. **Modules/Async** 流派。这个观点觉得浏览器有自身的特征，不应该直接用 Modules/1.x 规范。这个观点下的典型代表是 [AMD](http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition) 规范及其实现 [RequireJS](http://requirejs.org/)。这个稍后再细说。
 3. **Modules/2.0** 流派。这个观点觉得浏览器有自身的特征，不应该直接用 Modules/1.x 规范，但应该尽可能与 Modules/1.x 规范保持一致。这个观点下的典型代表是 BravoJS 和 FlyScript 的作者。BravoJS 作者对 CommonJS 的社区的贡献很大，这份 Modules/2.0-draft 规范花了很多心思。FlyScript 的作者提出了 Modules/Wrappings 规范，这规范是 CMD 规范的前身。可惜的是 BravoJS 太学院派，FlyScript 后来做了自我阉割，将整个网站（flyscript.org）下线了。这个观点在本文中的典型代表就是 SeaJS 和 CMD 了
 
-补一嘴：阿里 KISSY 的 KMD 其实跟 AMD 非常类似，只是用 `add`和`use` 两个源自于 YUI Modules 的函数名替换了 `define` 和 `require` ，但其原理更接近 RequireJS ，与 YUI Modules 的 `Y` 沙箱 Attach 机制并不相同
+补一嘴：阿里 KISSY 的 KMD 其实跟 AMD 非常类似，只是用 `add`和 `use` 两个源自于 YUI Modules 的函数名替换了 `define` 和 `require` ，但其原理更接近 RequireJS ，与 YUI Modules 的 `Y` 沙箱 Attach 机制并不相同
 
 ## RequireJS & AMD
 
@@ -151,7 +150,7 @@ define(["require", "dependency1", "dependency2"], function (require) {
 });
 ```
 
-出于`Function.prototype.toString()`兼容性和性能的考虑，最好的做法还是做一次 **optimized build**
+出于 `Function.prototype.toString()`兼容性和性能的考虑，最好的做法还是做一次 **optimized build**
 
 AMD 和 CommonJS 的核心争议如下：
 
@@ -179,7 +178,7 @@ AMD 里提前下载 a.js 是出于对浏览器环境的考虑，只能采取异�
 
 ### 2. **书写风格**
 
-AMD 推荐的风格并不使用`require`，而是通过参数传入，破坏了**依赖就近**：
+AMD 推荐的风格并不使用 `require`，而是通过参数传入，破坏了**依赖就近**：
 
 ```js
 define(["a", "b", "c"], function (a, b, c) {

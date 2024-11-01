@@ -11,11 +11,18 @@
         <span id="busuanzi_value_site_uv"></span>位访问者
       </span>
     </div>
+
     <div class="footer-content">
       <div class="footer" v-html="content"></div>
       <div class="copyright">{{ copyright }}</div>
+      <div class="footer">
+        <a href="https://beian.miit.gov.cn" target="_blank">
+          备案号: 黔ICP备2024039089号
+        </a>
+      </div>
     </div>
     <span id="runtime_span"></span>
+
     <div class="footer-link">
       <a href="https://www.foreverblog.cn/go.html" target="_blank">
         <img
@@ -31,9 +38,13 @@
           style="width: auto; height: 32px"
           title="开往-友链接力"
       /></a>
-      <!-- <a href="https://www.foreverblog.cn/" target="_blank">
-        <img src="https://img.foreverblog.cn/logo_en_default.png" alt="" style="width: auto; height: 16px" />
-      </a> -->
+      <a href="https://www.foreverblog.cn/" target="_blank">
+        <img
+          src="https://img.foreverblog.cn/logo_en_default.png"
+          alt=""
+          style="width: auto; height: 16px"
+        />
+      </a>
     </div>
   </footer>
 </template>
@@ -42,10 +53,7 @@
 import { usePageFrontmatter } from "vuepress/client";
 import { isString } from "vuepress/shared";
 import { computed, watch, onMounted } from "vue";
-import {
-  usePageAuthor,
-  useThemeLocaleData,
-} from "@theme-hope/composables/index";
+import { usePageAuthor, useThemeLocaleData } from "@theme-hope/composables/index";
 import { useRouter } from "vue-router";
 import script from "../utils/busuanzi.pure";
 import { show_runtime } from "../utils/time";
@@ -75,8 +83,7 @@ const author = usePageAuthor();
 const enable = computed(() => {
   const { copyright, footer } = frontmatter.value;
   return (
-    footer !== false &&
-    Boolean(copyright || footer || themeLocale.value.displayFooter)
+    footer !== false && Boolean(copyright || footer || themeLocale.value.displayFooter)
   );
 });
 const content = computed(() => {
@@ -93,7 +100,7 @@ const copyright = computed(() =>
     : "copyright" in themeLocale.value
     ? themeLocale.value.copyright
     : author.value.length
-    ? `Copyright © 2016-${new Date().getFullYear()} ${author.value[0].name}`
+    ? `Copyright © 2019-${new Date().getFullYear()} ${author.value[0].name}`
     : false
 );
 const bgImage = ref("");
@@ -147,8 +154,8 @@ onMounted(() => {
   color: #fff;
   text-align: center;
 
-  transition: border-top-color var(--color-transition),
-    background var(--color-transition), padding var(--transform-transition);
+  transition: border-top-color var(--color-transition), background var(--color-transition),
+    padding var(--transform-transition);
 
   @media (max-width: hope-config.$tablet) {
     z-index: 2;

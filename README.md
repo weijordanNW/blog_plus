@@ -2,7 +2,7 @@
 
 # 博客源码
 
-地址：[https://weijodan.top](https://weijodan.top)
+地址：[https://weijordan.com](https://weijordan.com)
 
 基于 `vuepress2.x`和 `vuepress-theme-hope`开发，基于TypeScript使用vue3编写组件
 
@@ -62,7 +62,7 @@
    - waline 增加自定义emoji，并修改展示样式
    - 个性log
 
-   <!-- - 自动推送新文章url到搜索引擎（百度、Bing、Google）👉[详细配置](https://weijodan.top/blog/auto-push.html) -->
+   <!-- - 自动推送新文章url到搜索引擎（百度、Bing、Google）👉[详细配置](https://weijordan.com/blog/auto-push.html) -->
 
 ## 使用方式
 

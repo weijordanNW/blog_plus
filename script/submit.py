@@ -122,7 +122,7 @@ def insert_event(request_id, response, exception):
 if __name__ == '__main__':
     # site_url = 'https://oragekk.me'
     # site_url = 'https://blog-plus-y1ro.vercel.app'
-    site_url = 'https://weijodan.top'
+    site_url = 'https://weijordan.com'
     sitemap_path = ''
     prev_sitemap_path = ''
     get_sitemap_path()

@@ -23,8 +23,8 @@ import MyCoverLink from "@MyCoverLink";
 ```yml
 昵称: "子冥",
 简介: "waiting for",
-头像: "https://weijodan.top/logo.svg",
-连接: "https://weijodan.top/"
+头像: "https://weijordan.com/logo.svg",
+连接: "https://weijordan.com/"
 ```
 
 @tab json
@@ -33,8 +33,8 @@ import MyCoverLink from "@MyCoverLink";
 {
   "name": "子冥",
   "desc": "waiting for",
-  "ico": "https://weijodan.top/logo.svg",
-  "link": "https://weijodan.top/"
+  "ico": "https://weijordan.com/logo.svg",
+  "link": "https://weijordan.com/"
 }
 ```
 @tab yml
@@ -42,8 +42,8 @@ import MyCoverLink from "@MyCoverLink";
 ```yml
 - name: "子冥",
 - desc: "waiting for",
-- ico: "https://weijodan.top/logo.svg",
-- link: "https://weijodan.top/"
+- ico: "https://weijordan.com/logo.svg",
+- link: "https://weijordan.com/"
 ```
 
 :::

@@ -3,14 +3,13 @@ title: "Jenkins 远程触发构建踩坑记"
 description: "CSRF crumbk,Jenkins,"
 icon: "shell"
 date: 2024-01-12
-isOriginal: true
+isOriginal: false
 order: 1
 category:
   - 工具教程
 tag:
   - Jenkins
 ---
-
 :::tip
 如果想在代码 Push 后，或者 Merge request 后，自动部署，可以采用多种方案，以下介绍两种
 
@@ -26,15 +25,10 @@ tag:
 ### 1.2. 配置 API token
 
 1. 打开 Jenkins 控制台。
-
 2. 在顶部导航栏中，点击您的用户名，然后选择 "Configure" 选项。
-
 3. 在配置页面中，向下滚动，找到 "API Token" 部分。
-
 4. 如果您之前没有生成过 API Token，则点击 "Add new Token" 或 "Generate Token" 按钮。
-
 5. 在生成或更改 Token 的过程中，您可能需要提供您的 Jenkins 用户密码进行身份验证。
-
 6. 生成或更改成功后，您将看到新生成的 Token 值。请将其复制并妥善保存，因为在以后的访问中，您将无法再查看该 Token 的值。
 
 ### 1.3. 如何调用 Url

@@ -10,7 +10,7 @@ export const friends: LinkData[] = [
     name: "子冥",
     desc: "waiting for",
     icon: "/logo.svg",
-    link: "https://weijodan.top",
+    link: "https://weijordan.com",
   },
   {
     name: 'KASUIEの次元', //网站的名称

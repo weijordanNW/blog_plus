@@ -3,12 +3,12 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 export default MyTheme({
   hotReload: true,
-  hostname: "https://weijodan.top",// 域名
+  hostname: "https://weijordan.com",// 域名
   themeColor: true,
   fullscreen: true,
   author: {
     name: "子冥",
-    url: "https://weijodan.top",// 个人主页
+    url: "https://weijordan.com",// 个人主页
   },
 
   iconAssets: [
