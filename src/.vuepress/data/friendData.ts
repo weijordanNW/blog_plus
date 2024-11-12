@@ -18,6 +18,12 @@ export const friends: LinkData[] = [
     icon: 'https://kasuie.cc/avatar.webp', //网站的图标/或你的头像
     link: 'https://kasuie.cc', //网站的地址
   },
+  {
+    name: '安知鱼', //网站的名称
+    desc: '生活明朗，万物可爱', //网站的描述
+    icon: 'https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg', //网站的图标/或你的头像
+    link: 'https://blog.anheyu.com/', //网站的地址
+  },
   // {
   //   name: "上冬十二",
   //   desc: "到最后，竟庆幸于夕阳仍留在身上",
