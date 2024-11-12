@@ -6,8 +6,8 @@
     <link>https://weijordan.com/</link>
     <description>Mr.子冥的博客</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 12 Nov 2024 03:55:34 GMT</pubDate>
-    <lastBuildDate>Tue, 12 Nov 2024 03:55:34 GMT</lastBuildDate>
+    <pubDate>Tue, 12 Nov 2024 08:11:43 GMT</pubDate>
+    <lastBuildDate>Tue, 12 Nov 2024 08:11:43 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Docker</category>
@@ -1995,7 +1995,7 @@
       <link>https://weijordan.com/about.html</link>
       <guid>https://weijordan.com/about.html</guid>
       <source url="https://weijordan.com/rss.xml">关于本站</source>
-      <description>关于本站 ✨📒 详细记录一下此次建站过程 开始 偶然间发现vuepress，首先是被vue3+typescript+vite吸引，然后看到默认主题属实有点不合符我的期待，自己动手成本又太高，也没有太急着去折腾，直到无意中发现了 vuepress-theme-hope，漂亮的外观一下子就吸引到我了，然后去官网深入研究了一番，发现二次开发的成本并不高，对...</description>
+      <description>关于本站 ✨📒 详细记录一下此次建站过程 开始 1.1偶然间发现vuepress，首先是被 vue3+typescript+vite吸引，然后看到默认主题属实有点不合符我的期待，自己动手成本又太高，也没有太急着去折腾，直到无意中发现了 vuepress-theme-hope，漂亮的外观一下子就吸引到我了，然后去官网深入研究了一番，发现二次开发的成本并...</description>
       <category>Blog</category>
       <pubDate>Tue, 14 Mar 2023 21:45:45 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -2006,7 +2006,7 @@
 <h2>开始</h2>
 <!-- 之前的博客是基于jekyll打造的，要添加和定制化的东西都只能基于html+js+css完成，有些麻烦，所以一直有想更换引擎的想法
 直到 -->
-<p>偶然间发现vuepress，首先是被<code>vue3</code>+<code>typescript</code>+<code>vite</code>吸引，然后看到默认主题属实有点不合符我的期待，自己动手成本又太高，也没有太急着去折腾，直到无意中发现了<br>
+<p>1.1偶然间发现vuepress，首先是被 <code>vue3</code>+<code>typescript</code>+<code>vite</code>吸引，然后看到默认主题属实有点不合符我的期待，自己动手成本又太高，也没有太急着去折腾，直到无意中发现了<br>
 <a href="https://theme-hope.vuejs.press/zh/" target="_blank" rel="noopener noreferrer">vuepress-theme-hope</a>，漂亮的外观一下子就吸引到我了，然后去官网深入研究了一番，发现二次开发的成本并不高，对于我来说比较友好，基本都是基于选项的配置型，和一小部分的定制开发，也可以基于vue来写，这让我觉得很合适。所以，一步步折腾了起来……</p>
 <h2>Markdown增强</h2>
 <p>hope主题的markdown效果是出乎意料的好，而且支持了很多普通markdown不支持的东西，如自定义容器、带tab的代码块，最方便的是可以直接写流程图了，可选高亮主题（本站代码高亮基于shikiPlugin,虽不如默认的prismjs轻量高效，但能提供更准确的语法高亮）具体效果看这里☞<a href="/demo/markdown.html" target="_blank">Markdown展示</a></p>
@@ -2098,18 +2098,10 @@
 <li>
 <p><strong>引用外部内容</strong></p>
 <ul>
-<li>
-<p><a href="https://github.com/oh-my-live2d/vuepress-plugin-oh-my-live2d" target="_blank" rel="noopener noreferrer">vuepress-plugin-oh-my-live2d</a> 看板娘插件</p>
-</li>
-<li>
-<p>不蒜子统计</p>
-</li>
-<li>
-<p><a href="https://github.com/moefyit/moefy-canvas" target="_blank" rel="noopener noreferrer">@moefy-canvas/theme-popper</a>原有插件只支持vuepress1.x，自己基于moefy-canvas进行了支持vuepress2.x的本地化插件开发</p>
-</li>
-<li>
-<p><a href="https://v2.vuepress.vuejs.org/zh/reference/plugin/google-analytics.html" target="_blank" rel="noopener noreferrer">@vuepress/plugin-google-analytics</a> 支持Google Analytics 4 正好看到通知原来的UA也要被强制转换了，所以更换了G4</p>
-</li>
+<li><a href="https://github.com/oh-my-live2d/vuepress-plugin-oh-my-live2d" target="_blank" rel="noopener noreferrer">vuepress-plugin-oh-my-live2d</a> 看板娘插件</li>
+<li>不蒜子统计</li>
+<li><a href="https://github.com/moefyit/moefy-canvas" target="_blank" rel="noopener noreferrer">@moefy-canvas/theme-popper</a>原有插件只支持vuepress1.x，自己基于moefy-canvas进行了支持vuepress2.x的本地化插件开发</li>
+<li><a href="https://v2.vuepress.vuejs.org/zh/reference/plugin/google-analytics.html" target="_blank" rel="noopener noreferrer">@vuepress/plugin-google-analytics</a> 支持Google Analytics 4 正好看到通知原来的UA也要被强制转换了，所以更换了G4</li>
 </ul>
 </li>
 <li>
