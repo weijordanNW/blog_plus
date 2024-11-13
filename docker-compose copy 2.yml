@@ -4,12 +4,10 @@ services:
   blog_plus: # 服务名称
     image: weijordan/blog_plus # 镜像名称
     container_name: blog_plus # 容器名称
-    build: . 
     ports:
       - "3002:80"  # 将容器的80端口映射到宿主机的8080端口
     volumes:
       - /myDocker/blog_plus:/app  # 将宿主机的/data/blog_plus目录映射到容器内的/app目录
-    privileged: true  # 允许容器执行挂载宿主机上的任何文件
     environment:
       - VIRTUAL_HOST=weijordan.com,www.weijordan.com,blog.weijordan.com  # 替换为您的域名，用逗号分隔
       - LETSENCRYPT_HOST=weijordan.com,www.weijordan.com,blog.weijordan.com  # 替换为您的域名
