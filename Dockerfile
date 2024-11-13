@@ -12,8 +12,8 @@ FROM nginx:latest
 
 # 将构建好的静态文件复制到 Nginx 的默认目录
 # 确保路径与你 VuePress 构建输出一致
-# COPY --from=0 /app/src/.vuepress/dist /usr/share/nginx/html
-COPY --from=0 /app/src/.vuepress/dist/ .
+COPY --from=0 /app/src/.vuepress/dist /usr/share/nginx/html
+# COPY --from=0 /app/src/.vuepress/dist/ .
 
 # 暴露 80 端口
 EXPOSE 80
