@@ -1,26 +1,43 @@
-# version: '3'  # docker-compose的版本
+version: '3'
 
 services:
-  blog_plus: # 服务名称
-    image: weijordan/blog_plus:latest # 镜像名称
-    container_name: blog_plus # 容器名称
-    ports:
-      - "3002:80"  # 将容器的80端口映射到宿主机的8080端口
+  nginx:
+    image: jwilder/nginx-proxy
     volumes:
-      - /myDocker/blog_plus:/app  # 将宿主机的/data/blog_plus目录映射到容器内的/app目录
-    # environment:
-    #   - EXAMPLE_VAR=example_value  # 如果需要，设置环境变量
-    restart: unless-stopped # 容器退出时总是重启
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    ports:
+      - "80:80"
+      - "443:443"
     networks:
-      - webnet # 加入网络
+      - webnet
+
+  letsencrypt:
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    environment:
+      - NGINX_PROXY_CONTAINER=nginx
+      - ACME_EMAIL=1985615319@qq.com  # 替换为您的邮箱
+    networks:
+      - webnet
+
+  blog_plus:
+    image: weijordan/blog_plus:latest
+    container_name: blog_plus
+    ports:
+      - "3002:80"  # 将容器的80端口映射到宿主机的3002端口
+    volumes:
+      - /myDocker/blog_plus:/app
+    environment:
+      - VIRTUAL_HOST=weijordan.com,www.weijordan.com,blog.weijordan.com  # 替换为您的域名，用逗号分隔
+      - LETSENCRYPT_HOST=weijordan.com,www.weijordan.com,blog.weijordan.com  # 替换为您的域名
+      - LETSENCRYPT_EMAIL=1985615319@qq.com  # 替换为您的邮箱
+    restart: unless-stopped
+    networks:
+      - webnet
 
 networks:
-  webnet: # 定义网络
-  # 使用外部网络，如果存在则使用，不存在则创建
-    # external: true # 外部网络
-    # name: nginx_proxy # 网络名称
-    # 如果不存在则创建网络
-    # driver: bridge # 网络类型
+  webnet:
 
 
   # 运行容器
