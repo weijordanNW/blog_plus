@@ -1,4 +1,4 @@
-version: '3'
+# version: '3'
 
 services:
   nginx:
@@ -21,18 +21,18 @@ services:
     networks:
       - webnet
 
-  blog_plus:
-    image: weijordan/blog_plus:latest
-    container_name: blog_plus
+  blog_plus: # 服务名称
+    image: weijordan/blog_plus:latest # 镜像名称
+    container_name: blog_plus # 容器名称
     ports:
-      - "3002:80"  # 将容器的80端口映射到宿主机的3002端口
+      - "3002:80"  # 将容器的80端口映射到宿主机的8080端口
     volumes:
-      - /myDocker/blog_plus:/app
+      - /myDocker/blog_plus:/app  # 将宿主机的/data/blog_plus目录映射到容器内的/app目录
     environment:
       - VIRTUAL_HOST=weijordan.com,www.weijordan.com,blog.weijordan.com  # 替换为您的域名，用逗号分隔
       - LETSENCRYPT_HOST=weijordan.com,www.weijordan.com,blog.weijordan.com  # 替换为您的域名
       - LETSENCRYPT_EMAIL=1985615319@qq.com  # 替换为您的邮箱
-    restart: unless-stopped
+    restart: unless-stopped # 容器退出时总是重启
     networks:
       - webnet
 
