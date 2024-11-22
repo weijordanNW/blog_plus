@@ -1,6 +1,6 @@
 ---
 title: "rollup 打包工具"
-icon: loop
+icon: dabaogongju
 date: 2023-05-06
 category:
   - 打包工具
@@ -9,8 +9,6 @@ tag:
 dir:
   order: 2
 ---
-
-
 [https://www.ruanyifeng.com/blog/2022/05/rollup.html](https://www.ruanyifeng.com/blog/2022/05/rollup.html)
 
 ![](https://cdn.nlark.com/yuque/0/2024/webp/45821596/1728962941458-96143e0c-e26e-44c6-9301-9ac464d3d376.webp)
@@ -18,7 +16,7 @@ dir:
 <h2 id="FD4Kr"><font style="color:rgb(0, 0, 0);background-color:rgb(245, 245, 213);">总结</font></h2>
 1.**<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">rollup.js 适合用来打包ES 模块</font>**
 
-**`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`2.原理:就是将`</font>`** `<font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">import</font><font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`和`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">export</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`替换换成了原始代码。`</font>`
+**`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`2.原理:就是将 `</font>`** `<font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">import</font><font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`和 `</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">export</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`替换换成了原始代码。`</font>`
 
 `<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`3.摇树特性: 即打包时自动删除没有用到的代码。`</font>`
 
@@ -26,11 +24,11 @@ dir:
 
 `<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`摇树原理:`</font>`
 
-`<font style="color:rgb(6, 6, 7);">`即根据 `</font>`**`<font style="color:rgb(6, 6, 7);">`ES6 的import和export确认引入`</font>`**`<font style="color:rgb(6, 6, 7);">`, `</font>`**`<font style="color:rgb(6, 6, 7);">`标记未引用`</font>`**`<font style="color:rgb(6, 6, 7);">`的代码,然后进行`</font>`**`<font style="color:rgb(6, 6, 7);">`剔除`</font>`**
+`<font style="color:rgb(6, 6, 7);">`即根据 `</font>`**`<font style="color:rgb(6, 6, 7);">`ES6 的import和export确认引入 `</font>`** `<font style="color:rgb(6, 6, 7);">`, `</font>`**`<font style="color:rgb(6, 6, 7);">`标记未引用 `</font>`** `<font style="color:rgb(6, 6, 7);">`的代码,然后进行 `</font>`**`<font style="color:rgb(6, 6, 7);">`剔除 `</font>`**
 
 `<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);"></font>`
 
-**`<font style="color:rgb(6, 6, 7);">`静态分析 : `</font>`**`<font style="color:rgb(6, 6, 7);">`构建工具会查看 `</font><font style="color:rgb(6, 6, 7);">import</font>``<font style="color:rgb(6, 6, 7);">` 和 `</font><font style="color:rgb(6, 6, 7);">export</font>``<font style="color:rgb(6, 6, 7);">` 语句，以确定哪些模块被导入和导出，以及它们之间的依赖关系`</font>`
+**`<font style="color:rgb(6, 6, 7);">`静态分析 : `</font>`**`<font style="color:rgb(6, 6, 7);">`构建工具会查看 `</font><font style="color:rgb(6, 6, 7);">import</font>``<font style="color:rgb(6, 6, 7);">` 和 `</font><font style="color:rgb(6, 6, 7);">export</font>``<font style="color:rgb(6, 6, 7);">` 语句，以确定哪些模块被导入和导出，以及它们之间的依赖关系 `</font>`
 
 **`<font style="color:rgb(6, 6, 7);">`标记未引用代码 : `</font>`**`<font style="color:rgb(6, 6, 7);">`构建工具会标记所有未被引用的代码（也称为未引用的模块或未使用的导出）。这些代码被认为是“死代码”`</font>`
 
@@ -43,7 +41,7 @@ dir:
 
 `<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`如果你的项目使用 CommonJS 模块，不推荐使用 rollup.js，优势不大。`</font>`
 
-`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`也可以打包 CommonJS 模块。但是，这时需要经过复杂配置`</font>`
+`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`也可以打包 CommonJS 模块。但是，这时需要经过复杂配置 `</font>`
 
 <h2 id="9db04840"><font style="color:rgb(0, 0, 0);background-color:rgb(245, 245, 213);">二、安装</font></h2>
 <font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">本文采用全局安装 rollup.js。</font>
@@ -52,7 +50,7 @@ dir:
 $ npm install --global rollup
 ```
 
-`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`但是，你也可以不安装直接使用，就是把下面所有命令中的`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">rollup</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`，替换成`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">npx rollup</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`（参见`</font>`[`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`《npx 使用教程》`</font>`](https://www.ruanyifeng.com/blog/2019/02/npx.html)`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`）。`</font>`
+`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`但是，你也可以不安装直接使用，就是把下面所有命令中的 `</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">rollup</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`，替换成 `</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">npx rollup</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`（参见 `</font>`[`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`《npx 使用教程》`</font>`](https://www.ruanyifeng.com/blog/2019/02/npx.html)`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`）。`</font>`
 
 `<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`第一次使用，可以运行下面的命令，查看一下帮助。`</font>`
 
@@ -79,7 +77,7 @@ export function addE(x) {
 }
 ```
 
-`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`上面代码中，模块 add.js 输出了两个工具函数`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">addPi()</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`和`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">addE()</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`。`</font>`
+`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`上面代码中，模块 add.js 输出了两个工具函数 `</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">addPi()</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`和 `</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">addE()</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`。`</font>`
 
 ```javascript
 // main.js
@@ -88,7 +86,7 @@ import { addPi } from './add.js';
 console.log(addPi(10));
 ```
 
-`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`上面代码中，入口脚本 main.js 加载了 add.js 里面的工具函数`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">addPi()</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`。`</font>`
+`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`上面代码中，入口脚本 main.js 加载了 add.js 里面的工具函数 `</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">addPi()</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`。`</font>`
 
 `<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`接着，就用 rollup.js 打包。`</font>`
 
@@ -110,13 +108,13 @@ function addPi(x) {
 console.log(addPi(10));
 ```
 
-`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`可以看到，`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">import</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`和`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">export</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`语句都没了，被换成了原始代码。`</font>`
+`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`可以看到，`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">import</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`和 `</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">export</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`语句都没了，被换成了原始代码。`</font>`
 
-`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`另外，函数`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">addE()</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`没有打包进去，因为没有用到它。这种特性叫做摇树（tree-shaking），即打包时自动删除没有用到的代码。`</font>`
+`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`另外，函数 `</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">addE()</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`没有打包进去，因为没有用到它。这种特性叫做摇树（tree-shaking），即打包时自动删除没有用到的代码。`</font>`
 
 `<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`由于上面两点，rollup 输出的代码非常整洁，而且体积小于其他打包工具。`</font>`
 
-`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`使用参数`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">--file [FILENAME]</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`，将打包结果保存到指定文件。`</font>`
+`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`使用参数 `</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">--file [FILENAME]</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`，将打包结果保存到指定文件。`</font>`
 
 ```bash
 $ rollup main.js --file bundle.js
@@ -131,15 +129,15 @@ $ rollup main.js --file bundle.js
 $ rollup m1.js m2.js --dir dist
 ```
 
-`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`上面命令会在目录`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">dist</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`，打包生成多个文件：m1.js、m2.js、以及它们共同的依赖项（如果有的话）。`</font>`
+`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`上面命令会在目录 `</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">dist</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`，打包生成多个文件：m1.js、m2.js、以及它们共同的依赖项（如果有的话）。`</font>`
 
-`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`（2）参数`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">--format iife</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`，会把打包结果放在一个自动执行函数里面。`</font>`
+`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`（2）参数 `</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">--format iife</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`，会把打包结果放在一个自动执行函数里面。`</font>`
 
 ```bash
 $ rollup main.js --format iife
 ```
 
-`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`（3）如果希望打包后代码最小化，使用参数`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">--compact</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`。`</font>`
+`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`（3）如果希望打包后代码最小化，使用参数 `</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">--compact</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`。`</font>`
 
 ```bash
 $ rollup main.js --compact
@@ -153,7 +151,7 @@ $ rollup main.js | uglifyjs --output bundle.js
 
 `<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`上面命令分成两步，第一步是 rollup 打包，第二步是 uglifyjs 进行代码最小化，最后写入 bundle.js。`</font>`
 
-`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`（4）rollup 支持使用`</font>`[`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`配置文件`</font>`](https://rollupjs.org/guide/en/#configuration-files)`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`（rollup.config.js），把参数都写在里面，下面是一个例子。`</font>`
+`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`（4）rollup 支持使用 `</font>`[`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`配置文件 `</font>`](https://rollupjs.org/guide/en/#configuration-files) `<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`（rollup.config.js），把参数都写在里面，下面是一个例子。`</font>`
 
 ```javascript
 // rollup.config.js
@@ -166,7 +164,7 @@ export default {
 };
 ```
 
-`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`参数`</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">-c</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`启用配置文件。`</font>`
+`<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`参数 `</font><font style="color:rgb(17, 17, 17);background-color:#FFC0CB;">-c</font>``<font style="color:rgb(17, 17, 17);background-color:rgb(245, 245, 213);">`启用配置文件。`</font>`
 
 ```bash
 $ rollup -c

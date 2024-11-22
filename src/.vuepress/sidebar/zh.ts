@@ -51,7 +51,7 @@ export const zhSidebar = sidebar({
         },
         {
           text: "运维",
-          icon: "code",
+          icon: "yunwei",
           prefix: "运维/",
           link: "运维/",
         },
@@ -77,7 +77,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: "项目相关",
-      icon: "blog",
+      icon: "wodexiangmuicon1x",
       prefix: "project/",
       link: "project/",
     },

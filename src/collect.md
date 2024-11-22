@@ -20,6 +20,16 @@ actions:
     link: /404
 
 features:
+  - title: 我的项目
+    icon: "wodexiangmuicon1x"
+    details: 个人项目相关
+    link: /site/my-api
+
+  - title: 导航网站
+    icon: "daohang-wangzhan-wangzhanwailianchaxun"
+    details: 导航网站相关
+    link: /site/nav-web
+
   - title: 素材设计
     icon: hk-palette
     details: 图片、颜色、icon、字体相关

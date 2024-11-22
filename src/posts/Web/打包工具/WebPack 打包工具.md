@@ -1,6 +1,6 @@
 ---
 title: "WebPack 打包工具"
-icon: loop
+icon: webpack
 date: 2023-05-06
 category:
   - 打包工具

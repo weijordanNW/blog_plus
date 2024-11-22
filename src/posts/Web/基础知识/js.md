@@ -1,5 +1,5 @@
 ---
-icon: pen-to-square
+icon: js
 date: 2022-10-25
 category:
   - JavaScript

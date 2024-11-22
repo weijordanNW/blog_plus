@@ -10,10 +10,10 @@ services:
     volumes:
       - /myDocker/blog_plus:/app  # 将宿主机的/data/blog_plus目录映射到容器内的/app目录
     privileged: true  # 允许容器执行挂载宿主机上的任何文件
-    environment:
-      - VIRTUAL_HOST=weijordan.com,www.weijordan.com,blog.weijordan.com  # 替换为您的域名，用逗号分隔
-      - LETSENCRYPT_HOST=weijordan.com,www.weijordan.com,blog.weijordan.com  # 替换为您的域名
-      - LETSENCRYPT_EMAIL=1985615319@qq.com  # 替换为您的邮箱
+    # environment:
+    #   - VIRTUAL_HOST=weijordan.com,www.weijordan.com,blog.weijordan.com  # 替换为您的域名，用逗号分隔
+    #   - LETSENCRYPT_HOST=weijordan.com,www.weijordan.com,blog.weijordan.com  # 替换为您的域名
+    #   - LETSENCRYPT_EMAIL=1985615319@qq.com  # 替换为您的邮箱
     restart: unless-stopped # 容器退出时总是重启
     networks:
       - webnet

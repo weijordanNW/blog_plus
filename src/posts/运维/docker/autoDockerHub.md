@@ -1,6 +1,6 @@
 ---
 title: "开发环境通过github CICD 将Docker镜像自动发布项目到DockerHub"
-icon: loop
+icon: yunwei
 date: 2024-10-25
 category:
   - 运维

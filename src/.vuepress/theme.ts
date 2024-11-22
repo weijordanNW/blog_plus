@@ -14,8 +14,10 @@ export default MyTheme({
   iconAssets: [
     // 默认：
     "//at.alicdn.com/t/c/font_2410206_5vb9zlyghj.css",
-    // 自己的
+    // 二级
     "//at.alicdn.com/t/c/font_3941380_00g6dc2nedwir.css",
+    // 自己
+    "//at.alicdn.com/t/c/font_4751228_8j43wz6fesq.css"
   ],
 
   logo: "/logo.svg",
@@ -123,7 +125,7 @@ export default MyTheme({
         light: "one-dark-pro",
         dark: "one-dark-pro",
       },
-      lineNumbers:15,
+      lineNumbers: 15,
     },
     components: {
       components: ["BiliBili", "Badge"],

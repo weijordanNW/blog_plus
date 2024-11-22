@@ -3,6 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export const zhNavbar = navbar([
   "/",
   { text: "导航", icon: "discover", link: "/demo/" },
+  { text: "HOME", icon: "home1", link: "https://home.weijordan.com/" },
   // 笔记分类
   {
     text: "笔记分类",
@@ -17,7 +18,7 @@ export const zhNavbar = navbar([
           { text: "前端笔记", icon: "code", link: "Web/" },
           { text: "Linux", icon: "linux", link: "Linux/" },
           { text: "Python", icon: "python", link: "Python/" },
-          { text: "运维", icon: "code", link: "运维/" },
+          { text: "运维", icon: "yunwei", link: "运维/" },
           // { text: "Rust", icon: "hk-rust", link: "Rust/" },
           // { text: "React", icon: "react", link: "cross-platform/ReactNative/" },
           // {
@@ -32,7 +33,7 @@ export const zhNavbar = navbar([
         text: "博客相关",
         prefix: "/blog/",
         children: [
-          { text: "博客相关", icon: "blog", link: "" },
+          { text: "博客相关", icon: "bokeyuan", link: "" },
         ],
       },
       // 项目相关
@@ -40,7 +41,31 @@ export const zhNavbar = navbar([
         text: "项目相关",
         prefix: "/project/",
         children: [
-          { text: "部署", icon: "blog", link: "" },
+          { text: "部署", icon: "bushu", link: "" },
+        ],
+      },
+    ],
+  },
+  // 工具
+  {
+    text: "工具",
+    icon: "edit",
+    children: [
+      // 我的项目
+      {
+        text: "我的项目",
+        children: [
+          { text: "子冥の库", icon: "wangpan1", link: "https://dist.weijordan.com/" },
+          { text: "子冥のAI", icon: "chat_gpt", link: "https://chatgpt.weijordan.com/" },
+          { text: "监控服务", icon: "jiankong", link: "https://status.weijordan.com/" },
+        ],
+      },
+      // 其他项目
+      {
+        text: "其他项目",
+        // prefix: "/project/",
+        children: [
+          { text: "webSSH", icon: "WEBSSH", link: "https://ssh.zcmu.us.kg/" },
         ],
       },
     ],
@@ -77,6 +102,13 @@ export const zhNavbar = navbar([
     link: "/friend",
     // link: "/",
   },
+  // 库
+  // {
+  //   text: "资源仓库",
+  //   icon: "link",
+  //   link: "/repo",
+  //   // link: "/",
+  // },
   // 关于
   {
     text: "关于",

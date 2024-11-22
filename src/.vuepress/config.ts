@@ -33,6 +33,8 @@ export default defineUserConfig({
     "@MyCoverLink": path.resolve(__dirname, "./components/MyCoverLink.vue"),
     "@Design": path.resolve(__dirname, "./data/design.ts"),
     "@Api": path.resolve(__dirname, "./data/api.ts"),
+    "@MyApi": path.resolve(__dirname, "./data/myApi.ts"),
+    "@NavWeb": path.resolve(__dirname, "./data/navWeb.ts"),
   },
 
   theme: theme,

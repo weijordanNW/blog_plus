@@ -1,6 +1,6 @@
 ---
 title: "前端基础知识"
-icon: "chrome"
+icon: "html5"
 date: 1978-01-09
 timeline: false
 index: false

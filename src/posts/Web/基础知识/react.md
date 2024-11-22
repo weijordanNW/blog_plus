@@ -1,5 +1,5 @@
 ---
-icon: pen-to-square
+icon: react
 date: 2022-10-25
 category:
   - React
