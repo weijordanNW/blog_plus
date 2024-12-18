@@ -28,7 +28,7 @@ export const myapi: LinkData[] = [
   {
     name: "WebSSH",
     desc: "在线 提供 WebSSH 连接服务器",
-    icon: "https://dist.weijordan.com/d/Admin/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%981/Alist/%E5%9B%BE%E5%BA%93/%E5%8D%9A%E5%AE%A2/webssh.webp",
+    icon: "https://dist.weijordan.com/d/Alist/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%981/%E5%9B%BE%E5%BA%93/%E5%8D%9A%E5%AE%A2/webssh.webp",
     link: "https://ssh.zcmu.us.kg/",
   },
   {
@@ -40,7 +40,7 @@ export const myapi: LinkData[] = [
   {
     name: "子冥の电影网",
     desc: "提供电影,电视剧,动漫,综艺,纪录片等视频",
-    icon: "https://dist.weijordan.com/d/Admin/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%981/Alist/%E5%9B%BE%E5%BA%93/%E5%8D%9A%E5%AE%A2/film.jpg",
+    icon: "https://dist.weijordan.com/d/Alist/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%981/%E5%9B%BE%E5%BA%93/%E5%8D%9A%E5%AE%A2/film.jpg",
     link: "http://gofilm.weijordan.com/",
   },
 ];

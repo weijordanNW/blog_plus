@@ -235,3 +235,17 @@ new Crawler({
   },
 });
 ```
+
+## 拉取语雀文档
+package.json 文件里修改 
+"type": "module", 改为 "type": "commonjs",
+
+运行指令
+elog sync -e .elog.env
+
+拉取完成以后
+再次修改回来
+"type": "commonjs", 改为 "type": "module",
+
+## 更新语雀文档格式适配博客的FrontMatter
+updateFrontMatter.js

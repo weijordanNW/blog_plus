@@ -125,4 +125,10 @@ export const gpt: LinkData[] = [
     icon: "https://img1.baidu.com/it/u=2139434144,2034304417&fm=253&fmt=auto?w=800&h=800",
     link: "https://chat1.oaichat.cc/",
   },
+  {
+    name: "FLUX.1 AI绘图小助手",
+    desc: "一个免费 gpt4 和 画图的GPT工具",
+    icon: "https://share.fastgpt.in/favicon.ico",
+    link: "https://share.fastgpt.in/chat/share?shareId=zlbbyirumxf8j0rpazajy96s",
+  },
 ];

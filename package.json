@@ -3,12 +3,13 @@
   "version": "2.7.0",
   "description": "子冥的博客",
   "license": "MIT",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "build": "vuepress-vite build src",
     "clean-dev": "vuepress-vite dev src --clean-cache",
     "dev": "vuepress-vite dev src",
-    "update-package": "pnpm dlx vp-update"
+    "update-package": "pnpm dlx vp-update",
+    "update-frontmatter": "node scripts/updateFrontMatter.js"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",

@@ -44,6 +44,22 @@ export const zhNavbar = navbar([
           { text: "部署", icon: "bushu", link: "" },
         ],
       },
+      // // 笔记平台
+      // {
+      //   text: "语雀",
+      //   prefix: "/_yuque/",
+      //   children: [
+      //     { text: "首页", icon: "bokeyuan", link: "" },
+      //   ],
+      // },
+      // 笔记平台
+      {
+        text: "语雀",
+        prefix: "/yuque/",
+        children: [
+          { text: "首页", icon: "bokeyuan", link: "" },
+        ],
+      },
     ],
   },
   // 工具
