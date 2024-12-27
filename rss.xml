@@ -6,8 +6,8 @@
     <link>https://weijordan.com/</link>
     <description>Mr.子冥的博客</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 18 Dec 2024 08:52:29 GMT</pubDate>
-    <lastBuildDate>Wed, 18 Dec 2024 08:52:29 GMT</lastBuildDate>
+    <pubDate>Fri, 27 Dec 2024 06:42:15 GMT</pubDate>
+    <lastBuildDate>Fri, 27 Dec 2024 06:42:15 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>yuque</category>
@@ -41,6 +41,124 @@
     <category>Dart</category>
     <category>前端跨平台</category>
     <item>
+      <title>浏览器标签同步</title>
+      <link>https://weijordan.com/yuque/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9B%B8%E5%85%B3/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%A0%87%E7%AD%BE%E5%90%8C%E6%AD%A5.html</link>
+      <guid>https://weijordan.com/yuque/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9B%B8%E5%85%B3/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%A0%87%E7%AD%BE%E5%90%8C%E6%AD%A5.html</guid>
+      <source url="https://weijordan.com/rss.xml">浏览器标签同步</source>
+      <description>本插件需要把书签存储到 Gist 中，所以请确保有 GitHub 账号或可以通过网络注册 GitHub 账号。 向下划勾选 gist 然后保存好 github token 去gist地址勾选部分就是 这里示例 谷歌浏览器应用商店 点击以后 搜索 添加 点击插件 点击设置 设置</description>
+      <category>yuque</category>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2></h2>
+<figure><img src="https://github.com/dudor/BookmarkHub/raw/main/images/3.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h2></h2>
+<ul>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+</ul>
+<h2></h2>
+<p>本插件需要把书签存储到 Gist 中，所以请确保有 GitHub 账号或可以通过网络注册 GitHub 账号。</p>
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/bookmarkhub-sync-bookmark/fohimdklhhcpcnpmmichieidclgfdmol" target="_blank" rel="noopener noreferrer"></a></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/BookmarkHub/" target="_blank" rel="noopener noreferrer"></a></li>
+<li><a href="https://microsoftedge.microsoft.com/addons/detail/BookmarkHub/fdnmfpogadcljhecfhdikdecbkggfmgk" target="_blank" rel="noopener noreferrer"></a></li>
+<li><a href="https://chrome.google.com/webstore/detail/bookmarkhub-sync-bookmark/fohimdklhhcpcnpmmichieidclgfdmol" target="_blank" rel="noopener noreferrer"></a></li>
+</ul>
+<h2></h2>
+<ol>
+<li><a href="https://github.com/login" target="_blank" rel="noopener noreferrer"></a><a href="https://github.com/join" target="_blank" rel="noopener noreferrer"></a></li>
+<li><a href="https://github.com/settings/tokens/new" target="_blank" rel="noopener noreferrer"></a></li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<p>向下划勾选 gist</p>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<p>然后保存好 github token</p>
+<ol start="3">
+<li><a href="https://gist.github.com/" target="_blank" rel="noopener noreferrer"></a><strong></strong></li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<p>去gist地址勾选部分就是 </p>
+<figure><figcaption></figcaption></figure>
+<ol start="4">
+<li>
+</li>
+</ol>
+<p>这里示例 <a href="https://chromewebstore.google.com/category/extensions?utm_source=ext_sidebar&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">谷歌浏览器应用商店</a> 点击以后 搜索 添加</p>
+<figure><figcaption></figcaption></figure>
+<p>点击插件</p>
+<figure><figcaption></figcaption></figure>
+<p>点击设置</p>
+<figure><figcaption></figcaption></figure>
+<p>设置</p>
+<figure><figcaption></figcaption></figure>
+<ol start="5">
+<li>
+</li>
+</ol>
+<h2></h2>
+<ul>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://github.com/dudor/BookmarkHub/raw/main/images/3.gif" type="image/gif"/>
+    </item>
+    <item>
+      <title>vscode云端配置同步</title>
+      <link>https://weijordan.com/yuque/%E7%BC%96%E8%BE%91%E5%99%A8/Vscode/vscode%E4%BA%91%E7%AB%AF%E9%85%8D%E7%BD%AE%E5%90%8C%E6%AD%A5.html</link>
+      <guid>https://weijordan.com/yuque/%E7%BC%96%E8%BE%91%E5%99%A8/Vscode/vscode%E4%BA%91%E7%AB%AF%E9%85%8D%E7%BD%AE%E5%90%8C%E6%AD%A5.html</guid>
+      <source url="https://weijordan.com/rss.xml">vscode云端配置同步</source>
+      <description>[vscode配置](https://so.csdn.net/so/search?q=vscode%E9%85%8D%E7%BD%AE&amp;spm=1001.2101.3001.7020)</description>
+      <category>yuque</category>
+      <pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[[vscode配置](https://so.csdn.net/so/search?q=vscode%E9%85%8D%E7%BD%AE&amp;spm=1001.2101.3001.7020)<h3></h3>
+<figure><figcaption></figcaption></figure>
+<h3></h3>
+<figure><figcaption></figcaption></figure>
+<h3></h3>
+<figure><figcaption></figcaption></figure>
+<h3></h3>
+<figure><figcaption></figcaption></figure>
+<h3></h3>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h3></h3>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h3></h3>
+<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">{</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">    "gitee.gist"</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">:</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">"test"</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">,</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">    "gitee.access_token"</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">:</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">"test"</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">,</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+</div><h3></h3>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h3></h3>
+<h3></h3>
+<figure><figcaption></figcaption></figure>
+]]></content:encoded>
+    </item>
+    <item>
       <title>语雀</title>
       <link>https://weijordan.com/yuqueback/</link>
       <guid>https://weijordan.com/yuqueback/</guid>
@@ -67,7 +185,6 @@
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/Elog%E9%85%8D%E7%BD%AE%E8%AF%A6%E8%A7%A3.html</guid>
       <source url="https://weijordan.com/rss.xml">Elog配置详解</source>
       <description>Elog配置详解 参考 Elog 文档，本博客的 Elog 的配置如下： 语雀配置 注意 `platform`yuque即可 token为语雀Token，可从此处获取 username为语雀账号，一般为手机号 password为语雀登录密码，如果没有设置过，可在账号设置中进行设置 login为语雀路径，可从此处获取 repo为语雀仓库短名称，可从此处获...</description>
-      <category>yuque</category>
       <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>参考 <a href="https://elog.1874.cool/" target="_blank" rel="noopener noreferrer">Elog 文档</a>，本博客的 Elog 的配置如下：</p>
@@ -180,7 +297,6 @@
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E5%86%99%E4%BD%9C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html</guid>
       <source url="https://weijordan.com/rss.xml">写作注意事项</source>
       <description>写作注意事项 前言 在使用 Elog 同步语雀上的文档时，因为是将富文本向下转成 markdown，会有很多样式损失。这是由于 markdown 样式集合＜ 语雀样式集合。所以在语雀上书写时，得按照 markdown 支持的样式进行写作。 可以在这里看到语雀文档被导出为 markdown 时的样式损失程度 如果你不能接受样式损失，可能 markdown...</description>
-      <category>yuque</category>
       <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <h2>前言</h2>
@@ -206,7 +322,7 @@
       <link>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.html</link>
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.html</guid>
       <source url="https://weijordan.com/rss.xml">快速开始</source>
-      <description>前言 注意 当前支持语雀 Token 模式（需要语雀超级会员）和账号密码模式（不需要任何会员） 文档站点工具汇总 写作平台：语雀 文档平台：Hexo 博客主题：Next 文档同步：Elog 部署平台：Vercel 文档站点搭建指南 Fork模板仓库 点击 Fork 该模板仓库到个人 Github 账号仓库下并 clone 到本地。 安装依赖 在项目根目...</description>
+      <description>前言 注意 当前支持语雀 Token 模式（需要语雀超级会员）和账号密码模式（不需要任何会员） 文档站点工具汇总 写作平台：语雀 文档平台：Hexo 博客主题：Next 文档同步：Elog 部署平台：Vercel 文档站点搭建指南 Hexo搭建教程参考 搭建Hexo个人博客详细教程_hexo博客-CSDN博客 Shoka 主题 参考 Hexo 主题 S...</description>
       <category>yuque</category>
       <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>前言</h2>
@@ -223,7 +339,22 @@
 <li>部署平台：<a href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel</a></li>
 </ul>
 <h2>文档站点搭建指南</h2>
-<h3>Fork模板仓库</h3>
+<p>Hexo搭建教程参考</p>
+<p><a href="https://blog.csdn.net/weixin_44763569/article/details/106435118" target="_blank" rel="noopener noreferrer">搭建Hexo个人博客详细教程_hexo博客-CSDN博客</a></p>
+<p>Shoka 主题 参考</p>
+<p><a href="https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/" target="_blank" rel="noopener noreferrer">Hexo 主题 Shoka &amp; multi-markdown-it 渲染器使用说明</a></p>
+<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">hexo配置shoka</span><span style="color:#98C379;--shiki-dark:#98C379"> 安装插件</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> un</span><span style="color:#98C379;--shiki-dark:#98C379"> hexo-renderer-marked</span><span style="color:#D19A66;--shiki-dark:#D19A66"> --save</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> i</span><span style="color:#98C379;--shiki-dark:#98C379"> hexo-renderer-multi-markdown-it</span><span style="color:#D19A66;--shiki-dark:#D19A66"> --save</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> install</span><span style="color:#98C379;--shiki-dark:#98C379"> hexo-autoprefixer</span><span style="color:#D19A66;--shiki-dark:#D19A66"> --save</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> install</span><span style="color:#98C379;--shiki-dark:#98C379"> hexo-algoliasearch</span><span style="color:#D19A66;--shiki-dark:#D19A66"> --save</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> install</span><span style="color:#98C379;--shiki-dark:#98C379"> hexo-symbols-count-time</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> install</span><span style="color:#98C379;--shiki-dark:#98C379"> hexo-feed</span><span style="color:#D19A66;--shiki-dark:#D19A66"> --save-dev</span></span></code></pre>
+</div><h3>Fork模板仓库</h3>
 <p><a href="https://github.com/elog-x/yuque-hexo/fork" target="_blank" rel="noopener noreferrer">点击 Fork</a> 该模板仓库到个人 Github 账号仓库下并 clone 到本地。</p>
 <h3>安装依赖</h3>
 <p>在项目根目录下运行命令安装依赖：</p>
@@ -306,7 +437,6 @@ Workflow，会导致语雀后台登录设备中出现大量美国IP，目前尚�
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E8%87%AA%E5%AE%9A%E4%B9%89Elog%E9%85%8D%E7%BD%AE.html</guid>
       <source url="https://weijordan.com/rss.xml">自定义Elog配置</source>
       <description>自定义Elog配置 更多自定义Elog 配置详情，请阅读 Elog 文档</description>
-      <category>yuque</category>
       <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>更多自定义Elog 配置详情，请阅读 <a href="https://elog.1874.cool/" target="_blank" rel="noopener noreferrer">Elog 文档</a></p>
@@ -318,7 +448,6 @@ Workflow，会导致语雀后台登录设备中出现大量美国IP，目前尚�
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E8%AF%AD%E9%9B%80%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0.html</guid>
       <source url="https://weijordan.com/rss.xml">语雀示例文章</source>
       <description>基础 1.图片 2.表格 3.附件 测试文本1.docx 4.状态 布局和样式 1.高亮块 相关信息 蓝色背景高亮块 :::tips 灰色背景高亮 ::: :::color1 天蓝 ::: :::color2 翠绿 ::: :::success 绿色 ::: 注意 黄色 :::color3 橙色 ::: 警告 橙粉 :::color4 粉色 ::: :...</description>
-      <category>yuque</category>
       <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>基础</h2>
 <h3>1.图片</h3>
@@ -334,7 +463,6 @@ Workflow，会导致语雀后台登录设备中出现大量美国IP，目前尚�
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Vuepress_Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/Elog%E9%85%8D%E7%BD%AE%E8%AF%A6%E8%A7%A3.html</guid>
       <source url="https://weijordan.com/rss.xml">Elog配置详解</source>
       <description>Elog配置详解 参考 Elog 文档，本博客的 Elog 的配置如下： 语雀配置 注意 `platform`yuque即可 token为语雀Token，可从此处获取 username为语雀账号，一般为手机号 password为语雀登录密码，如果没有设置过，可在账号设置中进行设置 login为语雀路径，可从此处获取 repo为语雀仓库短名称，可从此处获...</description>
-      <category>yuque</category>
       <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>参考 <a href="https://elog.1874.cool/" target="_blank" rel="noopener noreferrer">Elog 文档</a>，本博客的 Elog 的配置如下：</p>
@@ -447,7 +575,6 @@ Workflow，会导致语雀后台登录设备中出现大量美国IP，目前尚�
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Vuepress_Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E5%86%99%E4%BD%9C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html</guid>
       <source url="https://weijordan.com/rss.xml">写作注意事项</source>
       <description>写作注意事项 前言 在使用 Elog 同步语雀上的文档时，因为是将富文本向下转成 markdown，会有很多样式损失。这是由于 markdown 样式集合＜ 语雀样式集合。所以在语雀上书写时，得按照 markdown 支持的样式进行写作。 可以在这里看到语雀文档被导出为 markdown 时的样式损失程度 如果你不能接受样式损失，可能 markdown...</description>
-      <category>yuque</category>
       <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <h2>前言</h2>
@@ -474,7 +601,6 @@ Workflow，会导致语雀后台登录设备中出现大量美国IP，目前尚�
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Vuepress_Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.html</guid>
       <source url="https://weijordan.com/rss.xml">快速开始</source>
       <description>前言 注意 当前支持语雀 Token 模式（需要语雀超级会员）和账号密码模式（不需要任何会员） 文档站点工具汇总 写作平台：语雀 文档平台：Vuepress 博客主题：Hope 文档同步：Elog 部署平台：Vercel / Docker 文档站点搭建指南 点击 Vuepress官网 根据教程进行建vuepress项目 或者 点击 Vuepress-t...</description>
-      <category>yuque</category>
       <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>前言</h2>
 <div class="hint-container warning">
@@ -692,7 +818,6 @@ Workflow，会导致语雀后台登录设备中出现大量美国IP，目前尚�
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Vuepress_Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E8%87%AA%E5%AE%9A%E4%B9%89Elog%E9%85%8D%E7%BD%AE.html</guid>
       <source url="https://weijordan.com/rss.xml">自定义Elog配置</source>
       <description>自定义Elog配置 更多自定义Elog 配置详情，请阅读 Elog 文档</description>
-      <category>yuque</category>
       <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>更多自定义Elog 配置详情，请阅读 <a href="https://elog.1874.cool/" target="_blank" rel="noopener noreferrer">Elog 文档</a></p>
@@ -704,7 +829,6 @@ Workflow，会导致语雀后台登录设备中出现大量美国IP，目前尚�
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Vuepress_Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E8%AF%AD%E9%9B%80%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0.html</guid>
       <source url="https://weijordan.com/rss.xml">语雀示例文章</source>
       <description>基础 1.图片 2.表格 3.附件 测试文本1.docx 4.状态 布局和样式 1.高亮块 相关信息 蓝色背景高亮块 :::tips 灰色背景高亮 ::: :::color1 天蓝 ::: :::color2 翠绿 ::: :::success 绿色 ::: 注意 黄色 :::color3 橙色 ::: 警告 橙粉 :::color4 粉色 ::: :...</description>
-      <category>yuque</category>
       <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>基础</h2>
 <h3>1.图片</h3>
