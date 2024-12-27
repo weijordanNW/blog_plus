@@ -237,7 +237,8 @@ new Crawler({
 ```
 
 ## 拉取语雀文档
-package.json 文件里修改 
+
+package.json 文件里修改
 "type": "module", 改为 "type": "commonjs",
 
 运行指令
@@ -248,4 +249,11 @@ elog sync -e .elog.env
 "type": "commonjs", 改为 "type": "module",
 
 ## 更新语雀文档格式适配博客的FrontMatter
+
+根目录下scripts
+
 updateFrontMatter.js
+
+运行
+
+npm run update-frontmatter

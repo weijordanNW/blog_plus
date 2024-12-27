@@ -6,8 +6,8 @@
     <link>https://weijordan.com/</link>
     <description>Mr.子冥的博客</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 18 Dec 2024 08:48:24 GMT</pubDate>
-    <lastBuildDate>Wed, 18 Dec 2024 08:48:24 GMT</lastBuildDate>
+    <pubDate>Fri, 27 Dec 2024 06:33:49 GMT</pubDate>
+    <lastBuildDate>Fri, 27 Dec 2024 06:33:49 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>yuque</category>
@@ -34,19 +34,435 @@
     <category>Vercel</category>
     <category>GitHub</category>
     <category>Git</category>
-    <category>开源软件</category>
     <category>Flutter</category>
     <category>Dart</category>
     <category>前端跨平台</category>
+    <category>开源软件</category>
     <category>CSS</category>
     <category>Vue</category>
+    <item>
+      <title>vscode云端配置同步</title>
+      <link>https://weijordan.com/yuque/%E7%BC%96%E8%BE%91%E5%99%A8/Vscode/vscode%E4%BA%91%E7%AB%AF%E9%85%8D%E7%BD%AE%E5%90%8C%E6%AD%A5.html</link>
+      <guid>https://weijordan.com/yuque/%E7%BC%96%E8%BE%91%E5%99%A8/Vscode/vscode%E4%BA%91%E7%AB%AF%E9%85%8D%E7%BD%AE%E5%90%8C%E6%AD%A5.html</guid>
+      <source url="https://weijordan.com/rss.xml">vscode云端配置同步</source>
+      <description>[vscode配置](https://so.csdn.net/so/search?q=vscode%E9%85%8D%E7%BD%AE&amp;spm=1001.2101.3001.7020)</description>
+      <category>yuque</category>
+      <pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[[vscode配置](https://so.csdn.net/so/search?q=vscode%E9%85%8D%E7%BD%AE&amp;spm=1001.2101.3001.7020)<h3></h3>
+<figure><figcaption></figcaption></figure>
+<h3></h3>
+<figure><figcaption></figcaption></figure>
+<h3></h3>
+<figure><figcaption></figcaption></figure>
+<h3></h3>
+<figure><figcaption></figcaption></figure>
+<h3></h3>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h3></h3>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h3></h3>
+<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">{</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">    "gitee.gist"</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">:</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">"test"</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">,</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">    "gitee.access_token"</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">:</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">"test"</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">,</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+</div><h3></h3>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h3></h3>
+<h3></h3>
+<figure><figcaption></figcaption></figure>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>浏览器标签同步</title>
+      <link>https://weijordan.com/yuque/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9B%B8%E5%85%B3/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%A0%87%E7%AD%BE%E5%90%8C%E6%AD%A5.html</link>
+      <guid>https://weijordan.com/yuque/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9B%B8%E5%85%B3/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%A0%87%E7%AD%BE%E5%90%8C%E6%AD%A5.html</guid>
+      <source url="https://weijordan.com/rss.xml">浏览器标签同步</source>
+      <description>本插件需要把书签存储到 Gist 中，所以请确保有 GitHub 账号或可以通过网络注册 GitHub 账号。 向下划勾选 gist 然后保存好 github token 去gist地址勾选部分就是 这里示例 谷歌浏览器应用商店 点击以后 搜索 添加 点击插件 点击设置 设置</description>
+      <category>yuque</category>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2></h2>
+<figure><img src="https://github.com/dudor/BookmarkHub/raw/main/images/3.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<h2></h2>
+<ul>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+</ul>
+<h2></h2>
+<p>本插件需要把书签存储到 Gist 中，所以请确保有 GitHub 账号或可以通过网络注册 GitHub 账号。</p>
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/bookmarkhub-sync-bookmark/fohimdklhhcpcnpmmichieidclgfdmol" target="_blank" rel="noopener noreferrer"></a></li>
+<li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/BookmarkHub/" target="_blank" rel="noopener noreferrer"></a></li>
+<li><a href="https://microsoftedge.microsoft.com/addons/detail/BookmarkHub/fdnmfpogadcljhecfhdikdecbkggfmgk" target="_blank" rel="noopener noreferrer"></a></li>
+<li><a href="https://chrome.google.com/webstore/detail/bookmarkhub-sync-bookmark/fohimdklhhcpcnpmmichieidclgfdmol" target="_blank" rel="noopener noreferrer"></a></li>
+</ul>
+<h2></h2>
+<ol>
+<li><a href="https://github.com/login" target="_blank" rel="noopener noreferrer"></a><a href="https://github.com/join" target="_blank" rel="noopener noreferrer"></a></li>
+<li><a href="https://github.com/settings/tokens/new" target="_blank" rel="noopener noreferrer"></a></li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<p>向下划勾选 gist</p>
+<figure><figcaption></figcaption></figure>
+<figure><figcaption></figcaption></figure>
+<p>然后保存好 github token</p>
+<ol start="3">
+<li><a href="https://gist.github.com/" target="_blank" rel="noopener noreferrer"></a><strong></strong></li>
+</ol>
+<figure><figcaption></figcaption></figure>
+<p>去gist地址勾选部分就是 </p>
+<figure><figcaption></figcaption></figure>
+<ol start="4">
+<li>
+</li>
+</ol>
+<p>这里示例 <a href="https://chromewebstore.google.com/category/extensions?utm_source=ext_sidebar&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">谷歌浏览器应用商店</a> 点击以后 搜索 添加</p>
+<figure><figcaption></figcaption></figure>
+<p>点击插件</p>
+<figure><figcaption></figcaption></figure>
+<p>点击设置</p>
+<figure><figcaption></figcaption></figure>
+<p>设置</p>
+<figure><figcaption></figcaption></figure>
+<ol start="5">
+<li>
+</li>
+</ol>
+<h2></h2>
+<ul>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://github.com/dudor/BookmarkHub/raw/main/images/3.gif" type="image/gif"/>
+    </item>
+    <item>
+      <title>语雀</title>
+      <link>https://weijordan.com/yuqueback/</link>
+      <guid>https://weijordan.com/yuqueback/</guid>
+      <source url="https://weijordan.com/rss.xml">语雀</source>
+      <description>项目相关 🧩 这里会记录一些语雀及后续更新过程中相关的文章 目录 📌 快速开始 📌 写作注意事项 📌 自定义Elog配置 📌 语雀示例文章</description>
+      <pubDate>Wed, 18 Dec 2024 08:50:27 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div class="hint-container tip">
+<p class="hint-container-title">🧩</p>
+<p>这里会记录一些语雀及后续更新过程中相关的文章</p>
+</div>
+<h2>目录</h2>
+<ul>
+<li><a href="/_yuque/%E8%AF%AD%E9%9B%80+Vuepress+Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B">📌 快速开始</a></li>
+<li><a href="/_yuque/%E8%AF%AD%E9%9B%80+Vuepress+Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E5%86%99%E4%BD%9C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9">📌 写作注意事项</a></li>
+<li><a href="/_yuque/%E8%AF%AD%E9%9B%80+Vuepress+Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E8%87%AA%E5%AE%9A%E4%B9%89Elog%E9%85%8D%E7%BD%AE">📌 自定义Elog配置</a></li>
+<li><a href="/_yuque/%E8%AF%AD%E9%9B%80+Vuepress+Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E8%AF%AD%E9%9B%80%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0">📌 语雀示例文章</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Elog配置详解</title>
+      <link>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/Elog%E9%85%8D%E7%BD%AE%E8%AF%A6%E8%A7%A3.html</link>
+      <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/Elog%E9%85%8D%E7%BD%AE%E8%AF%A6%E8%A7%A3.html</guid>
+      <source url="https://weijordan.com/rss.xml">Elog配置详解</source>
+      <description>Elog配置详解 参考 Elog 文档，本博客的 Elog 的配置如下： 语雀配置 注意 `platform`yuque即可 token为语雀Token，可从此处获取 username为语雀账号，一般为手机号 password为语雀登录密码，如果没有设置过，可在账号设置中进行设置 login为语雀路径，可从此处获取 repo为语雀仓库短名称，可从此处获...</description>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>参考 <a href="https://elog.1874.cool/" target="_blank" rel="noopener noreferrer">Elog 文档</a>，本博客的 Elog 的配置如下：</p>
+<div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">module</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">exports</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  write</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    platform</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'yuque'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    // Token 模式（需要语雀超级会员）</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    yuque</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      token</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_TOKEN</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      login</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_LOGIN</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      repo</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_REPO</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      onlyPublic</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">false</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      onlyPublished</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    },</span></span>
+<span class="line"><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    // 账号密码模式</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">    "yuque-pwd"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      username</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_USERNAME</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      password</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_PASSWORD</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      login</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_LOGIN</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      repo</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_REPO</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    }</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  },</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  deploy</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    platform</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'local'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    local</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      outputDir</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'./source/_posts'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      filename</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'title'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      format</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'markdown'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      catalog</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">false</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      frontMatter</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        enable</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        include</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: [</span><span style="color:#98C379;--shiki-dark:#98C379">'categories'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'tags'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'title'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'date'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'updated'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'permalink'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'cover'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'description'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">],</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        timeFormat</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      }</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    }</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  },</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    enable</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    platform</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'local'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    local</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      outputDir</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'./source/images'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      prefixKey</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'/images'</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    }</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  },</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>语雀配置</h2>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+`platform`<code>yuque</code>即可</div>
+<div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">write</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    platform</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'yuque-pwd'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    yuque</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: { </span><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">// Token 模式</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      token</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_TOKEN</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      login</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_LOGIN</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      repo</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_REPO</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      onlyPublic</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">false</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      onlyPublished</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    },</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">    "yuque-pwd"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: { </span><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">// 账号密码模式</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      username</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_USERNAME</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      password</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_PASSWORD</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      login</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_LOGIN</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      repo</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_REPO</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      linebreak</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">false</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    }</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  },</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><code>token</code>为语雀Token，可从<a href="https://elog.1874.cool/notion/gvnxobqogetukays#token" target="_blank" rel="noopener noreferrer">此处</a>获取</li>
+<li><code>username</code>为语雀账号，一般为手机号</li>
+<li><code>password</code>为语雀登录密码，如果没有设置过，可在账号设置中进行设置</li>
+<li><code>login</code>为语雀路径，可从<a href="https://elog.1874.cool/notion/gvnxobqogetukays#login" target="_blank" rel="noopener noreferrer">此处</a>获取</li>
+<li><code>repo</code>为语雀仓库短名称，可从<a href="https://elog.1874.cool/notion/gvnxobqogetukays#repo" target="_blank" rel="noopener noreferrer">此处</a>获取</li>
+<li><code>onlyPublic</code>表示是否只下载互联网公开文档</li>
+<li><code>onlyPublished</code>表示是否只下载已发布文档</li>
+</ul>
+<h2>本地配置</h2>
+<div class="language-javascript" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">local</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  outputDir</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'./source/_posts'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    filename</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'title'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    format</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'markdown'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    catalog</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">false</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    frontMatter</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      enable</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      include</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: [</span><span style="color:#98C379;--shiki-dark:#98C379">'categories'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'tags'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'title'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'date'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'updated'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'permalink'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'cover'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'description'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">],</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      timeFormat</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    }</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+</div><ul>
+<li><code>outputDir</code>表示文档的存放位置为项目根目录下的<code>docs/docs</code>文件夹中</li>
+<li><code>filename</code>表示文档将以数据库的 <code>title</code> 字段命名，也就是文档名</li>
+<li><code>format</code>表示文档将以 markdown 的形式保存</li>
+<li><code>frontMatter.enable</code>表示在 markdown 文档开头添加 Front Matter</li>
+<li><code>frontMatter.include</code>表示只输出数组中存在的字段，数据库的其他字段忽略</li>
+</ul>
+<h2>图床配置</h2>
+<div class="language-javascript" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">local</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  outputDir</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'./source/images'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  prefixKey</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'/images'</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+</div><ul>
+<li><code>outputDir</code>表示图片的存放位置为项目根目录下的<code>source/images</code>文件夹中</li>
+<li><code>prefixKey=/images</code>表示图片的统一前缀为<code>/images</code>，因为 Hexo 会将<code>source/images</code>文件夹视为<a href="https://hexo.io/zh-cn/docs/asset-folders" target="_blank" rel="noopener noreferrer">静态资源根目录</a>，统一将图片放在这里，并指定图片前缀，Hexo 才能找到此图片</li>
+</ul>
+<h2><a class="header-anchor" href="#更多-elog-配置详情-请阅读-elog-文档"><span>更多 Elog 配置详情，请阅读 </span></a><a href="https://elog.1874.cool/" target="_blank" rel="noopener noreferrer">Elog 文档</a></h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>写作注意事项</title>
+      <link>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E5%86%99%E4%BD%9C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html</link>
+      <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E5%86%99%E4%BD%9C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html</guid>
+      <source url="https://weijordan.com/rss.xml">写作注意事项</source>
+      <description>写作注意事项 前言 在使用 Elog 同步语雀上的文档时，因为是将富文本向下转成 markdown，会有很多样式损失。这是由于 markdown 样式集合＜ 语雀样式集合。所以在语雀上书写时，得按照 markdown 支持的样式进行写作。 可以在这里看到语雀文档被导出为 markdown 时的样式损失程度 如果你不能接受样式损失，可能 markdown...</description>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>前言</h2>
+<p>在使用 Elog 同步语雀上的文档时，因为是将富文本向下转成 markdown，会有很多样式损失。这是由于 markdown 样式集合＜ 语雀样式集合。所以在语雀上书写时，得按照 markdown 支持的样式进行写作。</p>
+<blockquote>
+<p>可以在<a href="/docs/%E5%85%B3%E4%BA%8E/%E8%AF%AD%E9%9B%80%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0">这里</a>看到语雀文档被导出为 markdown 时的样式损失程度</p>
+</blockquote>
+<p>如果你不能接受样式损失，可能 markdown 并不适合你，隔壁 <a href="https://github.com/tangly1024/NotionNext" target="_blank" rel="noopener noreferrer">NotionNext</a> 可能更适合你搭建文档站点。</p>
+<h2>语雀格式注意点</h2>
+<h3>不要使用 markdown 不支持的样式/语法</h3>
+<p>例如字体颜色、多级折叠块、分栏、数据表、嵌入等。导出为 markdown 都不能正常展示。</p>
+<h3>使用双换行符或结尾双空格进行段落换行</h3>
+<p>根据 markdown 的写作建议，可以使用双换行符或结尾双空格进行段落换行，而语雀导出的 markdown 不会使用此方式，所以会导致段落换行失败。这里就使用了结尾双空格换行</p>
+<p>所以在语雀书写文档时，就需要使用此方法进行段落换行。</p>
+<h3>语雀一级标题留给文档标题（建议）</h3>
+<p>VitePress 的正文缺少文档标题可能会比较别扭，所以这里建议语雀一级标题留给文档标题，正文从二级标题开始写作</p>
+<h3>部分高亮块在 Hexo 可能不支持显示</h3>
+<p>可能需要 hexo 相关插件，待完善</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>快速开始</title>
+      <link>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.html</link>
+      <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.html</guid>
+      <source url="https://weijordan.com/rss.xml">快速开始</source>
+      <description>前言 注意 当前支持语雀 Token 模式（需要语雀超级会员）和账号密码模式（不需要任何会员） 文档站点工具汇总 写作平台：语雀 文档平台：Hexo 博客主题：Next 文档同步：Elog 部署平台：Vercel 文档站点搭建指南 Hexo搭建教程参考 搭建Hexo个人博客详细教程_hexo博客-CSDN博客 Shoka 主题 参考 Hexo 主题 S...</description>
+      <category>yuque</category>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>前言</h2>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>当前支持语雀 Token 模式（需要语雀超级会员）和账号密码模式（不需要任何会员）</p>
+</div>
+<h2>文档站点工具汇总</h2>
+<ul>
+<li>写作平台：语雀</li>
+<li>文档平台：<a href="https://hexo.io/" target="_blank" rel="noopener noreferrer">Hexo</a></li>
+<li>博客主题：<a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener noreferrer">Next</a></li>
+<li>文档同步：<a href="https://github.com/LetTTGACO/elog" target="_blank" rel="noopener noreferrer">Elog</a></li>
+<li>部署平台：<a href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel</a></li>
+</ul>
+<h2>文档站点搭建指南</h2>
+<p>Hexo搭建教程参考</p>
+<p><a href="https://blog.csdn.net/weixin_44763569/article/details/106435118" target="_blank" rel="noopener noreferrer">搭建Hexo个人博客详细教程_hexo博客-CSDN博客</a></p>
+<p>Shoka 主题 参考</p>
+<p><a href="https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/" target="_blank" rel="noopener noreferrer">Hexo 主题 Shoka &amp; multi-markdown-it 渲染器使用说明</a></p>
+<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">hexo配置shoka</span><span style="color:#98C379;--shiki-dark:#98C379"> 安装插件</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> un</span><span style="color:#98C379;--shiki-dark:#98C379"> hexo-renderer-marked</span><span style="color:#D19A66;--shiki-dark:#D19A66"> --save</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> i</span><span style="color:#98C379;--shiki-dark:#98C379"> hexo-renderer-multi-markdown-it</span><span style="color:#D19A66;--shiki-dark:#D19A66"> --save</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> install</span><span style="color:#98C379;--shiki-dark:#98C379"> hexo-autoprefixer</span><span style="color:#D19A66;--shiki-dark:#D19A66"> --save</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> install</span><span style="color:#98C379;--shiki-dark:#98C379"> hexo-algoliasearch</span><span style="color:#D19A66;--shiki-dark:#D19A66"> --save</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> install</span><span style="color:#98C379;--shiki-dark:#98C379"> hexo-symbols-count-time</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> install</span><span style="color:#98C379;--shiki-dark:#98C379"> hexo-feed</span><span style="color:#D19A66;--shiki-dark:#D19A66"> --save-dev</span></span></code></pre>
+</div><h3>Fork模板仓库</h3>
+<p><a href="https://github.com/elog-x/yuque-hexo/fork" target="_blank" rel="noopener noreferrer">点击 Fork</a> 该模板仓库到个人 Github 账号仓库下并 clone 到本地。</p>
+<h3>安装依赖</h3>
+<p>在项目根目录下运行命令安装依赖：</p>
+<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> install</span></span></code></pre>
+</div><h3>新建本地调试文件</h3>
+<p>在项目根目录中复制<code>.elog.example.env</code>文件并改名为<code>.elog.env</code>，此文件将用于本地同步文档时使用。</p>
+<h3>配置语雀</h3>
+<p>参考<a href="https://www.yuque.com/1874w/yuque-hexo-template" target="_blank" rel="noopener noreferrer">示例知识库</a>，选择或新建语雀文档知识库，并按照<a href="https://elog.1874.cool/notion/gvnxobqogetukays#login" target="_blank" rel="noopener noreferrer">文档提示</a>配置语雀并获取<code>token login repo</code>。并在本地<code>.elog.env</code>中写入。</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>Token 模式或者账号密码模式二选一即可，默认为账号密码模式，如果需要切换为 Token 模式，则修改<code>elog.config.js</code>中的<code>platform</code>为<code>yuque</code></p>
+</div>
+<div class="language-plain" data-ext="plain" data-title="plain"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span># 语雀（Token方式）</span></span>
+<span class="line"><span>YUQUE_TOKEN=获取的Token</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#语雀（账号密码模式）</span></span>
+<span class="line"><span>YUQUE_USERNAME=一般是手机号</span></span>
+<span class="line"><span>YUQUE_PASSWORD=登录密码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 语雀公共参数</span></span>
+<span class="line"><span>YUQUE_LOGIN=获取的login</span></span>
+<span class="line"><span>YUQUE_REPO=获取的repo</span></span></code></pre>
+</div><h3>本地调试</h3>
+<p>在项目根目录运行同步命令：</p>
+<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> run</span><span style="color:#98C379;--shiki-dark:#98C379"> sync:local</span></span></code></pre>
+</div><h3>启动 Hexo</h3>
+<p>在项目根目录运行 Hexo 启动命令，打开本地链接。</p>
+<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> run</span><span style="color:#98C379;--shiki-dark:#98C379"> server</span></span></code></pre>
+</div><h2>配置 Hexo 博客</h2>
+<p>根据 <a href="https://hexo.io/" target="_blank" rel="noopener noreferrer">Hexo</a> 文档和 <a href="https://github.com/next-theme/hexo-theme-next" target="_blank" rel="noopener noreferrer">next</a> 主题配置文档，配置你的博客直到你满意为主，你也可以换别的主题，这里不做演示</p>
+<h3>提交代码到 github</h3>
+<p>本地访问没问题直接提交所有文件到 Github 仓库即可</p>
+<h3>部署到 Vercel</h3>
+<p>注册 Vercel 账号并绑定 Github，在 Vercel 导入 该项目，Vercel 会自动识别出该 VitePress 项目，不需要改动，直接选择 Deploy 部署。部署完成会有一个 Vercel 临时域名，你也可以绑定自己的域名。</p>
+<figure><figcaption></figcaption></figure>
+<h2>自动化同步&amp;部署</h2>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>注意：在非国内CI/CD环境中使用账号密码模式登录语雀，例如Github<br>
+Workflow，会导致语雀后台登录设备中出现大量美国IP，目前尚不清楚语雀是否会有安全限制措施，请谨慎使用。推荐本地同步时使用。</p>
+</div>
+<h3>检查 Github Actions 权限</h3>
+<p>在 Github 仓库的设置中找到 <code>Actions-General</code>，打开流水线写入权限<code>Workflow permissions</code></p>
+<figure><figcaption></figcaption></figure>
+<h3>配置环境变量</h3>
+<p>在本地运行时，用的是<code>.elog.env</code>文件中定义的语雀账号信息，而在 Github Actions 时，需要提前配置环境变量。</p>
+<p>在 Github 仓库的设置中找到 <code>Secrets and variables</code>，新增仓库的环境变量和<code>.elog.env</code>保持一致即可</p>
+<figure><figcaption></figcaption></figure>
+<h3>自动化部署</h3>
+<p>当在语雀中改动文档后，手动/自动触发 Github Actions流水线，会重新从语雀增量拉取文档，自动提交代码到 Github 仓库。</p>
+<p>Vercel 会实时监测仓库代码，当有新的提交时都会重新部署博客。如此就实现了自动化部署博客。</p>
+<p>整个流程的关键点就在于：如何手动/自动触发 Github Actions。</p>
+<p>在项目.<code>github/workflows/sync.yaml</code>中已经配置了外部 API 触发 Github Actions 事件，所以只需要调用 API 触发流水线即可。</p>
+<h4>手动触发</h4>
+<p>为了方便，这里提供一个部署在 Vercel 的免费公用的<a href="https://github.com/elog-x/serverless-api" target="_blank" rel="noopener noreferrer"><strong>ServerlessAPI</strong></a>，按照文档配置好 URL 参数并浏览器访问即可触发流水线</p>
+<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">https://serverless-api-elog.vercel.app/api/github?user</span><span style="color:#98C379;--shiki-dark:#98C379">=xxx</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&amp;</span><span style="color:#E06C75;--shiki-dark:#E06C75">repo</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#98C379;--shiki-dark:#98C379">xxx</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&amp;</span><span style="color:#E06C75;--shiki-dark:#E06C75">event_type</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#98C379;--shiki-dark:#98C379">deploy</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&amp;</span><span style="color:#E06C75;--shiki-dark:#E06C75">token</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#98C379;--shiki-dark:#98C379">xxx</span></span></code></pre>
+</div><h4>自动触发-语雀 webhooks</h4>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>需要语雀专业会员</p>
+</div>
+<p>在语雀知识库 - 更多设置 - 消息推送中可配置语雀 webhooks，填写上面的 Vercel Serverless API。当文档更新时，语雀会调用这个API进行推送，进而触发 Github Actions</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>注意：语雀是国内文档平台，调用国外Vercel 的服务可能会失败，可自行部署 API</p>
+</div>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>注意：知识库配置了「自动发布」功能后，文档的 更新/发布 操作暂不会发送 webhooks</p>
+</div>
+<h2>参考示例</h2>
+<p>示例 Github 仓库：待完善</p>
+<p>示例语雀知识库：<a href="https://www.yuque.com/1874w/yuque-hexo-template" target="_blank" rel="noopener noreferrer">https://www.yuque.com/1874w/yuque-hexo-template</a></p>
+<p>示例文档站点：待完善</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>自定义Elog配置</title>
+      <link>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E8%87%AA%E5%AE%9A%E4%B9%89Elog%E9%85%8D%E7%BD%AE.html</link>
+      <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E8%87%AA%E5%AE%9A%E4%B9%89Elog%E9%85%8D%E7%BD%AE.html</guid>
+      <source url="https://weijordan.com/rss.xml">自定义Elog配置</source>
+      <description>自定义Elog配置 更多自定义Elog 配置详情，请阅读 Elog 文档</description>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<p>更多自定义Elog 配置详情，请阅读 <a href="https://elog.1874.cool/" target="_blank" rel="noopener noreferrer">Elog 文档</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>语雀示例文章</title>
+      <link>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E8%AF%AD%E9%9B%80%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0.html</link>
+      <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E8%AF%AD%E9%9B%80%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0.html</guid>
+      <source url="https://weijordan.com/rss.xml">语雀示例文章</source>
+      <description>基础 1.图片 2.表格 3.附件 测试文本1.docx 4.状态 布局和样式 1.高亮块 相关信息 蓝色背景高亮块 :::tips 灰色背景高亮 ::: :::color1 天蓝 ::: :::color2 翠绿 ::: :::success 绿色 ::: 注意 黄色 :::color3 橙色 ::: 警告 橙粉 :::color4 粉色 ::: :...</description>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>基础</h2>
+<h3>1.图片</h3>
+<figure><figcaption></figcaption></figure>
+<h3>2.表格</h3>
+<p>| 字段 | 备注 |<br>
+|</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Elog配置详解</title>
       <link>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Vuepress_Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/Elog%E9%85%8D%E7%BD%AE%E8%AF%A6%E8%A7%A3.html</link>
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Vuepress_Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/Elog%E9%85%8D%E7%BD%AE%E8%AF%A6%E8%A7%A3.html</guid>
       <source url="https://weijordan.com/rss.xml">Elog配置详解</source>
       <description>Elog配置详解 参考 Elog 文档，本博客的 Elog 的配置如下： 语雀配置 注意 `platform`yuque即可 token为语雀Token，可从此处获取 username为语雀账号，一般为手机号 password为语雀登录密码，如果没有设置过，可在账号设置中进行设置 login为语雀路径，可从此处获取 repo为语雀仓库短名称，可从此处获...</description>
-      <category>yuque</category>
       <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>参考 <a href="https://elog.1874.cool/" target="_blank" rel="noopener noreferrer">Elog 文档</a>，本博客的 Elog 的配置如下：</p>
@@ -159,7 +575,6 @@
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Vuepress_Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E5%86%99%E4%BD%9C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html</guid>
       <source url="https://weijordan.com/rss.xml">写作注意事项</source>
       <description>写作注意事项 前言 在使用 Elog 同步语雀上的文档时，因为是将富文本向下转成 markdown，会有很多样式损失。这是由于 markdown 样式集合＜ 语雀样式集合。所以在语雀上书写时，得按照 markdown 支持的样式进行写作。 可以在这里看到语雀文档被导出为 markdown 时的样式损失程度 如果你不能接受样式损失，可能 markdown...</description>
-      <category>yuque</category>
       <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <h2>前言</h2>
@@ -186,7 +601,6 @@
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Vuepress_Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.html</guid>
       <source url="https://weijordan.com/rss.xml">快速开始</source>
       <description>前言 注意 当前支持语雀 Token 模式（需要语雀超级会员）和账号密码模式（不需要任何会员） 文档站点工具汇总 写作平台：语雀 文档平台：Vuepress 博客主题：Hope 文档同步：Elog 部署平台：Vercel / Docker 文档站点搭建指南 点击 Vuepress官网 根据教程进行建vuepress项目 或者 点击 Vuepress-t...</description>
-      <category>yuque</category>
       <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>前言</h2>
 <div class="hint-container warning">
@@ -404,7 +818,6 @@
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Vuepress_Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E8%87%AA%E5%AE%9A%E4%B9%89Elog%E9%85%8D%E7%BD%AE.html</guid>
       <source url="https://weijordan.com/rss.xml">自定义Elog配置</source>
       <description>自定义Elog配置 更多自定义Elog 配置详情，请阅读 Elog 文档</description>
-      <category>yuque</category>
       <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>更多自定义Elog 配置详情，请阅读 <a href="https://elog.1874.cool/" target="_blank" rel="noopener noreferrer">Elog 文档</a></p>
@@ -416,275 +829,7 @@
       <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Vuepress_Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E8%AF%AD%E9%9B%80%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0.html</guid>
       <source url="https://weijordan.com/rss.xml">语雀示例文章</source>
       <description>基础 1.图片 2.表格 3.附件 测试文本1.docx 4.状态 布局和样式 1.高亮块 相关信息 蓝色背景高亮块 :::tips 灰色背景高亮 ::: :::color1 天蓝 ::: :::color2 翠绿 ::: :::success 绿色 ::: 注意 黄色 :::color3 橙色 ::: 警告 橙粉 :::color4 粉色 ::: :...</description>
-      <category>yuque</category>
       <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>基础</h2>
-<h3>1.图片</h3>
-<figure><figcaption></figcaption></figure>
-<h3>2.表格</h3>
-<p>| 字段 | 备注 |<br>
-|</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Elog配置详解</title>
-      <link>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/Elog%E9%85%8D%E7%BD%AE%E8%AF%A6%E8%A7%A3.html</link>
-      <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/Elog%E9%85%8D%E7%BD%AE%E8%AF%A6%E8%A7%A3.html</guid>
-      <source url="https://weijordan.com/rss.xml">Elog配置详解</source>
-      <description>Elog配置详解 参考 Elog 文档，本博客的 Elog 的配置如下： 语雀配置 注意 `platform`yuque即可 token为语雀Token，可从此处获取 username为语雀账号，一般为手机号 password为语雀登录密码，如果没有设置过，可在账号设置中进行设置 login为语雀路径，可从此处获取 repo为语雀仓库短名称，可从此处获...</description>
-      <category>yuque</category>
-      <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>参考 <a href="https://elog.1874.cool/" target="_blank" rel="noopener noreferrer">Elog 文档</a>，本博客的 Elog 的配置如下：</p>
-<div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">module</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">exports</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  write</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    platform</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'yuque'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    // Token 模式（需要语雀超级会员）</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    yuque</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      token</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_TOKEN</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      login</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_LOGIN</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      repo</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_REPO</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      onlyPublic</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">false</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      onlyPublished</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    },</span></span>
-<span class="line"><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">    // 账号密码模式</span></span>
-<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">    "yuque-pwd"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      username</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_USERNAME</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      password</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_PASSWORD</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      login</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_LOGIN</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      repo</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_REPO</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    }</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  },</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  deploy</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    platform</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'local'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    local</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      outputDir</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'./source/_posts'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      filename</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'title'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      format</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'markdown'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      catalog</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">false</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      frontMatter</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        enable</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        include</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: [</span><span style="color:#98C379;--shiki-dark:#98C379">'categories'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'tags'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'title'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'date'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'updated'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'permalink'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'cover'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'description'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">],</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        timeFormat</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      }</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    }</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  },</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  image</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    enable</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    platform</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'local'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    local</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      outputDir</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'./source/images'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      prefixKey</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'/images'</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    }</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  },</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>语雀配置</h2>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-`platform`<code>yuque</code>即可</div>
-<div class="language-javascript line-numbers-mode" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">write</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    platform</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'yuque-pwd'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    yuque</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: { </span><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">// Token 模式</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      token</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_TOKEN</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      login</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_LOGIN</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      repo</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_REPO</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      onlyPublic</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">false</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      onlyPublished</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    },</span></span>
-<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">    "yuque-pwd"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: { </span><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">// 账号密码模式</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      username</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_USERNAME</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      password</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_PASSWORD</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      login</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_LOGIN</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      repo</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E5C07B;--shiki-dark:#E5C07B">process</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">env</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">YUQUE_REPO</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      linebreak</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">false</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    }</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  },</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
-<li><code>token</code>为语雀Token，可从<a href="https://elog.1874.cool/notion/gvnxobqogetukays#token" target="_blank" rel="noopener noreferrer">此处</a>获取</li>
-<li><code>username</code>为语雀账号，一般为手机号</li>
-<li><code>password</code>为语雀登录密码，如果没有设置过，可在账号设置中进行设置</li>
-<li><code>login</code>为语雀路径，可从<a href="https://elog.1874.cool/notion/gvnxobqogetukays#login" target="_blank" rel="noopener noreferrer">此处</a>获取</li>
-<li><code>repo</code>为语雀仓库短名称，可从<a href="https://elog.1874.cool/notion/gvnxobqogetukays#repo" target="_blank" rel="noopener noreferrer">此处</a>获取</li>
-<li><code>onlyPublic</code>表示是否只下载互联网公开文档</li>
-<li><code>onlyPublished</code>表示是否只下载已发布文档</li>
-</ul>
-<h2>本地配置</h2>
-<div class="language-javascript" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">local</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  outputDir</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'./source/_posts'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    filename</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'title'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    format</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'markdown'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    catalog</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">false</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    frontMatter</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      enable</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      include</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: [</span><span style="color:#98C379;--shiki-dark:#98C379">'categories'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'tags'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'title'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'date'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'updated'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'permalink'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'cover'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">'description'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">],</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      timeFormat</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    }</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span></code></pre>
-</div><ul>
-<li><code>outputDir</code>表示文档的存放位置为项目根目录下的<code>docs/docs</code>文件夹中</li>
-<li><code>filename</code>表示文档将以数据库的 <code>title</code> 字段命名，也就是文档名</li>
-<li><code>format</code>表示文档将以 markdown 的形式保存</li>
-<li><code>frontMatter.enable</code>表示在 markdown 文档开头添加 Front Matter</li>
-<li><code>frontMatter.include</code>表示只输出数组中存在的字段，数据库的其他字段忽略</li>
-</ul>
-<h2>图床配置</h2>
-<div class="language-javascript" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">local</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  outputDir</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'./source/images'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  prefixKey</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'/images'</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span></code></pre>
-</div><ul>
-<li><code>outputDir</code>表示图片的存放位置为项目根目录下的<code>source/images</code>文件夹中</li>
-<li><code>prefixKey=/images</code>表示图片的统一前缀为<code>/images</code>，因为 Hexo 会将<code>source/images</code>文件夹视为<a href="https://hexo.io/zh-cn/docs/asset-folders" target="_blank" rel="noopener noreferrer">静态资源根目录</a>，统一将图片放在这里，并指定图片前缀，Hexo 才能找到此图片</li>
-</ul>
-<h2><a class="header-anchor" href="#更多-elog-配置详情-请阅读-elog-文档"><span>更多 Elog 配置详情，请阅读 </span></a><a href="https://elog.1874.cool/" target="_blank" rel="noopener noreferrer">Elog 文档</a></h2>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>写作注意事项</title>
-      <link>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E5%86%99%E4%BD%9C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html</link>
-      <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E5%86%99%E4%BD%9C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html</guid>
-      <source url="https://weijordan.com/rss.xml">写作注意事项</source>
-      <description>写作注意事项 前言 在使用 Elog 同步语雀上的文档时，因为是将富文本向下转成 markdown，会有很多样式损失。这是由于 markdown 样式集合＜ 语雀样式集合。所以在语雀上书写时，得按照 markdown 支持的样式进行写作。 可以在这里看到语雀文档被导出为 markdown 时的样式损失程度 如果你不能接受样式损失，可能 markdown...</description>
-      <category>yuque</category>
-      <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<h2>前言</h2>
-<p>在使用 Elog 同步语雀上的文档时，因为是将富文本向下转成 markdown，会有很多样式损失。这是由于 markdown 样式集合＜ 语雀样式集合。所以在语雀上书写时，得按照 markdown 支持的样式进行写作。</p>
-<blockquote>
-<p>可以在<a href="/docs/%E5%85%B3%E4%BA%8E/%E8%AF%AD%E9%9B%80%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0">这里</a>看到语雀文档被导出为 markdown 时的样式损失程度</p>
-</blockquote>
-<p>如果你不能接受样式损失，可能 markdown 并不适合你，隔壁 <a href="https://github.com/tangly1024/NotionNext" target="_blank" rel="noopener noreferrer">NotionNext</a> 可能更适合你搭建文档站点。</p>
-<h2>语雀格式注意点</h2>
-<h3>不要使用 markdown 不支持的样式/语法</h3>
-<p>例如字体颜色、多级折叠块、分栏、数据表、嵌入等。导出为 markdown 都不能正常展示。</p>
-<h3>使用双换行符或结尾双空格进行段落换行</h3>
-<p>根据 markdown 的写作建议，可以使用双换行符或结尾双空格进行段落换行，而语雀导出的 markdown 不会使用此方式，所以会导致段落换行失败。这里就使用了结尾双空格换行</p>
-<p>所以在语雀书写文档时，就需要使用此方法进行段落换行。</p>
-<h3>语雀一级标题留给文档标题（建议）</h3>
-<p>VitePress 的正文缺少文档标题可能会比较别扭，所以这里建议语雀一级标题留给文档标题，正文从二级标题开始写作</p>
-<h3>部分高亮块在 Hexo 可能不支持显示</h3>
-<p>可能需要 hexo 相关插件，待完善</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>快速开始</title>
-      <link>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.html</link>
-      <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.html</guid>
-      <source url="https://weijordan.com/rss.xml">快速开始</source>
-      <description>前言 注意 当前支持语雀 Token 模式（需要语雀超级会员）和账号密码模式（不需要任何会员） 文档站点工具汇总 写作平台：语雀 文档平台：Hexo 博客主题：Next 文档同步：Elog 部署平台：Vercel 文档站点搭建指南 Fork模板仓库 点击 Fork 该模板仓库到个人 Github 账号仓库下并 clone 到本地。 安装依赖 在项目根目...</description>
-      <category>yuque</category>
-      <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>前言</h2>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>当前支持语雀 Token 模式（需要语雀超级会员）和账号密码模式（不需要任何会员）</p>
-</div>
-<h2>文档站点工具汇总</h2>
-<ul>
-<li>写作平台：语雀</li>
-<li>文档平台：<a href="https://hexo.io/" target="_blank" rel="noopener noreferrer">Hexo</a></li>
-<li>博客主题：<a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener noreferrer">Next</a></li>
-<li>文档同步：<a href="https://github.com/LetTTGACO/elog" target="_blank" rel="noopener noreferrer">Elog</a></li>
-<li>部署平台：<a href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel</a></li>
-</ul>
-<h2>文档站点搭建指南</h2>
-<h3>Fork模板仓库</h3>
-<p><a href="https://github.com/elog-x/yuque-hexo/fork" target="_blank" rel="noopener noreferrer">点击 Fork</a> 该模板仓库到个人 Github 账号仓库下并 clone 到本地。</p>
-<h3>安装依赖</h3>
-<p>在项目根目录下运行命令安装依赖：</p>
-<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> install</span></span></code></pre>
-</div><h3>新建本地调试文件</h3>
-<p>在项目根目录中复制<code>.elog.example.env</code>文件并改名为<code>.elog.env</code>，此文件将用于本地同步文档时使用。</p>
-<h3>配置语雀</h3>
-<p>参考<a href="https://www.yuque.com/1874w/yuque-hexo-template" target="_blank" rel="noopener noreferrer">示例知识库</a>，选择或新建语雀文档知识库，并按照<a href="https://elog.1874.cool/notion/gvnxobqogetukays#login" target="_blank" rel="noopener noreferrer">文档提示</a>配置语雀并获取<code>token login repo</code>。并在本地<code>.elog.env</code>中写入。</p>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>Token 模式或者账号密码模式二选一即可，默认为账号密码模式，如果需要切换为 Token 模式，则修改<code>elog.config.js</code>中的<code>platform</code>为<code>yuque</code></p>
-</div>
-<div class="language-plain" data-ext="plain" data-title="plain"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span># 语雀（Token方式）</span></span>
-<span class="line"><span>YUQUE_TOKEN=获取的Token</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span>#语雀（账号密码模式）</span></span>
-<span class="line"><span>YUQUE_USERNAME=一般是手机号</span></span>
-<span class="line"><span>YUQUE_PASSWORD=登录密码</span></span>
-<span class="line"><span></span></span>
-<span class="line"><span># 语雀公共参数</span></span>
-<span class="line"><span>YUQUE_LOGIN=获取的login</span></span>
-<span class="line"><span>YUQUE_REPO=获取的repo</span></span></code></pre>
-</div><h3>本地调试</h3>
-<p>在项目根目录运行同步命令：</p>
-<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> run</span><span style="color:#98C379;--shiki-dark:#98C379"> sync:local</span></span></code></pre>
-</div><h3>启动 Hexo</h3>
-<p>在项目根目录运行 Hexo 启动命令，打开本地链接。</p>
-<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> run</span><span style="color:#98C379;--shiki-dark:#98C379"> server</span></span></code></pre>
-</div><h2>配置 Hexo 博客</h2>
-<p>根据 <a href="https://hexo.io/" target="_blank" rel="noopener noreferrer">Hexo</a> 文档和 <a href="https://github.com/next-theme/hexo-theme-next" target="_blank" rel="noopener noreferrer">next</a> 主题配置文档，配置你的博客直到你满意为主，你也可以换别的主题，这里不做演示</p>
-<h3>提交代码到 github</h3>
-<p>本地访问没问题直接提交所有文件到 Github 仓库即可</p>
-<h3>部署到 Vercel</h3>
-<p>注册 Vercel 账号并绑定 Github，在 Vercel 导入 该项目，Vercel 会自动识别出该 VitePress 项目，不需要改动，直接选择 Deploy 部署。部署完成会有一个 Vercel 临时域名，你也可以绑定自己的域名。</p>
-<figure><figcaption></figcaption></figure>
-<h2>自动化同步&amp;部署</h2>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>注意：在非国内CI/CD环境中使用账号密码模式登录语雀，例如Github<br>
-Workflow，会导致语雀后台登录设备中出现大量美国IP，目前尚不清楚语雀是否会有安全限制措施，请谨慎使用。推荐本地同步时使用。</p>
-</div>
-<h3>检查 Github Actions 权限</h3>
-<p>在 Github 仓库的设置中找到 <code>Actions-General</code>，打开流水线写入权限<code>Workflow permissions</code></p>
-<figure><figcaption></figcaption></figure>
-<h3>配置环境变量</h3>
-<p>在本地运行时，用的是<code>.elog.env</code>文件中定义的语雀账号信息，而在 Github Actions 时，需要提前配置环境变量。</p>
-<p>在 Github 仓库的设置中找到 <code>Secrets and variables</code>，新增仓库的环境变量和<code>.elog.env</code>保持一致即可</p>
-<figure><figcaption></figcaption></figure>
-<h3>自动化部署</h3>
-<p>当在语雀中改动文档后，手动/自动触发 Github Actions流水线，会重新从语雀增量拉取文档，自动提交代码到 Github 仓库。</p>
-<p>Vercel 会实时监测仓库代码，当有新的提交时都会重新部署博客。如此就实现了自动化部署博客。</p>
-<p>整个流程的关键点就在于：如何手动/自动触发 Github Actions。</p>
-<p>在项目.<code>github/workflows/sync.yaml</code>中已经配置了外部 API 触发 Github Actions 事件，所以只需要调用 API 触发流水线即可。</p>
-<h4>手动触发</h4>
-<p>为了方便，这里提供一个部署在 Vercel 的免费公用的<a href="https://github.com/elog-x/serverless-api" target="_blank" rel="noopener noreferrer"><strong>ServerlessAPI</strong></a>，按照文档配置好 URL 参数并浏览器访问即可触发流水线</p>
-<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">https://serverless-api-elog.vercel.app/api/github?user</span><span style="color:#98C379;--shiki-dark:#98C379">=xxx</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&amp;</span><span style="color:#E06C75;--shiki-dark:#E06C75">repo</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#98C379;--shiki-dark:#98C379">xxx</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&amp;</span><span style="color:#E06C75;--shiki-dark:#E06C75">event_type</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#98C379;--shiki-dark:#98C379">deploy</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&amp;</span><span style="color:#E06C75;--shiki-dark:#E06C75">token</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#98C379;--shiki-dark:#98C379">xxx</span></span></code></pre>
-</div><h4>自动触发-语雀 webhooks</h4>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>需要语雀专业会员</p>
-</div>
-<p>在语雀知识库 - 更多设置 - 消息推送中可配置语雀 webhooks，填写上面的 Vercel Serverless API。当文档更新时，语雀会调用这个API进行推送，进而触发 Github Actions</p>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>注意：语雀是国内文档平台，调用国外Vercel 的服务可能会失败，可自行部署 API</p>
-</div>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>注意：知识库配置了「自动发布」功能后，文档的 更新/发布 操作暂不会发送 webhooks</p>
-</div>
-<h2>参考示例</h2>
-<p>示例 Github 仓库：待完善</p>
-<p>示例语雀知识库：<a href="https://www.yuque.com/1874w/yuque-hexo-template" target="_blank" rel="noopener noreferrer">https://www.yuque.com/1874w/yuque-hexo-template</a></p>
-<p>示例文档站点：待完善</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>自定义Elog配置</title>
-      <link>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E8%87%AA%E5%AE%9A%E4%B9%89Elog%E9%85%8D%E7%BD%AE.html</link>
-      <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E8%87%AA%E5%AE%9A%E4%B9%89Elog%E9%85%8D%E7%BD%AE.html</guid>
-      <source url="https://weijordan.com/rss.xml">自定义Elog配置</source>
-      <description>自定义Elog配置 更多自定义Elog 配置详情，请阅读 Elog 文档</description>
-      <category>yuque</category>
-      <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>更多自定义Elog 配置详情，请阅读 <a href="https://elog.1874.cool/" target="_blank" rel="noopener noreferrer">Elog 文档</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>语雀示例文章</title>
-      <link>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E8%AF%AD%E9%9B%80%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0.html</link>
-      <guid>https://weijordan.com/yuque/%E8%AF%AD%E9%9B%80_Hexo_Elog/%E8%AF%AD%E9%9B%80%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0.html</guid>
-      <source url="https://weijordan.com/rss.xml">语雀示例文章</source>
-      <description>基础 1.图片 2.表格 3.附件 测试文本1.docx 4.状态 布局和样式 1.高亮块 相关信息 蓝色背景高亮块 :::tips 灰色背景高亮 ::: :::color1 天蓝 ::: :::color2 翠绿 ::: :::success 绿色 ::: 注意 黄色 :::color3 橙色 ::: 警告 橙粉 :::color4 粉色 ::: :...</description>
-      <category>yuque</category>
-      <pubDate>Tue, 17 Dec 2024 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>基础</h2>
 <h3>1.图片</h3>
 <figure><figcaption></figcaption></figure>
@@ -3670,6 +3815,56 @@ Workflow，会导致语雀后台登录设备中出现大量美国IP，目前尚�
       <enclosure url="https://s2.ax1x.com/2019/11/15/MarNhq.md.png" type="image/png"/>
     </item>
     <item>
+      <title>使用Bing API提交网站URL</title>
+      <link>https://weijordan.com/posts/Python/submit-bing.html</link>
+      <guid>https://weijordan.com/posts/Python/submit-bing.html</guid>
+      <source url="https://weijordan.com/rss.xml">使用Bing API提交网站URL</source>
+      <description>提示 最近在做SEO，因为链接没有做同步，需要清除之前旧站的链接，重新提交，让搜索引擎尽快索引，google search console的已经基本做差不多了 bing最近因为 New Bing 的原因也用的比较多，所以做了一些工作，很方便的是，它可以直接同步GSC的站点数据，不过就只是域数据，URL还是要自己提交 为了尽快索引，只提交sitemap是...</description>
+      <category>python</category>
+      <pubDate>Fri, 24 Mar 2023 10:52:27 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>最近在做SEO，因为链接没有做同步，需要清除之前旧站的链接，重新提交，让搜索引擎尽快索引，google search console的已经基本做差不多了</p>
+<p>bing最近因为 <em>New Bing</em> 的原因也用的比较多，所以做了一些工作，很方便的是，它可以直接同步GSC的站点数据，不过就只是域数据，URL还是要自己提交</p>
+<p>为了尽快索引，只提交sitemap是不够的，还需要调用API手动提交URL</p>
+</div>
+<h3>官方示例</h3>
+<figure><img src="https://s3.bmp.ovh/imgs/2023/03/24/25889c6c306381f8.png" alt="bing example" tabindex="0" loading="lazy"><figcaption>bing example</figcaption></figure>
+<h3>python代码</h3>
+
+<h3>解读</h3>
+<p>在上面的脚本中，我们首先指定了Sitemap的URL。然后，我们使用Python中的requests库获取Sitemap的内容，并使用Python中的xml.etree.ElementTree库解析Sitemap中的URL。</p>
+<p>接下来，我们使用Bing API提交URL。我们首先指定Bing API的密钥和API URL，并设置请求头。然后，我们将Sitemap中提取的URL列表作为数据，将其作为JSON格式发送到Bing API。最后，我们检查响应的状态码，以确保URL已成功提交。</p>
+<p>注意：在使用Bing API提交URL之前，需要先注册Bing Webmaster工具，并获取Bing API密钥。还需要将"<a href="https://example.com" target="_blank" rel="noopener noreferrer">https://example.com</a>"替换为自己的站点URL。</p>
+<p>API密钥生成↘️</p>
+<ol>
+<li>访问<a href="https://www.bing.com/webmasters/" target="_blank" rel="noopener noreferrer">Bing Webmaster Tools</a></li>
+<li>右上角设置</li>
+</ol>
+<figure><img src="https://s3.bmp.ovh/imgs/2023/03/24/6fb703876007f6b6.png" alt="API密钥生成" width="500" tabindex="0" loading="lazy"><figcaption>API密钥生成</figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://s3.bmp.ovh/imgs/2023/03/24/25889c6c306381f8.png" type="image/png"/>
+    </item>
+    <item>
+      <title>提交URL到搜索引擎（百度、Bing、Google）</title>
+      <link>https://weijordan.com/posts/Python/submit-url.html</link>
+      <guid>https://weijordan.com/posts/Python/submit-url.html</guid>
+      <source url="https://weijordan.com/rss.xml">提交URL到搜索引擎（百度、Bing、Google）</source>
+      <description>相关信息 这是一个利用GitHub Actions自动触发的工作流进行解析更新的url并推送到搜索引擎的python脚本,除了之前介绍过的bing api之外，还增加了百度和Google的相关内容 关于GitHub Actions的介绍可以看这里👉GitHub Actions 关于GitHub Actions的配置可以看这里👉如何利用GitHub ...</description>
+      <category>python</category>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>这是一个利用<code>GitHub Actions</code>自动触发的工作流进行解析更新的url并推送到搜索引擎的python脚本,除了之前介绍过的bing api之外，还增加了百度和Google的相关内容</p>
+<p>关于<code>GitHub Actions</code>的介绍可以看这里👉<a href="/tutorial/github/github-action">GitHub Actions</a></p>
+<p>关于<code>GitHub Actions</code>的配置可以看这里👉<a href="/blog/auto-push">如何利用GitHub Actions推送URL到搜索引擎</a></p>
+</div>
+<!-- more -->
+<h2>流程图</h2>
+]]></content:encoded>
+      <enclosure url="https://files.codelife.cc/wallhaven/full/ex/wallhaven-ex8j2k.jpg?x-oss-process=image/resize,limit_0,m_fill,w_1366,h_768/quality,Q_92/format,webp" type="image/"/>
+    </item>
+    <item>
       <title>初识Rust</title>
       <link>https://weijordan.com/posts/Rust/first-time.html</link>
       <guid>https://weijordan.com/posts/Rust/first-time.html</guid>
@@ -3756,56 +3951,6 @@ Workflow，会导致语雀后台登录设备中出现大量美国IP，目前尚�
 <p>引自：<a href="https://course.rs/into-rust.html" target="_blank" rel="noopener noreferrer">Rust语言圣经(Rust Course)</a></p>
 </blockquote>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>使用Bing API提交网站URL</title>
-      <link>https://weijordan.com/posts/Python/submit-bing.html</link>
-      <guid>https://weijordan.com/posts/Python/submit-bing.html</guid>
-      <source url="https://weijordan.com/rss.xml">使用Bing API提交网站URL</source>
-      <description>提示 最近在做SEO，因为链接没有做同步，需要清除之前旧站的链接，重新提交，让搜索引擎尽快索引，google search console的已经基本做差不多了 bing最近因为 New Bing 的原因也用的比较多，所以做了一些工作，很方便的是，它可以直接同步GSC的站点数据，不过就只是域数据，URL还是要自己提交 为了尽快索引，只提交sitemap是...</description>
-      <category>python</category>
-      <pubDate>Fri, 24 Mar 2023 10:52:27 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>最近在做SEO，因为链接没有做同步，需要清除之前旧站的链接，重新提交，让搜索引擎尽快索引，google search console的已经基本做差不多了</p>
-<p>bing最近因为 <em>New Bing</em> 的原因也用的比较多，所以做了一些工作，很方便的是，它可以直接同步GSC的站点数据，不过就只是域数据，URL还是要自己提交</p>
-<p>为了尽快索引，只提交sitemap是不够的，还需要调用API手动提交URL</p>
-</div>
-<h3>官方示例</h3>
-<figure><img src="https://s3.bmp.ovh/imgs/2023/03/24/25889c6c306381f8.png" alt="bing example" tabindex="0" loading="lazy"><figcaption>bing example</figcaption></figure>
-<h3>python代码</h3>
-
-<h3>解读</h3>
-<p>在上面的脚本中，我们首先指定了Sitemap的URL。然后，我们使用Python中的requests库获取Sitemap的内容，并使用Python中的xml.etree.ElementTree库解析Sitemap中的URL。</p>
-<p>接下来，我们使用Bing API提交URL。我们首先指定Bing API的密钥和API URL，并设置请求头。然后，我们将Sitemap中提取的URL列表作为数据，将其作为JSON格式发送到Bing API。最后，我们检查响应的状态码，以确保URL已成功提交。</p>
-<p>注意：在使用Bing API提交URL之前，需要先注册Bing Webmaster工具，并获取Bing API密钥。还需要将"<a href="https://example.com" target="_blank" rel="noopener noreferrer">https://example.com</a>"替换为自己的站点URL。</p>
-<p>API密钥生成↘️</p>
-<ol>
-<li>访问<a href="https://www.bing.com/webmasters/" target="_blank" rel="noopener noreferrer">Bing Webmaster Tools</a></li>
-<li>右上角设置</li>
-</ol>
-<figure><img src="https://s3.bmp.ovh/imgs/2023/03/24/6fb703876007f6b6.png" alt="API密钥生成" width="500" tabindex="0" loading="lazy"><figcaption>API密钥生成</figcaption></figure>
-]]></content:encoded>
-      <enclosure url="https://s3.bmp.ovh/imgs/2023/03/24/25889c6c306381f8.png" type="image/png"/>
-    </item>
-    <item>
-      <title>提交URL到搜索引擎（百度、Bing、Google）</title>
-      <link>https://weijordan.com/posts/Python/submit-url.html</link>
-      <guid>https://weijordan.com/posts/Python/submit-url.html</guid>
-      <source url="https://weijordan.com/rss.xml">提交URL到搜索引擎（百度、Bing、Google）</source>
-      <description>相关信息 这是一个利用GitHub Actions自动触发的工作流进行解析更新的url并推送到搜索引擎的python脚本,除了之前介绍过的bing api之外，还增加了百度和Google的相关内容 关于GitHub Actions的介绍可以看这里👉GitHub Actions 关于GitHub Actions的配置可以看这里👉如何利用GitHub ...</description>
-      <category>python</category>
-      <pubDate>Mon, 17 Apr 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>这是一个利用<code>GitHub Actions</code>自动触发的工作流进行解析更新的url并推送到搜索引擎的python脚本,除了之前介绍过的bing api之外，还增加了百度和Google的相关内容</p>
-<p>关于<code>GitHub Actions</code>的介绍可以看这里👉<a href="/tutorial/github/github-action">GitHub Actions</a></p>
-<p>关于<code>GitHub Actions</code>的配置可以看这里👉<a href="/blog/auto-push">如何利用GitHub Actions推送URL到搜索引擎</a></p>
-</div>
-<!-- more -->
-<h2>流程图</h2>
-]]></content:encoded>
-      <enclosure url="https://files.codelife.cc/wallhaven/full/ex/wallhaven-ex8j2k.jpg?x-oss-process=image/resize,limit_0,m_fill,w_1366,h_768/quality,Q_92/format,webp" type="image/"/>
     </item>
     <item>
       <title>前端-Q&amp;A</title>
@@ -4005,46 +4150,6 @@ Jenkins 需要安装 GitLab Plugin 插件，然后配置 <strong>webhook</strong
 <div class="language-sh" data-ext="sh" data-title="sh"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">ssh-add</span><span style="color:#D19A66;--shiki-dark:#D19A66"> --apple-use-keychain</span><span style="color:#98C379;--shiki-dark:#98C379"> ~/.ssh/id_rsa</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> &amp;&gt; /dev/null</span></span></code></pre>
 </div><p>该命令的作用是将指定的 SSH 私钥文件 id_rsa 添加到 Apple Keychain 中，并将输出静默地丢弃，以确保在终端上不会显示任何输出信息。这通常用于在登录时自动加载 SSH 密钥，并将其保存在钥匙串中，以便在需要时无需再次手动输入密码或密钥口令。</p>
 </div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>vuepress-plugin-meting2</title>
-      <link>https://weijordan.com/tutorial/OSS/meting2.html</link>
-      <guid>https://weijordan.com/tutorial/OSS/meting2.html</guid>
-      <source url="https://weijordan.com/rss.xml">vuepress-plugin-meting2</source>
-      <description>支持vuepress2.x的音乐播放器</description>
-      <category>开源软件</category>
-      <category>GitHub</category>
-      <pubDate>Wed, 11 Oct 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>前言</h2>
-<p>嘿~<br>
-🍰🍰🍰 播放器有了，撒花✿✿ヽ(°▽°)ノ✿🎉🎉🎉</p>
-<p align="center">
-   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-plugin-meting2.svg"></a>&nbsp;
-   <a href="https://github.com/moefyit/vuepress-plugin-meting2/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/oragekk/vuepress-plugin-meting2"></a>&nbsp;
-   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dt/vuepress-plugin-meting2.svg"></a>&nbsp;
-   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dm/vuepress-plugin-meting2.svg"></a>&nbsp;
-   <a href="https://github.com/oragekk/vuepress-plugin-meting2/blob/main/LICENSE" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/oragekk/vuepress-plugin-meting2"></a>
-</p>
-<p>文档👉🏻戳这里<a href="https://github.com/OrageKK/vuepress-plugin-meting2" target="_blank" rel="noopener noreferrer">文档</a></p>
-<h2>介绍</h2>
-<p>借鉴了<a href="https://github.com/u2sb/vuepress-plugin-sbaudio" target="_blank" rel="noopener noreferrer">vuepress-plugin-sbaudio</a>和<a href="https://github.com/moefyit/vuepress-plugin-meting" target="_blank" rel="noopener noreferrer">vuepress-plugin-meting</a> 在此表示感谢 </p>
-<p>借鉴MetingJS解析和使用APlayer作为播放组件</p>
-<h2>安装很方便</h2>
-
-<h2>使用也很方便</h2>
-<div class="language-javascript" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">plugins</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: [</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">    metingPlugin</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">({</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      metingOptions</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        global</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">// 开启关闭全局播放器</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        server</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">"tencent"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        api</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">"https://api.injahow.cn/meting/?server=:server&amp;type=:type&amp;id=:id&amp;auth=:auth&amp;r=:r"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        type</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">"playlist"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        mid</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">"851947617"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      },</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    }),</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">];</span></span></code></pre>
-</div><h3>可作为组件引入</h3>
 ]]></content:encoded>
     </item>
     <item>
@@ -4426,6 +4531,46 @@ samples, guidance on mobile development, and a full API reference.</p>
 <p>Flutter 一切都是 widget 的口号是围绕着通过组合 widget 来构建用户界面， widget 又由更为基础的 widget 构成。这种积极组合的结果是需要精心设计的算法和数据结构才能有效处理大量的 widget。通过一些额外的机制，这些数据结构还能使开发者轻松构建无限滚动列表，以便在 widget 可见时进行按需构建。</p>
 ]]></content:encoded>
       <enclosure url="https://files.codelife.cc/wallhaven/full/4v/wallhaven-4vp2x3.png?x-oss-process=image/resize,limit_0,m_fill,w_1366,h_768/quality,Q_92/format,webp" type="image/"/>
+    </item>
+    <item>
+      <title>vuepress-plugin-meting2</title>
+      <link>https://weijordan.com/tutorial/OSS/meting2.html</link>
+      <guid>https://weijordan.com/tutorial/OSS/meting2.html</guid>
+      <source url="https://weijordan.com/rss.xml">vuepress-plugin-meting2</source>
+      <description>支持vuepress2.x的音乐播放器</description>
+      <category>开源软件</category>
+      <category>GitHub</category>
+      <pubDate>Wed, 11 Oct 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>前言</h2>
+<p>嘿~<br>
+🍰🍰🍰 播放器有了，撒花✿✿ヽ(°▽°)ノ✿🎉🎉🎉</p>
+<p align="center">
+   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-plugin-meting2.svg"></a>&nbsp;
+   <a href="https://github.com/moefyit/vuepress-plugin-meting2/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/oragekk/vuepress-plugin-meting2"></a>&nbsp;
+   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dt/vuepress-plugin-meting2.svg"></a>&nbsp;
+   <a href="https://www.npmjs.com/package/vuepress-plugin-meting2" target="_blank"><img alt="downloads" src="https://img.shields.io/npm/dm/vuepress-plugin-meting2.svg"></a>&nbsp;
+   <a href="https://github.com/oragekk/vuepress-plugin-meting2/blob/main/LICENSE" target="_blank"><img alt="GitHub license" src="https://img.shields.io/github/license/oragekk/vuepress-plugin-meting2"></a>
+</p>
+<p>文档👉🏻戳这里<a href="https://github.com/OrageKK/vuepress-plugin-meting2" target="_blank" rel="noopener noreferrer">文档</a></p>
+<h2>介绍</h2>
+<p>借鉴了<a href="https://github.com/u2sb/vuepress-plugin-sbaudio" target="_blank" rel="noopener noreferrer">vuepress-plugin-sbaudio</a>和<a href="https://github.com/moefyit/vuepress-plugin-meting" target="_blank" rel="noopener noreferrer">vuepress-plugin-meting</a> 在此表示感谢 </p>
+<p>借鉴MetingJS解析和使用APlayer作为播放组件</p>
+<h2>安装很方便</h2>
+
+<h2>使用也很方便</h2>
+<div class="language-javascript" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">plugins</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: [</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">    metingPlugin</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">({</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">      metingOptions</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        global</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span><span style="color:#D19A66;--shiki-dark:#D19A66">true</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">// 开启关闭全局播放器</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        server</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">"tencent"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        api</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">"https://api.injahow.cn/meting/?server=:server&amp;type=:type&amp;id=:id&amp;auth=:auth&amp;r=:r"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        type</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">"playlist"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">        mid</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">"851947617"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">      },</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    }),</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">];</span></span></code></pre>
+</div><h3>可作为组件引入</h3>
+]]></content:encoded>
     </item>
     <item>
       <title>ReactNative介绍</title>
@@ -5258,6 +5403,72 @@ TS 对 JS 的改进主要是静态类型检查，静态类型检查有何意义�
 <p>对应的结果如下：</p>
 <p>| 元素    | 包含块                      |<br>
 |</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>使用n命令管理node版本</title>
+      <link>https://weijordan.com/posts/Web/node/node-version.html</link>
+      <guid>https://weijordan.com/posts/Web/node/node-version.html</guid>
+      <source url="https://weijordan.com/rss.xml">使用n命令管理node版本</source>
+      <description>鉴于使用 ReactNative 时，会需要不同的 node 版本，提供一种版本切换方式 使用 n command 来进行 node 版本管理 概念 n Node version manager 提供了一个更简单的 CLI，用于在 Node 版本之间进行安装和切换。它仅在 Linux 或 Mac 操作系统上受到支持。 安装 如果你已经安装某个版本的 N...</description>
+      <category>Linux</category>
+      <pubDate>Fri, 03 Apr 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<blockquote>
+<p>鉴于使用 ReactNative 时，会需要不同的 node 版本，提供一种版本切换方式</p>
+</blockquote>
+<h2>使用 n command 来进行 node 版本管理</h2>
+<h3>概念</h3>
+<p>n Node version manager 提供了一个更简单的 CLI，用于在 Node 版本之间进行安装和切换。它仅在 Linux 或 Mac 操作系统上受到支持。</p>
+<h3>安装</h3>
+<p>如果你已经安装某个版本的 Node 和 npm ，则可以用 npm install -g n 来安装 n，就像安装其他 NPM 包一样。</p>
+<p>如果你还没有安装 Node 或 npm，可以用 GitHub 中的 bash 脚本安装 n。这是它的样子：</p>
+<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">curl</span><span style="color:#D19A66;--shiki-dark:#D19A66"> -L</span><span style="color:#98C379;--shiki-dark:#98C379"> https://git.io/n-install</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> | </span><span style="color:#61AFEF;--shiki-dark:#61AFEF">bash</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">===</span><span style="color:#98C379;--shiki-dark:#98C379"> n</span><span style="color:#98C379;--shiki-dark:#98C379"> successfully</span><span style="color:#98C379;--shiki-dark:#98C379"> installed.</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">  The</span><span style="color:#98C379;--shiki-dark:#98C379"> active</span><span style="color:#98C379;--shiki-dark:#98C379"> Node.js</span><span style="color:#98C379;--shiki-dark:#98C379"> version</span><span style="color:#98C379;--shiki-dark:#98C379"> is:</span><span style="color:#98C379;--shiki-dark:#98C379"> v10.16.0</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">  Run</span><span style="color:#98C379;--shiki-dark:#98C379"> `</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">n</span><span style="color:#D19A66;--shiki-dark:#D19A66"> -h</span><span style="color:#98C379;--shiki-dark:#98C379">`</span><span style="color:#C678DD;--shiki-dark:#C678DD"> for</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> help.</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">  To</span><span style="color:#98C379;--shiki-dark:#98C379"> update</span><span style="color:#98C379;--shiki-dark:#98C379"> n</span><span style="color:#98C379;--shiki-dark:#98C379"> later,</span><span style="color:#98C379;--shiki-dark:#98C379"> run</span><span style="color:#98C379;--shiki-dark:#98C379"> `</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">n-update</span><span style="color:#98C379;--shiki-dark:#98C379">`</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">.</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">  To</span><span style="color:#98C379;--shiki-dark:#98C379"> uninstall,</span><span style="color:#98C379;--shiki-dark:#98C379"> run</span><span style="color:#98C379;--shiki-dark:#98C379"> `</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">n-uninstall</span><span style="color:#98C379;--shiki-dark:#98C379">`</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">  IMPORTANT:</span><span style="color:#98C379;--shiki-dark:#98C379"> OPEN</span><span style="color:#98C379;--shiki-dark:#98C379"> A</span><span style="color:#98C379;--shiki-dark:#98C379"> NEW</span><span style="color:#98C379;--shiki-dark:#98C379"> TERMINAL</span><span style="color:#98C379;--shiki-dark:#98C379"> TAB/WINDOW</span><span style="color:#98C379;--shiki-dark:#98C379"> or</span><span style="color:#98C379;--shiki-dark:#98C379"> run</span><span style="color:#98C379;--shiki-dark:#98C379"> `</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">.</span><span style="color:#98C379;--shiki-dark:#98C379"> /home/brian/.bashrc`</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">             before</span><span style="color:#98C379;--shiki-dark:#98C379"> using</span><span style="color:#98C379;--shiki-dark:#98C379"> n</span><span style="color:#98C379;--shiki-dark:#98C379"> and</span><span style="color:#98C379;--shiki-dark:#98C379"> Node.js.</span></span>
+<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">===</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">~$ </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">.</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> /home/brian/.bashrc</span></span>
+<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">~$ n</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">node/10.16.0</span></span></code></pre>
+</div><p>通过从 GitHub 下载并运行 n-install 脚本来安装 n。n 默认安装了一个版本的 Node。</p>
+<h3>安装版本 10.17.0</h3>
+<p>如果需要指定版本号，可以这样安装</p>
+<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">sudo</span><span style="color:#98C379;--shiki-dark:#98C379"> n</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 10.17.0</span></span></code></pre>
+</div><h3>安装最新版本</h3>
+<p>安装最新版本使用如下命令</p>
+<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">sudo</span><span style="color:#98C379;--shiki-dark:#98C379"> n</span><span style="color:#98C379;--shiki-dark:#98C379"> latest</span></span></code></pre>
+</div><h3>切换版本</h3>
+<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">n</span></span></code></pre>
+</div><p>显示如下</p>
+<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">Last</span><span style="color:#98C379;--shiki-dark:#98C379"> login:</span><span style="color:#98C379;--shiki-dark:#98C379"> Fri</span><span style="color:#98C379;--shiki-dark:#98C379"> Apr</span><span style="color:#D19A66;--shiki-dark:#D19A66">  3</span><span style="color:#98C379;--shiki-dark:#98C379"> 16:56:05</span><span style="color:#98C379;--shiki-dark:#98C379"> on</span><span style="color:#98C379;--shiki-dark:#98C379"> ttys004</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># huangkun @ huagnkundeMacBook-Pro in ~ [16:58:24]</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">$</span><span style="color:#98C379;--shiki-dark:#98C379"> n</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">  ο</span><span style="color:#98C379;--shiki-dark:#98C379"> node/10.17.0</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">    node/13.12.0</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">Use</span><span style="color:#98C379;--shiki-dark:#98C379"> up/down</span><span style="color:#98C379;--shiki-dark:#98C379"> arrow</span><span style="color:#98C379;--shiki-dark:#98C379"> keys</span><span style="color:#98C379;--shiki-dark:#98C379"> to</span><span style="color:#98C379;--shiki-dark:#98C379"> select</span><span style="color:#98C379;--shiki-dark:#98C379"> a</span><span style="color:#98C379;--shiki-dark:#98C379"> version,</span><span style="color:#98C379;--shiki-dark:#98C379"> return</span><span style="color:#98C379;--shiki-dark:#98C379"> key</span><span style="color:#98C379;--shiki-dark:#98C379"> to</span><span style="color:#98C379;--shiki-dark:#98C379"> install,</span><span style="color:#98C379;--shiki-dark:#98C379"> d</span><span style="color:#98C379;--shiki-dark:#98C379"> to</span><span style="color:#98C379;--shiki-dark:#98C379"> delete,</span><span style="color:#98C379;--shiki-dark:#98C379"> q</span><span style="color:#98C379;--shiki-dark:#98C379"> to</span><span style="color:#98C379;--shiki-dark:#98C379"> quit</span></span></code></pre>
+</div><p>可以使用上下方向键来选择版本，并回车。如果不想选择可以按<code>q</code>退出</p>
+<h2>直接使用 Node 二进制文件</h2>
+<p>n 提供了直接调用特定 Node 二进制文件的功能，而无需显式切换到该版本的 Node。 NVM 则没有类似的功能。</p>
+<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># huangkun @ huagnkundeMacBook-Pro in ~ [17:01:32]</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">$</span><span style="color:#98C379;--shiki-dark:#98C379"> node</span><span style="color:#D19A66;--shiki-dark:#D19A66"> -v</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">v10.17.0</span></span>
+<span class="line"><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># huangkun @ huagnkundeMacBook-Pro in ~ [17:01:39]</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">$</span><span style="color:#98C379;--shiki-dark:#98C379"> n</span><span style="color:#98C379;--shiki-dark:#98C379"> use</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 13.12.0</span><span style="color:#98C379;--shiki-dark:#98C379"> index.js</span></span>
+<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">Node</span><span style="color:#98C379;--shiki-dark:#98C379"> version:</span><span style="color:#98C379;--shiki-dark:#98C379"> v13.12.0</span></span></code></pre>
+</div><p>请注意，n use 命令所请求的 Node 版本需要由 n 安装。</p>
+<p>在某些情况下，这个功能非常有用。例如，有一个构建服务器，用于构建需要不同 Node 版本的程序。可以用 n use 命令触发每个构建，并能够指定该程序所需的 Node 版本。</p>
+<h2>差异化</h2>
+<p>NVM for Windows 和 n 有许多常见功能，也有一些独特的功能，这些功能会影响你使用每个工具的方式和位置。以下是一些主要差异的摘要：</p>
+<p>|              <strong>能力</strong>              |          <strong>NVM for Windows</strong>           |       <strong>n</strong>        |<br>
+| :</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -6258,92 +6469,6 @@ TS 对 JS 的改进主要是静态类型检查，静态类型检查有何意义�
 <p>在<a href="https://www.vueusejs.com/core/useStorage/#usage" target="_blank" rel="noopener noreferrer">vueusejs</a>的文档中，其实<code>useStorage</code>应该是一个同步操作，它还有一个<code>useStorageAsync</code>的API，支持异步的响应式Storage，按理说里边不应该包含太多异步的或者延时性的代码，我也找到源码浅浅看了一下，目前还没找到问题在哪里，按照替换<code>localStorage.setItem('WALINE_COMMENT_BOX_EDITOR', '');</code>可行来看，问题就在<code>useStorage</code>身上无疑，后续有时间，会继续探索一下，给官方的PR<a href="https://github.com/walinejs/waline/pull/2524" target="_blank" rel="noopener noreferrer">#2524</a>也已经提了</p>
 ]]></content:encoded>
       <enclosure url="https://files.codelife.cc/wallhaven/full/6d/wallhaven-6d7xmx.jpg?x-oss-process=image/resize,limit_0,m_fill,w_1366,h_768/quality,Q_92/format,webp" type="image/"/>
-    </item>
-    <item>
-      <title>使用n命令管理node版本</title>
-      <link>https://weijordan.com/posts/Web/node/node-version.html</link>
-      <guid>https://weijordan.com/posts/Web/node/node-version.html</guid>
-      <source url="https://weijordan.com/rss.xml">使用n命令管理node版本</source>
-      <description>鉴于使用 ReactNative 时，会需要不同的 node 版本，提供一种版本切换方式 使用 n command 来进行 node 版本管理 概念 n Node version manager 提供了一个更简单的 CLI，用于在 Node 版本之间进行安装和切换。它仅在 Linux 或 Mac 操作系统上受到支持。 安装 如果你已经安装某个版本的 N...</description>
-      <category>Linux</category>
-      <pubDate>Fri, 03 Apr 2020 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<blockquote>
-<p>鉴于使用 ReactNative 时，会需要不同的 node 版本，提供一种版本切换方式</p>
-</blockquote>
-<h2>使用 n command 来进行 node 版本管理</h2>
-<h3>概念</h3>
-<p>n Node version manager 提供了一个更简单的 CLI，用于在 Node 版本之间进行安装和切换。它仅在 Linux 或 Mac 操作系统上受到支持。</p>
-<h3>安装</h3>
-<p>如果你已经安装某个版本的 Node 和 npm ，则可以用 npm install -g n 来安装 n，就像安装其他 NPM 包一样。</p>
-<p>如果你还没有安装 Node 或 npm，可以用 GitHub 中的 bash 脚本安装 n。这是它的样子：</p>
-<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">curl</span><span style="color:#D19A66;--shiki-dark:#D19A66"> -L</span><span style="color:#98C379;--shiki-dark:#98C379"> https://git.io/n-install</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> | </span><span style="color:#61AFEF;--shiki-dark:#61AFEF">bash</span></span>
-<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">===</span><span style="color:#98C379;--shiki-dark:#98C379"> n</span><span style="color:#98C379;--shiki-dark:#98C379"> successfully</span><span style="color:#98C379;--shiki-dark:#98C379"> installed.</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">  The</span><span style="color:#98C379;--shiki-dark:#98C379"> active</span><span style="color:#98C379;--shiki-dark:#98C379"> Node.js</span><span style="color:#98C379;--shiki-dark:#98C379"> version</span><span style="color:#98C379;--shiki-dark:#98C379"> is:</span><span style="color:#98C379;--shiki-dark:#98C379"> v10.16.0</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">  Run</span><span style="color:#98C379;--shiki-dark:#98C379"> `</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">n</span><span style="color:#D19A66;--shiki-dark:#D19A66"> -h</span><span style="color:#98C379;--shiki-dark:#98C379">`</span><span style="color:#C678DD;--shiki-dark:#C678DD"> for</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> help.</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">  To</span><span style="color:#98C379;--shiki-dark:#98C379"> update</span><span style="color:#98C379;--shiki-dark:#98C379"> n</span><span style="color:#98C379;--shiki-dark:#98C379"> later,</span><span style="color:#98C379;--shiki-dark:#98C379"> run</span><span style="color:#98C379;--shiki-dark:#98C379"> `</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">n-update</span><span style="color:#98C379;--shiki-dark:#98C379">`</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">.</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">  To</span><span style="color:#98C379;--shiki-dark:#98C379"> uninstall,</span><span style="color:#98C379;--shiki-dark:#98C379"> run</span><span style="color:#98C379;--shiki-dark:#98C379"> `</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">n-uninstall</span><span style="color:#98C379;--shiki-dark:#98C379">`</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">.</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">  IMPORTANT:</span><span style="color:#98C379;--shiki-dark:#98C379"> OPEN</span><span style="color:#98C379;--shiki-dark:#98C379"> A</span><span style="color:#98C379;--shiki-dark:#98C379"> NEW</span><span style="color:#98C379;--shiki-dark:#98C379"> TERMINAL</span><span style="color:#98C379;--shiki-dark:#98C379"> TAB/WINDOW</span><span style="color:#98C379;--shiki-dark:#98C379"> or</span><span style="color:#98C379;--shiki-dark:#98C379"> run</span><span style="color:#98C379;--shiki-dark:#98C379"> `</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">.</span><span style="color:#98C379;--shiki-dark:#98C379"> /home/brian/.bashrc`</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">             before</span><span style="color:#98C379;--shiki-dark:#98C379"> using</span><span style="color:#98C379;--shiki-dark:#98C379"> n</span><span style="color:#98C379;--shiki-dark:#98C379"> and</span><span style="color:#98C379;--shiki-dark:#98C379"> Node.js.</span></span>
-<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">===</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">~$ </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">.</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> /home/brian/.bashrc</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">~$ n</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">node/10.16.0</span></span></code></pre>
-</div><p>通过从 GitHub 下载并运行 n-install 脚本来安装 n。n 默认安装了一个版本的 Node。</p>
-<h3>安装版本 10.17.0</h3>
-<p>如果需要指定版本号，可以这样安装</p>
-<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">sudo</span><span style="color:#98C379;--shiki-dark:#98C379"> n</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 10.17.0</span></span></code></pre>
-</div><h3>安装最新版本</h3>
-<p>安装最新版本使用如下命令</p>
-<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">sudo</span><span style="color:#98C379;--shiki-dark:#98C379"> n</span><span style="color:#98C379;--shiki-dark:#98C379"> latest</span></span></code></pre>
-</div><h3>切换版本</h3>
-<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">n</span></span></code></pre>
-</div><p>显示如下</p>
-<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">Last</span><span style="color:#98C379;--shiki-dark:#98C379"> login:</span><span style="color:#98C379;--shiki-dark:#98C379"> Fri</span><span style="color:#98C379;--shiki-dark:#98C379"> Apr</span><span style="color:#D19A66;--shiki-dark:#D19A66">  3</span><span style="color:#98C379;--shiki-dark:#98C379"> 16:56:05</span><span style="color:#98C379;--shiki-dark:#98C379"> on</span><span style="color:#98C379;--shiki-dark:#98C379"> ttys004</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># huangkun @ huagnkundeMacBook-Pro in ~ [16:58:24]</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">$</span><span style="color:#98C379;--shiki-dark:#98C379"> n</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">  ο</span><span style="color:#98C379;--shiki-dark:#98C379"> node/10.17.0</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">    node/13.12.0</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">Use</span><span style="color:#98C379;--shiki-dark:#98C379"> up/down</span><span style="color:#98C379;--shiki-dark:#98C379"> arrow</span><span style="color:#98C379;--shiki-dark:#98C379"> keys</span><span style="color:#98C379;--shiki-dark:#98C379"> to</span><span style="color:#98C379;--shiki-dark:#98C379"> select</span><span style="color:#98C379;--shiki-dark:#98C379"> a</span><span style="color:#98C379;--shiki-dark:#98C379"> version,</span><span style="color:#98C379;--shiki-dark:#98C379"> return</span><span style="color:#98C379;--shiki-dark:#98C379"> key</span><span style="color:#98C379;--shiki-dark:#98C379"> to</span><span style="color:#98C379;--shiki-dark:#98C379"> install,</span><span style="color:#98C379;--shiki-dark:#98C379"> d</span><span style="color:#98C379;--shiki-dark:#98C379"> to</span><span style="color:#98C379;--shiki-dark:#98C379"> delete,</span><span style="color:#98C379;--shiki-dark:#98C379"> q</span><span style="color:#98C379;--shiki-dark:#98C379"> to</span><span style="color:#98C379;--shiki-dark:#98C379"> quit</span></span></code></pre>
-</div><p>可以使用上下方向键来选择版本，并回车。如果不想选择可以按<code>q</code>退出</p>
-<h2>直接使用 Node 二进制文件</h2>
-<p>n 提供了直接调用特定 Node 二进制文件的功能，而无需显式切换到该版本的 Node。 NVM 则没有类似的功能。</p>
-<div class="language-shell" data-ext="shell" data-title="shell"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># huangkun @ huagnkundeMacBook-Pro in ~ [17:01:32]</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">$</span><span style="color:#98C379;--shiki-dark:#98C379"> node</span><span style="color:#D19A66;--shiki-dark:#D19A66"> -v</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">v10.17.0</span></span>
-<span class="line"><span style="color:#7F848E;font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># huangkun @ huagnkundeMacBook-Pro in ~ [17:01:39]</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">$</span><span style="color:#98C379;--shiki-dark:#98C379"> n</span><span style="color:#98C379;--shiki-dark:#98C379"> use</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 13.12.0</span><span style="color:#98C379;--shiki-dark:#98C379"> index.js</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">Node</span><span style="color:#98C379;--shiki-dark:#98C379"> version:</span><span style="color:#98C379;--shiki-dark:#98C379"> v13.12.0</span></span></code></pre>
-</div><p>请注意，n use 命令所请求的 Node 版本需要由 n 安装。</p>
-<p>在某些情况下，这个功能非常有用。例如，有一个构建服务器，用于构建需要不同 Node 版本的程序。可以用 n use 命令触发每个构建，并能够指定该程序所需的 Node 版本。</p>
-<h2>差异化</h2>
-<p>NVM for Windows 和 n 有许多常见功能，也有一些独特的功能，这些功能会影响你使用每个工具的方式和位置。以下是一些主要差异的摘要：</p>
-<p>|              <strong>能力</strong>              |          <strong>NVM for Windows</strong>           |       <strong>n</strong>        |<br>
-| :</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>语雀</title>
-      <link>https://weijordan.com/yuqueback/</link>
-      <guid>https://weijordan.com/yuqueback/</guid>
-      <source url="https://weijordan.com/rss.xml">语雀</source>
-      <description>项目相关 🧩 这里会记录一些语雀及后续更新过程中相关的文章 目录 📌 快速开始 📌 写作注意事项 📌 自定义Elog配置 📌 语雀示例文章</description>
-      <content:encoded><![CDATA[
-<div class="hint-container tip">
-<p class="hint-container-title">🧩</p>
-<p>这里会记录一些语雀及后续更新过程中相关的文章</p>
-</div>
-<h2>目录</h2>
-<ul>
-<li><a href="/_yuque/%E8%AF%AD%E9%9B%80+Vuepress+Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B">📌 快速开始</a></li>
-<li><a href="/_yuque/%E8%AF%AD%E9%9B%80+Vuepress+Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E5%86%99%E4%BD%9C%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9">📌 写作注意事项</a></li>
-<li><a href="/_yuque/%E8%AF%AD%E9%9B%80+Vuepress+Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E8%87%AA%E5%AE%9A%E4%B9%89Elog%E9%85%8D%E7%BD%AE">📌 自定义Elog配置</a></li>
-<li><a href="/_yuque/%E8%AF%AD%E9%9B%80+Vuepress+Elog%E5%AE%9E%E7%8E%B0%E6%96%87%E6%A1%A3%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0%E4%BA%92%E9%80%9A/%E8%AF%AD%E9%9B%80%E7%A4%BA%E4%BE%8B%E6%96%87%E7%AB%A0">📌 语雀示例文章</a></li>
-</ul>
-]]></content:encoded>
     </item>
   </channel>
 </rss>

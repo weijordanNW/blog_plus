@@ -5,9 +5,9 @@ icon: bokeyuan
 star: false
 isOriginal: false
 category:
-  - yuque
+  - - yuque
 tag:
-  - yuque
+  - - yuque
 ---
 # Elog配置详解
 参考 [Elog 文档](https://elog.1874.cool/)，本博客的 Elog 的配置如下：

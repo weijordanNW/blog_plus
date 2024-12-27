@@ -174,11 +174,11 @@
     {
       "id": 198936778,
       "doc_id": "gllhzyfkk6qeqpw6",
-      "updated": 1734403696000,
+      "updated": 1734512960000,
       "properties": {
         "title": "快速开始",
         "date": "2024-12-17 10:47:55",
-        "updated": "2024-12-17 10:48:16"
+        "updated": "2024-12-18 17:09:20"
       },
       "catalog": [
         {
@@ -189,15 +189,133 @@
       "realName": "快速开始",
       "relativePath": "\\语雀+Hexo+Elog\\快速开始.md",
       "docPath": "src\\yuque\\语雀+Hexo+Elog"
+    },
+    {
+      "id": 199877317,
+      "doc_id": "gdqytx0cy4mf35yv",
+      "updated": 1735011218000,
+      "properties": {
+        "title": "浏览器标签同步",
+        "date": "2024-12-24 11:32:33",
+        "updated": "2024-12-24 11:33:38"
+      },
+      "catalog": [
+        {
+          "title": "浏览器相关",
+          "doc_id": "gdqytx0cy4mf35yv"
+        }
+      ],
+      "realName": "浏览器标签同步",
+      "relativePath": "\\浏览器相关\\浏览器标签同步.md",
+      "needUpdate": 1,
+      "docPath": "src\\yuque\\浏览器相关"
+    },
+    {
+      "id": 200334400,
+      "doc_id": "sgao2wxd0k6fuvbb",
+      "updated": 1735280948000,
+      "properties": {
+        "title": "vscode云端配置同步",
+        "date": "2024-12-27 14:28:24",
+        "updated": "2024-12-27 14:29:08"
+      },
+      "catalog": [
+        {
+          "title": "编辑器",
+          "doc_id": "sgao2wxd0k6fuvbb"
+        },
+        {
+          "title": "Vscode",
+          "doc_id": "sgao2wxd0k6fuvbb"
+        }
+      ],
+      "realName": "vscode云端配置同步",
+      "relativePath": "\\编辑器\\Vscode\\vscode云端配置同步.md",
+      "docPath": "src\\yuque\\编辑器\\Vscode"
     }
   ],
   "catalog": [
     {
       "type": "TITLE",
+      "title": "编辑器",
+      "uuid": "5TWjv3e300BHc5Wc",
+      "url": "",
+      "prev_uuid": "",
+      "sibling_uuid": "MlCZyiAa7Hu1DOZN",
+      "child_uuid": "zf6zj2OirSptoH7F",
+      "parent_uuid": "",
+      "doc_id": "",
+      "level": 0,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "TITLE",
+      "title": "Vscode",
+      "uuid": "zf6zj2OirSptoH7F",
+      "url": "",
+      "prev_uuid": "5TWjv3e300BHc5Wc",
+      "sibling_uuid": "",
+      "child_uuid": "ZtzyXEn_4hAfunWr",
+      "parent_uuid": "5TWjv3e300BHc5Wc",
+      "doc_id": "",
+      "level": 1,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "vscode云端配置同步",
+      "uuid": "ZtzyXEn_4hAfunWr",
+      "url": "sgao2wxd0k6fuvbb",
+      "prev_uuid": "zf6zj2OirSptoH7F",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "zf6zj2OirSptoH7F",
+      "doc_id": 200334400,
+      "level": 2,
+      "id": 200334400,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "TITLE",
+      "title": "浏览器相关",
+      "uuid": "MlCZyiAa7Hu1DOZN",
+      "url": "",
+      "prev_uuid": "5TWjv3e300BHc5Wc",
+      "sibling_uuid": "FLp1Q-Z-1sW2nCkL",
+      "child_uuid": "qL37buOrwxYgfw-l",
+      "parent_uuid": "",
+      "doc_id": "",
+      "level": 0,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "浏览器标签同步",
+      "uuid": "qL37buOrwxYgfw-l",
+      "url": "gdqytx0cy4mf35yv",
+      "prev_uuid": "MlCZyiAa7Hu1DOZN",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "MlCZyiAa7Hu1DOZN",
+      "doc_id": 199877317,
+      "level": 1,
+      "id": 199877317,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "TITLE",
       "title": "语雀+Hexo+Elog",
       "uuid": "FLp1Q-Z-1sW2nCkL",
       "url": "",
-      "prev_uuid": "",
+      "prev_uuid": "MlCZyiAa7Hu1DOZN",
       "sibling_uuid": "RzkoFVA93bX4-m8_",
       "child_uuid": "sDNhjO8KDoS-v_7j",
       "parent_uuid": "",
