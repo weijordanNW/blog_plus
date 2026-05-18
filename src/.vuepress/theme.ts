@@ -210,9 +210,7 @@ export default MyTheme({
       playground: {
         presets: ["ts", "vue"],
       },
-      revealJs: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"]
-      },
+
       stylize: [
         {
           matcher: "Recommended",

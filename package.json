@@ -14,6 +14,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
+    "@elog/cli": "^0.14.7",
     "@vue/repl": "^4.2.0",
     "@vuepress/bundler-vite": "2.0.0-rc.12",
     "@vuepress/helper": "2.0.0-rc.31",

@@ -81,9 +81,30 @@ tag:
 
 // 辅助函数，从现有的 frontMatter 中获取字段值
 function getFieldValue(frontMatter, fieldName) {
-    const regex = new RegExp(`^${fieldName}:\\s*([^\n]+)`, 'm');
-    const match = frontMatter.match(regex);
-    return match ? match[1].trim() : null;
+    // 尝试匹配多行数组格式（处理嵌套数组）
+    const multiLineRegex = new RegExp(`^${fieldName}:([\\s\\S]*?)(?=\\n^[^\\s])`, 'gm');
+    const multiMatch = frontMatter.match(multiLineRegex);
+
+    if (multiMatch) {
+        // 在多行内容中查找实际的值（非 "-" 的内容）
+        const valueMatch = multiMatch[0].match(/-\s*['"]?([a-zA-Z0-9\u4e00-\u9fa5]+)['"]?/);
+        if (valueMatch) {
+            return valueMatch[1].trim();
+        }
+    }
+
+    // 尝试匹配单行值
+    const singleLineRegex = new RegExp(`^${fieldName}:\\s*([^\n]+)`, 'm');
+    const match = frontMatter.match(singleLineRegex);
+
+    if (match) {
+        const value = match[1].trim();
+        if (value && !value.startsWith('-')) {
+            return value;
+        }
+    }
+
+    return null;
 }
 function getFieldValueData(frontMatter, fieldName) {
     const regex = new RegExp(`^${fieldName}:\\s*['"]?([^'"\n]+)['"]?`, 'm');
