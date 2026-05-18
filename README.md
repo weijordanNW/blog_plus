@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/version-2.5.0-orange) ![](https://img.shields.io/badge/theme-hope-green) ![](https://img.shields.io/badge/powerby-vuepress-lightgrey?style=flat-square&logo=appveyor) ![](https://img.shields.io/badge/deploy-vercel-lightgrey?style=flat-square&logo=vercel) ![](https://img.shields.io/github/last-commit/oragekk/oragekk.github.io?display_timestamp=committer)
+![](https://img.shields.io/badge/version-2.7.2-orange) ![](https://img.shields.io/badge/theme-hope-green) ![](https://img.shields.io/badge/powerby-vuepress-lightgrey?style=flat-square&logo=appveyor) ![](https://img.shields.io/badge/deploy-vercel-lightgrey?style=flat-square&logo=vercel) ![](https://img.shields.io/github/last-commit/oragekk/oragekk.github.io?display_timestamp=committer)
 
 # 博客源码
 
@@ -236,24 +236,34 @@ new Crawler({
 });
 ```
 
-## 拉取语雀文档
+## 拉取文档
 
-package.json 文件里修改
-"type": "module", 改为 "type": "commonjs",
+支持语雀和飞书双平台同步，缓存自动分离。
 
-运行指令
-elog sync -e .elog.env
+### 语雀同步
 
-拉取完成以后
-再次修改回来
-"type": "commonjs", 改为 "type": "module",
+```bash
+# 同步语雀文档
+pnpm run sync-yuque
 
-## 更新语雀文档格式适配博客的FrontMatter
+# 更新语雀文档的 FrontMatter
+pnpm run update-frontmatter-yuque
+```
 
-根目录下scripts
+### 飞书同步
 
-updateFrontMatter.js
+```bash
+# 同步飞书文档（自动移除空容器）
+pnpm run sync-feishu
 
-运行
+# 更新飞书文档的 FrontMatter
+pnpm run update-frontmatter-feishu
+```
 
-npm run update-frontmatter
+> **飞书同步特性**：同步完成后自动删除只有 frontmatter 无正文的父文档（如 `AI.md`、`前端.md` 等飞书知识库嵌套容器），只保留有实际内容的文档。`update-frontmatter-feishu` 会自动根据文档层级路径生成 `category`（如 `AI/CC`、`前端/方案/通信`）。
+
+> 注：package.json 中已将 "type": "module" 改为 "type": "commonjs"，无需反复修改。
+
+## 版本更新日志
+
+详见 [CHANGELOG.md](CHANGELOG.md)

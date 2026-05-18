@@ -60,6 +60,13 @@ export const zhNavbar = navbar([
           { text: "首页", icon: "bokeyuan", link: "" },
         ],
       },
+      {
+        text: "飞书",
+        prefix: "/feishu/",
+        children: [
+          { text: "首页", icon: "bokeyuan", link: "" },
+        ],
+      },
     ],
   },
   // 工具

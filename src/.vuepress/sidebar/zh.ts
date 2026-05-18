@@ -88,6 +88,12 @@ export const zhSidebar = sidebar({
       link: "yuque/",
     },
     {
+      text: "飞书",
+      icon: "note",
+      prefix: "feishu/",
+      link: "feishu/",
+    },
+    {
       text: "站点收藏",
       icon: "sitemap",
       prefix: "site",
@@ -119,4 +125,5 @@ export const zhSidebar = sidebar({
   "/project": "structure",
   "/tutorial": "structure",
   "/yuque": "structure",
+  "/feishu": "structure",
 });

@@ -1,11 +1,11 @@
 ---
 title: vscode云端配置同步
-date: 2024-12-27 
+date: 2024-12-27
 icon: bokeyuan
 star: false
 isOriginal: false
 category:
-  - yuque
+  - 编辑器/Vscode
 tag:
   - yuque
 ---

@@ -1,6 +1,6 @@
 {
   "name": "weijodan",
-  "version": "2.7.1",
+  "version": "2.7.2",
   "description": "子冥的博客",
   "license": "MIT",
   "type": "commonjs",
@@ -9,7 +9,11 @@
     "clean-dev": "vuepress-vite dev src --clean-cache",
     "dev": "vuepress-vite dev src",
     "update-package": "pnpm dlx vp-update",
-    "update-frontmatter": "node scripts/updateFrontMatter.js"
+    "update-frontmatter": "node scripts/updateFrontMatter.js",
+    "update-frontmatter-yuque": "node scripts/updateFrontMatter.js ./src/yuque",
+    "update-frontmatter-feishu": "node scripts/updateFrontMatter.js ./src/feishu",
+    "sync-yuque": "node scripts/sync-yuque.js",
+    "sync-feishu": "node scripts/sync-feishu.js"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",

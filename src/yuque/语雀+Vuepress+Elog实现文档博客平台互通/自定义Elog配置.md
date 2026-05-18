@@ -1,11 +1,11 @@
 ---
 title: 自定义Elog配置
-date: 2024-12-18 
+date: 2024-12-18
 icon: bokeyuan
 star: false
 isOriginal: false
 category:
-  - yuque
+  - 语雀+Vuepress+Elog实现文档博客平台互通
 tag:
   - yuque
 ---
