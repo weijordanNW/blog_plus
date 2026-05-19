@@ -1,4 +1,7 @@
 {
+  "buildCommand": "pnpm build",
+  "outputDirectory": "src/.vuepress/dist",
+  "installCommand": "pnpm install --frozen-lockfile",
   "rewrites": [
     {
       "source": "/bing/(.*)",
