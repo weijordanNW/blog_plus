@@ -133,15 +133,15 @@ env:HTTP_PROXY="http://127.0.0.1:Port"; $$
 **以保证 诸多软件包的安装拉取正常进行**
 # Windows
 ### 1. [Windows Terminal](https://apps.microsoft.com/detail/9N0DX20HK701?hl=zh-cn&gl=CN&ocid=pdpshare)
-![image](../../../images/BnCdbpqFZomTsnx1hPSc02pdnKf.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/BnCdbpqFZomTsnx1hPSc02pdnKf.jpeg)
 [image-202507201919045991920×1488 144 KB](https://cdn3.ldstatic.com/original/4X/e/0/1/e0147e114cc1b079aa012c1dfc56145876ebda29.jpeg)
 
 安装好后 设定默认打开 系统内置 Powershell 并且给予默认为管理员权限
-![image](../../../images/Jl4hbF2p9oMLNCxE30Ac7uMPndf.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/Jl4hbF2p9oMLNCxE30Ac7uMPndf.jpeg)
 [image-202507201948555801920×994 74.5 KB](https://cdn3.ldstatic.com/original/4X/4/f/e/4fe53bd2bc246bf31c17f28390ff6d10e7387c57.jpeg)
 
 后续右键能够直接在所处文件夹内打开对应的终端 Shell
-![image](../../../images/UV06bvIQfoXwlUxI3eWcraj0nzc.png)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/UV06bvIQfoXwlUxI3eWcraj0nzc.png)
 ### WinGet
 ```shell
 $progressPreference = 'silentlyContinue'
@@ -150,21 +150,21 @@ Install-Module -Name Microsoft.WinGet.Client -Force -Repository PSGallery | Out-
 Write-Host "Using Repair-WinGetPackageManager cmdlet to bootstrap WinGet..."
 Repair-WinGetPackageManager -AllUsers
 ```
-![image](../../../images/CcvLbOpgxoOguZxy32wchfYWnZe.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/CcvLbOpgxoOguZxy32wchfYWnZe.jpeg)
 [image1920×534 77.2 KB](https://cdn3.ldstatic.com/original/4X/7/9/a/79a82a7fcdaae078643f3cfbfa444af54b8052b1.jpeg)
 ### PowerShell 7
 ```plaintext
 winget install Microsoft.PowerShell
 ```
-![image](../../../images/FaNEbMgfsoFFSgx0BJvcoX8mnco.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/FaNEbMgfsoFFSgx0BJvcoX8mnco.jpeg)
 [image1920×533 87.3 KB](https://cdn3.ldstatic.com/original/4X/3/d/f/3df36b91ecc2b1f0013e349d4f37ec65995d220b.jpeg)
 
 切换默认为我们刚安装的 Powershell
-![image](../../../images/Zz7obqxwNoC52RxJCKBcuOBKnMe.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/Zz7obqxwNoC52RxJCKBcuOBKnMe.jpeg)
 [image1920×1000 89.8 KB](https://cdn3.ldstatic.com/original/4X/f/1/c/f1c23df971278f2aa47d490faac3d33e3cd3b71e.jpeg)
 
 同样修改其默认配置为 管理员启动
-![image](../../../images/N1GWbdAUbobm10xQ4MmcIwWmnAb.png)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/N1GWbdAUbobm10xQ4MmcIwWmnAb.png)
 [image1676×164 68.1 KB](https://cdn3.ldstatic.com/original/4X/a/8/d/a8de24a87d2734becfdc264195b80965cb29da70.png)
 
 全部关闭后打开新终端窗口后 继续安装其他内容
@@ -172,24 +172,24 @@ winget install Microsoft.PowerShell
 ```plaintext
 winget install zufuliu.notepad4
 ```
-![image](../../../images/MrQobRQjcopuYfxzgZbcJV7dnSg.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/MrQobRQjcopuYfxzgZbcJV7dnSg.jpeg)
 [image1920×504 64.9 KB](https://cdn3.ldstatic.com/original/4X/5/2/2/522e83a19496169f488c760929c638e8f313c2a6.jpeg)
 
 使用命令 `Notepad4` 打开
 使用系统集成设置 替换系统记事本 和 快捷打开方式
-![image](../../../images/OKyHbFgPooW9cDxh38Fc4ZRFnEg.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/OKyHbFgPooW9cDxh38Fc4ZRFnEg.jpeg)
 [image1438×1546 128 KB](https://cdn3.ldstatic.com/original/4X/e/a/3/ea36723810e17185180c0a9e6b667aa18a8ccbae.jpeg)
 ### Git for Windows
 ```bash
 winget install --id Git.Git -e --source winget
 ```
-![image](../../../images/SBDcbV2MaoAIPNxL0AZcmXx1nPh.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/SBDcbV2MaoAIPNxL0AZcmXx1nPh.jpeg)
 [image2340×464 153 KB](https://cdn3.ldstatic.com/original/4X/2/e/c/2ecb56b2e6fd318a4f8343a08c4bd03cdf148b59.jpeg)
 ### fnm
 ```plaintext
 winget install Schniz.fnm
 ```
-![image](../../../images/WewNbQaLyoEGVPx06xIcDiFTnHU.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/WewNbQaLyoEGVPx06xIcDiFTnHU.jpeg)
 [image1920×503 60.3 KB](https://cdn3.ldstatic.com/original/4X/e/d/6/ed64ce0210e057add7fa36fd009fd6852e4d83fc.jpeg)
 
 安装成功后同样关闭全部窗口 重新打开一个终端 Shell
@@ -201,7 +201,7 @@ fnm install lts/krypton
 ```bash
 fnm use lts/krypton
 ```
-![image](../../../images/VkwObjXV6odzETxZrcfcNKjXnyh.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/VkwObjXV6odzETxZrcfcNKjXnyh.jpeg)
 [image2342×426 146 KB](https://cdn3.ldstatic.com/original/4X/b/6/7/b6704d6b63a77af2430623878aabf4a6810b859a.jpeg)
 
 需要对 FNM 给予一个环境启动
@@ -209,7 +209,7 @@ fnm use lts/krypton
 notepad $profile
 ```
 没有已有 `PROFILE` 的情况下会提示不存在
-![image](../../../images/FliwbfN6woKP6WxQmQ0cp6jMnHh.png)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/FliwbfN6woKP6WxQmQ0cp6jMnHh.png)
 [image964×378 91.6 KB](https://cdn3.ldstatic.com/original/4X/0/7/0/07042af4cf9e3f7a1481767cf661f95f0daaca1a.png)
 
 需要新建，那么我们新建
@@ -217,14 +217,14 @@ notepad $profile
 New-Item –Path $Profile –Type File –Force
 ```
 完成后再次使用命令 `notepad $profile` 打开
-![image](../../../images/RoJCbfuNdoyKLTx9VRJcXTUsnhg.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/RoJCbfuNdoyKLTx9VRJcXTUsnhg.jpeg)
 [image1628×502 108 KB](https://cdn3.ldstatic.com/original/4X/7/b/a/7bab9f8c88ce09870dfee7c807ee38c5c7812a94.jpeg)
 
 添加内容后保存
 ```rust
 fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression
 ```
-![image](../../../images/Mz4eb6iwXoJ1gtxbiDVcfAyDnzh.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/Mz4eb6iwXoJ1gtxbiDVcfAyDnzh.jpeg)
 [image1394×200 84.9 KB](https://cdn3.ldstatic.com/original/4X/1/b/f/1bf10b99d0b20e6b2bf67bdc0ba3c3e1fa3c62fd.jpeg)
 
 后同样关闭全部窗口 重新打开一个终端 Shell
@@ -244,7 +244,7 @@ npm config set registry https://registry.npmmirror.com
 ```css
 npm install -g @anthropic-ai/claude-code@2.1.112
 ```
-![image](../../../images/RQA8br00fol4HHx3MzXcfF7vnic.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/RQA8br00fol4HHx3MzXcfF7vnic.jpeg)
 [image1552×496 100 KB](https://cdn3.ldstatic.com/original/4X/f/a/f/fafec11406c7d5331682ad7d82a9749e57daeec0.jpeg)
 ### （可选设定）美化相关
 - 包含中文的等宽字体
@@ -254,7 +254,7 @@ npm install -g @anthropic-ai/claude-code@2.1.112
 		- 点击顶部下拉箭头 → 设置
 			- 配置文件项中的 Powershell → 其他设置中的外观项 → 字体选择
 		
-![image](../../../images/LoKDb4JiioUTMmxX9d9cMZDYn0d.png)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/LoKDb4JiioUTMmxX9d9cMZDYn0d.png)
 [image1978×1315 129 KB](https://cdn3.ldstatic.com/original/4X/b/1/8/b1809dbdd281037a365d1df19e2b8160e40e6339.png)
 - Oh My Posh
 
@@ -265,14 +265,14 @@ winget install JanDeDobbeleer.OhMyPosh --source winget --scope user --force
 ```bash
 notepad $profile
 ```
-![image](../../../images/FhWubnAtNon8RRxjgAXcf7kbn3c.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/FhWubnAtNon8RRxjgAXcf7kbn3c.jpeg)
 [image1544×576 174 KB](https://cdn3.ldstatic.com/original/4X/7/b/4/7b49b00210802e65b06335923ea61328bcc6f6d5.jpeg)
 ```perl
 oh-my-posh init pwsh --eval | Invoke-Expression
 ```
-![image](../../../images/CB8sbWWTso8SHqxAelrcqTL3njd.jpeg)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/CB8sbWWTso8SHqxAelrcqTL3njd.jpeg)
 [image1350×236 102 KB](https://cdn3.ldstatic.com/original/4X/7/8/5/785217af8415c021a673727750218b7e1aa6f0ec.jpeg)
-![image](../../../images/PTD4baDSWo9CT3xnDC2cML35nwb.png)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/PTD4baDSWo9CT3xnDC2cML35nwb.png)
 [image1268×226 57.9 KB](https://cdn3.ldstatic.com/original/4X/f/3/8/f3810ff471fff05ac5dd2ebd8fd4e2cfa08cd13f.png)
 
 **主题样式很多 任君挑选** [Themes | Oh My Posh](https://ohmyposh.dev/docs/themes)
@@ -290,7 +290,7 @@ oh-my-posh init pwsh --eval | Invoke-Expression
 
 - 2.0.31 使用 bun 构建的 CC 全端统一为 Shift+Tab，因其不存在 node 的这个问题
 
-![image](../../../images/NpkDbZKKuotzAPxTQGEch61ynch.png)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/NpkDbZKKuotzAPxTQGEch61ynch.png)
 - [image1474×310 12.2 KB](https://cdn3.ldstatic.com/original/4X/3/5/d/35d6d2ffba3f9ec16212e03c45c5521ca6c5ce86.png)
 
 #### Q: Windows 图片粘贴方法
@@ -315,7 +315,7 @@ oh-my-posh init pwsh --eval | Invoke-Expression
 
 - 1.0.65 已修正链接 IDE 稳定性问题
 
-![image](../../../images/TwzTb5QH4omHE9xazLocfZv3n9c.png)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/TwzTb5QH4omHE9xazLocfZv3n9c.png)
 - [image1190×250 20.8 KB](https://cdn3.ldstatic.com/original/4X/b/c/2/bc235ad7aba13e2838824074aaf976fafbe31789.png)
 
 #### Q: Windows 下 MCP Server (Stdio) 全部无法使用？
@@ -343,7 +343,7 @@ oh-my-posh init pwsh --eval | Invoke-Expression
 ---
 ---
 ---
-![image](../../../images/TqU6bUVICoC6AMxRJd4cIP3FnKf.png)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/TqU6bUVICoC6AMxRJd4cIP3FnKf.png)
 [image1676×890 78.2 KB](https://cdn3.ldstatic.com/original/4X/c/6/8/c68a1babe5e88340d02c1c9a510fc13671c116ef.png)
 ---
 - 
@@ -379,12 +379,12 @@ oh-my-posh init pwsh --eval | Invoke-Expression
 
 - v1.0.61 已经添加 `--settings` 参数，能够便捷化指定加载不同的 `settings.json` 配置
 
-![image](../../../images/Cs8ebnGO9oNWuxx0dkmcj6z7nhf.png)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/Cs8ebnGO9oNWuxx0dkmcj6z7nhf.png)
 - [image358×188 20.8 KB](https://cdn3.ldstatic.com/original/4X/d/b/1/db166a2bd7b5077e9ebad211393f308a820b2c00.png)
 
 - 目前在设置中开启 `Verbose Output` 恢复原有 详情输出 且添加了 上下文窗口实际值显示
 
-![image](../../../images/H48YbcvTboddYRx3Yh0czO49nPd.png)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/H48YbcvTboddYRx3Yh0czO49nPd.png)
 - [image2364×264 32.7 KB](https://cdn3.ldstatic.com/original/4X/b/6/c/b6ca02af18f6a8060aaa51659aebd87831d58372.png)
 
 ---

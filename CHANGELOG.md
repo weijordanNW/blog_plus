@@ -1,5 +1,19 @@
 # 版本更新日志
 
+## v2.7.3 (2026-05-19)
+
+**图片存储迁移到 GitHub 图床**
+
+- 新增 `IMAGE_PLATFORM` 环境变量开关，支持 `github` / `cos` / `local` 三模式切换
+- [elog.config.js](elog.config.js) 语雀图片平台改为 `process.env.IMAGE_PLATFORM`
+- [elog.feishu.config.js](elog.feishu.config.js) 飞书图片平台改为 `process.env.IMAGE_PLATFORM`
+- `.elog.env` 中设置 `IMAGE_PLATFORM=github`，图片上传到 `weijordanNW/blog_plus` 仓库
+- 语雀 `prefixKey: 'yuque'`，飞书 `prefixKey: 'feishu'`，云存储路径隔离
+- markdown 图片引用从本地路径 `../../images/xxx` 变更为 `https://raw.githubusercontent.com/...`
+- `.gitignore` 添加 `src/yuque/images/` 和 `src/feishu/images/`
+- 移除本地 103 个图片文件，仓库体积大幅减小
+- 切换方式：改 `.elog.env` 中 `IMAGE_PLATFORM` 值，运行 sync 即可
+
 ## v2.7.2 (2026-05-19)
 
 **飞书 sidebar 路由**

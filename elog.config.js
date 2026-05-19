@@ -77,21 +77,19 @@ module.exports = {
   },
   image: {
     enable: true,
-    platform: 'local',
+    platform: process.env.IMAGE_PLATFORM || 'local',
     local: {
-      outputDir: './src/yuque/images',// 图片输出目录
-      prefixKey: 'images',// 图片路径前缀
-      pathFollowDoc: true,// 图片路径是否跟随文档路径
-      // imagePathExt : "",// 图片路径拓展点
+      outputDir: './src/yuque/images',
+      prefixKey: 'images',
+      pathFollowDoc: true,
     },
-
     oss: {
       secretId: process.env.OSS_SECRET_ID,
       secretKey: process.env.OSS_SECRET_KEY,
       bucket: process.env.OSS_BUCKET,
       region: process.env.OSS_REGION,
       host: process.env.OSS_HOST,
-      prefixKey: '',
+      prefixKey: 'yuque',
     },
     cos: {
       secretId: process.env.COS_SECRET_ID,
@@ -99,7 +97,7 @@ module.exports = {
       bucket: process.env.COS_BUCKET,
       region: process.env.COS_REGION,
       host: process.env.COS_HOST,
-      prefixKey: '',
+      prefixKey: 'yuque',
     },
     qiniu: {
       secretId: process.env.QINIU_SECRET_ID,
@@ -107,20 +105,21 @@ module.exports = {
       bucket: process.env.QINIU_BUCKET,
       region: process.env.QINIU_REGION,
       host: process.env.QINIU_HOST,
-      prefixKey: '',
+      prefixKey: 'yuque',
     },
     upyun: {
       user: process.env.UPYUN_USER,
       password: process.env.UPYUN_PASSWORD,
       bucket: process.env.UPYUN_BUCKET,
       host: process.env.UPYUN_HOST,
-      prefixKey: '',
+      prefixKey: 'yuque',
     },
     github: {
       token: process.env.GITHUB_TOKEN,
       user: process.env.ELOG_GITHUB_USER,
       repo: process.env.ELOG_GITHUB_REPO,
-      prefixKey: '',
+      branch: 'main',
+      prefixKey: 'yuque',
     }
   }
 

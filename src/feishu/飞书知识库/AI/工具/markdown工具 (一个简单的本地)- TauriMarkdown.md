@@ -18,7 +18,7 @@ tag:
 更新后变得更加易用了，同时升级到了 tauri v2
 
 [github.com](https://github.com/jeeinn/tauri-markdown)
-![image](../../../images/Yz3DbrIE8oOniBx3n9ac8pgmnVd.png)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/Yz3DbrIE8oOniBx3n9ac8pgmnVd.png)
 ### [GitHub - jeeinn/tauri-markdown: A simple local markdown tool, use Tauri & Vditor &...](https://github.com/jeeinn/tauri-markdown)
 A simple local markdown tool, use Tauri & Vditor & Vue3
 ### 新增功能
@@ -45,7 +45,7 @@ A simple local markdown tool, use Tauri & Vditor & Vue3
 - **文件关联支持**: 右击 .md/.markdown 文件可选择在应用中打开
 
 软件截图
-![image](../../../images/OCflbZu6xosnwjxC5L9cjdArnOc.png)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/OCflbZu6xosnwjxC5L9cjdArnOc.png)
 [tmdthemelight1002×832 14.8 KB](https://cdn3.ldstatic.com/original/4X/0/6/d/06d29ae6077aeffc1fb1bc4558bdcd7219a28ad2.png)
-![image](../../../images/ANjCbptIloewinxnQFucprfJntg.png)
+![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/ANjCbptIloewinxnQFucprfJntg.png)
 

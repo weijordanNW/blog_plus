@@ -2,5 +2,7 @@
 node_modules/
 src/.vuepress/.cache/
 src/.vuepress/.temp/
-# src/.vuepress/dist/
-# .elog.env
+src/.vuepress/dist/
+.elog.env
+src/yuque/images/
+src/feishu/images/

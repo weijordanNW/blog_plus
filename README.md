@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/version-2.7.2-orange) ![](https://img.shields.io/badge/theme-hope-green) ![](https://img.shields.io/badge/powerby-vuepress-lightgrey?style=flat-square&logo=appveyor) ![](https://img.shields.io/badge/deploy-vercel-lightgrey?style=flat-square&logo=vercel) ![](https://img.shields.io/github/last-commit/oragekk/oragekk.github.io?display_timestamp=committer)
+![](https://img.shields.io/badge/version-2.7.3-orange) ![](https://img.shields.io/badge/theme-hope-green) ![](https://img.shields.io/badge/powerby-vuepress-lightgrey?style=flat-square&logo=appveyor) ![](https://img.shields.io/badge/deploy-vercel-lightgrey?style=flat-square&logo=vercel) ![](https://img.shields.io/github/last-commit/oragekk/oragekk.github.io?display_timestamp=committer)
 
 # 博客源码
 
@@ -261,6 +261,18 @@ pnpm run update-frontmatter-feishu
 ```
 
 > **飞书同步特性**：同步完成后自动删除只有 frontmatter 无正文的父文档（如 `AI.md`、`前端.md` 等飞书知识库嵌套容器），只保留有实际内容的文档。`update-frontmatter-feishu` 会自动根据文档层级路径生成 `category`（如 `AI/CC`、`前端/方案/通信`）。
+
+### 图片存储切换
+
+通过 `.elog.env` 中的 `IMAGE_PLATFORM` 环境变量控制图片存储位置：
+
+| 值 | 模式 | 说明 |
+|:---|------|------|
+| `github` | GitHub 图床 | 当前使用，图片存于 `weijordanNW/blog_plus` |
+| `cos` | 腾讯云 COS | 需配置 COS 凭证 |
+| `local` | 本地存储 | 兜底模式 |
+
+切换后运行 `pnpm run sync-yuque` / `pnpm run sync-feishu` 即可生效。
 
 > 注：package.json 中已将 "type": "module" 改为 "type": "commonjs"，无需反复修改。
 
