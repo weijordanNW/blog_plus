@@ -29,5 +29,5 @@ tag:
 ### 六.MCP-（标准化连接协议）
 ![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/AHP1bQJDGoApWwxwAc5cZwMynoN.png)
 
-![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/KXIKb1IPdoVWkZxSg35czMbYnpb.jpeg)
+
 
