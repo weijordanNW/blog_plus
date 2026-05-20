@@ -1,5 +1,18 @@
 # 版本更新日志
 
+## v2.7.4 (2026-05-19)
+
+**Vercel 构建修复**
+
+- `src/.vuepress/dist/` 从 Git 跟踪中移除（479 个旧构建产物不再提交）
+- `.gitignore` 取消注释 `src/.vuepress/dist/`，构建产物由 Vercel 自行生成
+- [vercel.json](vercel.json) 新增 `buildCommand` / `outputDirectory` / `installCommand` 配置
+- `package.json` build 命令构建前自动清理 `.temp` / `.cache` 防止缓存污染
+
+**残留文件清理**
+
+- 删除 `Codex 实战教程-程序员 Sunday.md`（elog 重同步后产生的旧残留文件，含本地图片引用导致 Vite 构建失败）
+
 ## v2.7.3 (2026-05-19)
 
 **图片存储迁移到 GitHub 图床**
