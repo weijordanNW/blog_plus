@@ -8,3 +8,4 @@ elog.cache.json
 elog.*.cache.json
 *.log
 *.local
+ssh_config_entry
