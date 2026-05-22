@@ -1,6 +1,6 @@
 ---
-title: Plus
-date: 2026-05-21
+title: Vue3 + Vite + TypeScript + Element-Plus：从零到一构建企业级后台管理系统（前后端开源）
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

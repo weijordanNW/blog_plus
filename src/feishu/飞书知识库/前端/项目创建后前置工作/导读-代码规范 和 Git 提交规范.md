@@ -1,6 +1,6 @@
 ---
-title: 代码规范
-date: 2026-05-21
+title: 导读-代码规范 和 Git 提交规范
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

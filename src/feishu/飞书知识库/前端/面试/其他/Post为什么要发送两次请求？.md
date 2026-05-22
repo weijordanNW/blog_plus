@@ -1,6 +1,6 @@
 ---
 title: Post为什么要发送两次请求？
-date: 2026-05-21
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

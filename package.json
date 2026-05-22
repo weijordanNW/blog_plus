@@ -13,7 +13,9 @@
     "update-frontmatter-yuque": "node scripts/updateFrontMatter.js ./src/yuque",
     "update-frontmatter-feishu": "node scripts/updateFrontMatter.js ./src/feishu",
     "sync-yuque": "node scripts/sync-yuque.js",
-    "sync-feishu": "node scripts/sync-feishu.js"
+    "sync-feishu": "node scripts/sync-feishu.js",
+    "audit-images": "node scripts/audit-images.js",
+    "compress-images": "node scripts/compress-images.js"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
@@ -33,9 +35,11 @@
     "cz-git": "^1.9.2",
     "echarts": "^5.5.0",
     "flowchart.ts": "^2.0.0",
+    "gray-matter": "^4.0.3",
     "katex": "^0.16.10",
     "mermaid": "^10.9.1",
     "reveal.js": "^5.1.0",
+    "sharp": "^0.34.5",
     "vite": "5.2.11",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2",

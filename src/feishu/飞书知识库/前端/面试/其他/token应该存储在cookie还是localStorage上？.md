@@ -1,6 +1,6 @@
 ---
 title: token应该存储在cookie还是localStorage上？
-date: 2026-05-21
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

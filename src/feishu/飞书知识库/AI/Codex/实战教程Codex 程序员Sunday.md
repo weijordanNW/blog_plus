@@ -1,6 +1,6 @@
 ---
 title: 实战教程Codex 程序员Sunday
-date: 2026-05-18
+date: '2026-05-18'
 icon: bokeyuan
 star: false
 isOriginal: false

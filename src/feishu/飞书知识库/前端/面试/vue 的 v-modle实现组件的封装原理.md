@@ -1,6 +1,6 @@
 ---
-title: modle实现组件的封装原理
-date: 2026-05-21
+title: vue 的 v-modle实现组件的封装原理
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

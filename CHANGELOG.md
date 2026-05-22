@@ -1,5 +1,39 @@
 # 版本更新日志
 
+## v2.8.1 (2026-05-22)
+
+> 详细变更见 [changelogs/v2.8.1.md](changelogs/v2.8.1.md)
+
+**飞书知识库全量同步**：从飞书知识库下载 144 篇文档，清理 45 个空容器后保留 101 篇有效 Markdown，图片同步至 GitHub 图床
+
+**FrontMatter 标准化**：对 101 篇飞书文档执行统一字段标准化（title / date / category / tag: feishu）
+
+**Git 提交规则**：[.trae/rules/git-commit-message.md](.trae/rules/git-commit-message.md) 新增规则——`提交信息必须使用中文`
+
+**变更记录初始化**：新增 `changelogs/v2.8.0.md` 记录 v2.8.0 累积变更详情（含 Mermaid 可视化架构图），并同步更新 CHANGELOG.md
+
+## v2.8.0 (2026-05-22)
+
+> 详细变更见 [changelogs/v2.8.0.md](changelogs/v2.8.0.md)
+
+**CI/CD 升级**：GitHub Actions 全面升级（checkout v4、pnpm/setup v4、Node 20）
+
+**Docker 多阶段构建**：Node 20 builder → Nginx Alpine runtime，镜像体积大幅减小
+
+**新工具链**：`audit-images` 大图审计 + `compress-images` 大图压缩（基于 sharp），feishu/ 下图床节省数十 MB
+
+**同步脚本重构**：
+- `sync-feishu.js`：异步延迟替代同步阻塞，环境变量配置化，移除硬编码文档数限制
+- `updateFrontMatter.js`：gray-matter 库替代手写正则，支持 `--dry-run` 预览
+
+**siteLinks.ts 集中配置**：新增 `routes` / `externalLinks` / `siteMeta` / `docSearch` / `googleAnalytics` / `meting` / `live2dModels` / `iconAssets` / `pwaAssets` / `waline` 等常量
+
+**配置迁移**：`config.ts` / `theme.ts` / `navbar` / `sidebar` / `friendData.ts` 所有硬编码全部迁移到 `siteLinks.ts` 引用
+
+**README.md 全新改写**：新增快速开始、常用脚本、内容同步、维护入口、质量检查等章节
+
+**清理**：删除 `deploy copy 4.sh`、`package copy.json` 等遗留文件
+
 ## v2.7.4 (2026-05-19)
 
 **Vercel 构建修复**

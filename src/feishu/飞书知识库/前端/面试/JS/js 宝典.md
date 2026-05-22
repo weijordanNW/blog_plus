@@ -1,6 +1,6 @@
 ---
 title: js 宝典
-date: 2026-05-21
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false
@@ -9,7 +9,6 @@ category:
 tag:
   - feishu
 ---
-
 ## 一、JavaScript必须知道的基础
 
 ### 对this对象的理解

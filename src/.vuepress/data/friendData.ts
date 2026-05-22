@@ -1,3 +1,5 @@
+import { siteMeta } from "./siteLinks.js";
+
 export interface LinkData {
   name: string;
   desc: string;
@@ -7,10 +9,10 @@ export interface LinkData {
 
 export const friends: LinkData[] = [
   {
-    name: "子冥",
+    name: siteMeta.authorName,
     desc: "waiting for",
     icon: "/logo.svg",
-    link: "https://weijordan.com",
+    link: siteMeta.authorUrl,
   },
   {
     name: 'KASUIEの次元', //网站的名称

@@ -1,6 +1,6 @@
 ---
 title: 大文件上传 vue3 + 组件封装
-date: 2026-05-21
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

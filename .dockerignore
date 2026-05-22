@@ -19,8 +19,7 @@ node_modules
 # 排除日志文件
 *.log
 
-# 排除依赖锁定文件
-pnpm-lock.yaml
+# 排除非 pnpm 的依赖锁定文件；Docker 构建需要 pnpm-lock.yaml
 package-lock.json
 
 # 排除配置文件，如果它们包含了敏感信息或不是构建必需的

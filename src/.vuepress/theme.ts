@@ -1,30 +1,31 @@
 import { MyTheme } from "./theme/index";
 import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
+import {
+  externalLinks,
+  iconAssets,
+  pwaAssets,
+  routes,
+  siteMeta,
+  waline,
+} from "./data/siteLinks.js";
 export default MyTheme({
-  hotReload: true,
-  hostname: "https://weijordan.com",// 域名
+  hotReload: false,
+  hostname: siteMeta.hostname,// 域名，维护来源：data/siteLinks.ts
   themeColor: true,
   fullscreen: true,
   author: {
-    name: "子冥",
-    url: "https://weijordan.com",// 个人主页
+    name: siteMeta.authorName,
+    url: siteMeta.authorUrl,// 个人主页，维护来源：data/siteLinks.ts
   },
 
-  iconAssets: [
-    // 默认：
-    "//at.alicdn.com/t/c/font_2410206_5vb9zlyghj.css",
-    // 二级
-    "//at.alicdn.com/t/c/font_3941380_00g6dc2nedwir.css",
-    // 自己
-    "//at.alicdn.com/t/c/font_4751228_8j43wz6fesq.css"
-  ],
+  iconAssets,
 
   logo: "/logo.svg",
 
-  repo: "https://github.com/weijordanNW?tab=repositories",// 仓库地址
+  repo: externalLinks.githubRepositories,// 仓库地址，维护来源：data/siteLinks.ts
 
-  docsDir: "src",
+  docsDir: siteMeta.docsDir,
 
   navbarLayout: {
     start: ["Brand"],
@@ -34,16 +35,16 @@ export default MyTheme({
 
   blog: {
     medias: {
-      GitHub: "https://github.com/weijordanNW",
-      Gitee: "https://gitee.com/weijordan",
+      GitHub: externalLinks.githubProfile,
+      Gitee: externalLinks.gitee,
 
-      Baidu: "https://www.baidu.com/",
-      BiliBili: "https://space.bilibili.com/102611372?spm_id_from=333.999.0.0",
+      Baidu: externalLinks.baidu,
+      BiliBili: externalLinks.bilibili,
       // Bitbucket: "https://example.com",
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      Email: "1985615319@qq.com",
+      Email: siteMeta.email,
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
@@ -65,11 +66,11 @@ export default MyTheme({
       // Weibo: "https://example.com",
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
-      Zhihu: "https://www.zhihu.com/",
+      Zhihu: externalLinks.zhihu,
       // 自定义
       Flowus: {
-        icon: "https://cdn2.flowus.cn/assets/_next/static/media/home-logo.78d948f2.png",
-        link: "https://flowus.cn/share/309cdcc3-8f77-4c7b-8057-55ab76451472?code=MWEDM0",
+        icon: externalLinks.flowusIcon,
+        link: externalLinks.flowus,
       },
 
       // VuePressThemeHope: {
@@ -83,7 +84,7 @@ export default MyTheme({
       // articleInfo:["Author", "Original", "Date", "PageView", "Category", "Tag", "ReadingTime"], //文章列表中展示的文章信息
 
     },
-    name: "Mr.子冥",
+    name: siteMeta.blogName,
   },
   locales: {
     /**
@@ -102,7 +103,7 @@ export default MyTheme({
 
       blog: {
         description: "waiting for",
-        intro: "/intro.html",
+        intro: siteMeta.introPath,
       },
 
       // page meta
@@ -142,8 +143,7 @@ export default MyTheme({
         {
           key: "news",
           filter: (page) => page.frontmatter.news === true,
-          layout: "News",
-          frontmatter: () => ({ title: "说说" }),
+          path: false,
         },
       ],
     },
@@ -161,21 +161,11 @@ export default MyTheme({
       provider: "Waline",
       // serverURL: "https://talk.oragekk.me/", // your server url
       // serverURL: "https://blog-comment-two-ochre.vercel.app",// your server url
-      serverURL: "https://blogcomment-omega.vercel.app/",// your server url
+      serverURL: waline.serverURL,// your server url，维护来源：data/siteLinks.ts
       reaction: true,
       requiredMeta: ["nick", 'mail'],
       wordLimit: 300,
-      emoji: [
-        "https://unpkg.com/@waline/emojis@1.1.0/tieba",
-        "https://unpkg.com/@waline/emojis@1.1.0/weibo",
-        "https://emoji.shojo.cn/bili/webp/tv_小电视_动图",
-        "https://emoji.shojo.cn/bili/webp/罗小黑战记",
-        "https://emoji.shojo.cn/bili/webp/2233娘",
-        "https://emoji.shojo.cn/bili/webp/装扮小姐姐梦幻冬季",
-        "https://emoji.shojo.cn/bili/webp/装扮小姐姐·秋日午后",
-        "https://emoji.shojo.cn/bili/webp/星尘",
-        "https://emoji.shojo.cn/bili/webp/池年"
-      ],
+      emoji: waline.emoji,
       locales: {
         "/": {
           placeholder:
@@ -233,39 +223,39 @@ export default MyTheme({
 
     // uncomment these if you want a PWA
     pwa: {
-      favicon: "/favicon.ico",
-      cacheHTML: true,
-      cacheImage: true,
+      favicon: pwaAssets.favicon,
+      cacheHTML: false,
+      cacheImage: false,
       appendBase: true,
       apple: {
-        icon: "/assets/icon/apple-icon-152.png",
+        icon: pwaAssets.appleIcon,
         statusBarColor: "black",
       },
       msTile: {
-        image: "/assets/icon/ms-icon-144.png",
+        image: pwaAssets.msIcon,
         color: "#ffffff",
       },
       manifest: {
         icons: [
           {
-            src: "/assets/icon/chrome-mask-512.png",
+            src: pwaAssets.chromeMask512,
             sizes: "512x512",
             purpose: "maskable",
             type: "image/png",
           },
           {
-            src: "/assets/icon/chrome-mask-192.png",
+            src: pwaAssets.chromeMask192,
             sizes: "192x192",
             purpose: "maskable",
             type: "image/png",
           },
           {
-            src: "/assets/icon/chrome-512.png",
+            src: pwaAssets.chrome512,
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "/assets/icon/chrome-192.png",
+            src: pwaAssets.chrome192,
             sizes: "192x192",
             type: "image/png",
           },
@@ -274,10 +264,10 @@ export default MyTheme({
           {
             name: "Demo",
             short_name: "Demo",
-            url: "/demo/",
+            url: routes.demo,
             icons: [
               {
-                src: "/assets/icon/guide-maskable.png",
+                src: pwaAssets.guideMaskable,
                 sizes: "192x192",
                 purpose: "maskable",
                 type: "image/png",

@@ -1,6 +1,6 @@
 ---
-title: alive的原理
-date: 2026-05-21
+title: Vue源码里面Keep-alive的原理
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

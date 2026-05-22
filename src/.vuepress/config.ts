@@ -15,6 +15,14 @@ import { PopperShape } from "@moefy-canvas/theme-popper";
 import { hitokotoPlugin } from "./plugins/vuepress-plugin-hitokoto";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import metingPlugin from "vuepress-plugin-meting2";
+import {
+  devProxy,
+  docSearch,
+  googleAnalytics,
+  live2dModels,
+  meting,
+  siteMeta,
+} from "./data/siteLinks.js";
 
 const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
@@ -24,8 +32,8 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Mr.子冥",
-      description: "Mr.子冥的博客",
+      title: siteMeta.blogName,
+      description: siteMeta.blogDescription,
     },
   },
   alias: {
@@ -46,7 +54,7 @@ export default defineUserConfig({
       server: {
         proxy: {
           "/bing": {
-            target: "https://cn.bing.com",
+            target: devProxy.bingTarget,
             changeOrigin: true,
             rewrite: (path) => path.replace(/^\/bing/, ""),
           },
@@ -61,9 +69,9 @@ export default defineUserConfig({
         global: true,
         server: "tencent",
         // api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r",
-        api: "https://api.injahow.cn/meting/?type=playlist&id=2619366284",
+        api: meting.api,
         type: "playlist",
-        mid: "851947617",
+        mid: meting.mid,
         aplayerOptions: {
           lrcDisplay: 'hide'
         }
@@ -98,14 +106,14 @@ export default defineUserConfig({
     // 谷歌统计
     googleAnalyticsPlugin({
       // 配置项
-      id: "G-R1WPVQFH8L",
-      debug: true,
+      id: googleAnalytics.id,
+      debug: false,
     }),
-    // 搜索插件
+    // 搜索插件，维护来源：data/siteLinks.ts；索引内容由 Algolia 远程爬虫更新
     docsearchPlugin({
-      appId: "0DW62MPRT9",
-      apiKey: "ea2478e10022c973bbae2eb240f90c8a",
-      indexName: "weijordan",
+      appId: docSearch.appId,
+      apiKey: docSearch.apiKey,
+      indexName: docSearch.indexName,
       locales: {
         "/": {
           placeholder: "搜索内容",
@@ -155,7 +163,7 @@ export default defineUserConfig({
       models: [
         {
           scale: 0.04,
-          path: "https://cdn.jsdelivr.net/gh/oragekk/blog-assets/live2D/sipeibojue_5/sipeibojue_5.model3.json",
+          path: live2dModels.sipeibojue,
           position: [0, 70],
           stageStyle: {
             height: 350
@@ -163,7 +171,7 @@ export default defineUserConfig({
         },
         {
           scale: 0.04,
-          path: "https://cdn.jsdelivr.net/gh/oragekk/blog-assets/live2D/lafei_4/lafei_4.model3.json",
+          path: live2dModels.lafei,
           position: [0, 80],
           stageStyle: {
             height: 360
@@ -171,7 +179,7 @@ export default defineUserConfig({
         },
         {
           scale: 0.1,
-          path: "https://cdn.jsdelivr.net/gh/oragekk/blog-assets/live2D/z46_2/z46_2.model3.json",
+          path: live2dModels.z46,
           position: [0, 60],
           stageStyle: {
             height: 330

@@ -1,6 +1,6 @@
 ---
 title: IndexedDB 浏览器数据库
-date: 2026-05-21
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

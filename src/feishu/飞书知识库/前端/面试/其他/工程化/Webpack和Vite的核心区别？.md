@@ -1,6 +1,6 @@
 ---
 title: Webpack和Vite的核心区别？
-date: 2026-05-21
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

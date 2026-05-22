@@ -1,6 +1,6 @@
 ---
-title: 通过
-date: 2026-05-21
+title: history 对象 --通过 JavaScript 操作浏览器的历史记录
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

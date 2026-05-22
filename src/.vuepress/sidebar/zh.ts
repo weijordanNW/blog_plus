@@ -1,4 +1,5 @@
 import { sidebar } from "vuepress-theme-hope";
+import { routes } from "../data/siteLinks.js";
 
 export const zhSidebar = sidebar({
   "/": [
@@ -97,7 +98,7 @@ export const zhSidebar = sidebar({
       text: "站点收藏",
       icon: "sitemap",
       prefix: "site",
-      link: "site/",
+      link: routes.site,
       children: "structure",
     },
     {

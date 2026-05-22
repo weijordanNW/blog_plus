@@ -1,9 +1,10 @@
 import { navbar } from "vuepress-theme-hope";
+import { externalLinks, routes } from "../data/siteLinks.js";
 
 export const zhNavbar = navbar([
-  "/",
-  { text: "导航", icon: "discover", link: "/demo/" },
-  { text: "HOME", icon: "home1", link: "https://home.weijordan.com/" },
+  routes.home,
+  { text: "导航", icon: "discover", link: routes.demo },
+  { text: "HOME", icon: "home1", link: externalLinks.home },
   // 笔记分类
   {
     text: "笔记分类",
@@ -12,7 +13,7 @@ export const zhNavbar = navbar([
       // 代码笔记
       {
         text: "代码笔记",
-        prefix: "/posts/",
+        prefix: routes.posts,
         children: [
           // { text: "iOS笔记", icon: "hk-apple", link: "iOS/" },
           { text: "前端笔记", icon: "code", link: "Web/" },
@@ -31,7 +32,7 @@ export const zhNavbar = navbar([
       // 博客相关
       {
         text: "博客相关",
-        prefix: "/blog/",
+        prefix: routes.blog,
         children: [
           { text: "博客相关", icon: "bokeyuan", link: "" },
         ],
@@ -39,7 +40,7 @@ export const zhNavbar = navbar([
       // 项目相关
       {
         text: "项目相关",
-        prefix: "/project/",
+        prefix: routes.project,
         children: [
           { text: "部署", icon: "bushu", link: "" },
         ],
@@ -55,14 +56,14 @@ export const zhNavbar = navbar([
       // 笔记平台
       {
         text: "语雀",
-        prefix: "/yuque/",
+        prefix: routes.yuque,
         children: [
           { text: "首页", icon: "bokeyuan", link: "" },
         ],
       },
       {
         text: "飞书",
-        prefix: "/feishu/",
+        prefix: routes.feishu,
         children: [
           { text: "首页", icon: "bokeyuan", link: "" },
         ],
@@ -78,9 +79,9 @@ export const zhNavbar = navbar([
       {
         text: "我的项目",
         children: [
-          { text: "子冥の库", icon: "wangpan1", link: "https://dist.weijordan.com/" },
-          { text: "子冥のAI", icon: "chat_gpt", link: "https://chatgpt.weijordan.com/" },
-          { text: "监控服务", icon: "jiankong", link: "https://status.weijordan.com/" },
+          { text: "子冥の库", icon: "wangpan1", link: externalLinks.projectDist },
+          { text: "子冥のAI", icon: "chat_gpt", link: externalLinks.projectAi },
+          { text: "监控服务", icon: "jiankong", link: externalLinks.projectStatus },
         ],
       },
       // 其他项目
@@ -88,7 +89,7 @@ export const zhNavbar = navbar([
         text: "其他项目",
         // prefix: "/project/",
         children: [
-          { text: "webSSH", icon: "WEBSSH", link: "https://ssh.zcmu.us.kg/" },
+          { text: "webSSH", icon: "WEBSSH", link: externalLinks.webSsh },
         ],
       },
     ],
@@ -97,32 +98,32 @@ export const zhNavbar = navbar([
   {
     text: "软件教程",
     icon: "software",
-    link: "/tutorial/",
+    link: routes.tutorial,
   },
   // 收藏
   {
     text: "收藏",
     icon: "hk-shoucang1",
-    link: "/collect",
+    link: routes.collect,
   },
   // 说说
   {
     text: "说说",
     icon: "news",
-    link: "/news/",
+    link: routes.news,
     // link: "/",
   },
   // 留言板
   {
     text: "留言板",
     icon: "mark",
-    link: "/visitorsbook",
+    link: routes.visitorsBook,
   },
   // 友链
   {
     text: "友链",
     icon: "link",
-    link: "/friend",
+    link: routes.friend,
     // link: "/",
   },
   // 库
@@ -136,7 +137,7 @@ export const zhNavbar = navbar([
   {
     text: "关于",
     icon: "info",
-    link: "/",
+    link: routes.home,
     // children: [
     //   { text: "关于我", icon: "people", link: "/intro" },
     //   { text: "关于本站", icon: "info", link: "/about" },

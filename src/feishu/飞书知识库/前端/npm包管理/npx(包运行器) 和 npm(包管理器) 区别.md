@@ -1,6 +1,6 @@
 ---
 title: npx(包运行器) 和 npm(包管理器) 区别
-date: 2026-05-21
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

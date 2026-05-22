@@ -1,6 +1,6 @@
 ---
 title: 前端打包出来的静态文件名字是一串Hash值的原因
-date: 2026-05-21
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

@@ -1,6 +1,6 @@
 ---
 title: 请求失败会弹出一个toast如何保证批量请求弹出一个toast？
-date: 2026-05-21
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

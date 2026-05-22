@@ -4,3 +4,7 @@ src/.vuepress/.cache/
 src/.vuepress/.temp/
 .elog.env
 src/.vuepress/dist/
+elog.cache.json
+elog.*.cache.json
+*.log
+*.local

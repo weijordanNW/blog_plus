@@ -1,6 +1,6 @@
 ---
 title: 《 Claude Code 终极版 FAQ 指南 》
-date: 2026-05-18
+date: '2026-05-18'
 icon: bokeyuan
 star: false
 isOriginal: false

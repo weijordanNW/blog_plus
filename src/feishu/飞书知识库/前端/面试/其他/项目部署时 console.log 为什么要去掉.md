@@ -1,6 +1,6 @@
 ---
 title: 项目部署时 console.log 为什么要去掉
-date: 2026-05-21
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

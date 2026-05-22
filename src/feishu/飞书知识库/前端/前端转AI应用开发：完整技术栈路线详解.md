@@ -1,6 +1,6 @@
 ---
 title: 前端转AI应用开发：完整技术栈路线详解
-date: 2026-05-21
+date: '2026-05-21'
 icon: bokeyuan
 star: false
 isOriginal: false

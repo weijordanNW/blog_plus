@@ -1,6 +1,6 @@
 ---
 title: Elog 接入飞书完整配置指南
-date: 2026-05-19
+date: '2026-05-19'
 icon: bokeyuan
 star: false
 isOriginal: false

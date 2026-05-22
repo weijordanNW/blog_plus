@@ -1,6 +1,6 @@
 ---
 title: AI 全链路（一览图）
-date: 2026-05-18
+date: '2026-05-18'
 icon: bokeyuan
 star: false
 isOriginal: false

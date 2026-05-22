@@ -34,529 +34,6 @@
       "docPath": "src\\feishu\\飞书知识库"
     },
     {
-      "id": "ZiTod951zoCnAcx8o1CcWJu7nEh",
-      "doc_id": "ZiTod951zoCnAcx8o1CcWJu7nEh",
-      "updated": 1779138435000,
-      "properties": {
-        "title": "方案",
-        "date": "2026-05-18 22:43:15",
-        "updated": "2026-05-19 05:07:15"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "前端",
-          "doc_id": "CGUvd2PeFoRtT0xBQgzcsg5xn0b"
-        }
-      ],
-      "realName": "方案",
-      "relativePath": "\\飞书知识库\\前端\\方案.md",
-      "docPath": "src\\feishu\\飞书知识库\\前端"
-    },
-    {
-      "id": "XdJgdPv7QoX1wqxSyGhc8KPtnfS",
-      "doc_id": "XdJgdPv7QoX1wqxSyGhc8KPtnfS",
-      "updated": 1779115754000,
-      "properties": {
-        "title": "大厂级防重复提交方案",
-        "date": "2026-05-18 22:43:31",
-        "updated": "2026-05-18 22:49:14"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "前端",
-          "doc_id": "CGUvd2PeFoRtT0xBQgzcsg5xn0b"
-        },
-        {
-          "title": "方案",
-          "doc_id": "ZiTod951zoCnAcx8o1CcWJu7nEh"
-        }
-      ],
-      "realName": "大厂级防重复提交方案",
-      "relativePath": "\\飞书知识库\\前端\\方案\\大厂级防重复提交方案.md",
-      "docPath": "src\\feishu\\飞书知识库\\前端\\方案"
-    },
-    {
-      "id": "DhbFdt0IpojE9ExA8SXc9osGn8e",
-      "doc_id": "DhbFdt0IpojE9ExA8SXc9osGn8e",
-      "updated": 1779116124000,
-      "properties": {
-        "title": "通信",
-        "date": "2026-05-18 22:54:08",
-        "updated": "2026-05-18 22:55:24"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "前端",
-          "doc_id": "CGUvd2PeFoRtT0xBQgzcsg5xn0b"
-        },
-        {
-          "title": "方案",
-          "doc_id": "ZiTod951zoCnAcx8o1CcWJu7nEh"
-        }
-      ],
-      "realName": "通信",
-      "relativePath": "\\飞书知识库\\前端\\方案\\通信.md",
-      "docPath": "src\\feishu\\飞书知识库\\前端\\方案"
-    },
-    {
-      "id": "D7NEdgFXHovd5NxLNkBcbo5KnMd",
-      "doc_id": "D7NEdgFXHovd5NxLNkBcbo5KnMd",
-      "updated": 1779302652000,
-      "properties": {
-        "title": "标签页间通信",
-        "date": "2026-05-18 22:54:28",
-        "updated": "2026-05-21 02:44:12"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "前端",
-          "doc_id": "CGUvd2PeFoRtT0xBQgzcsg5xn0b"
-        },
-        {
-          "title": "方案",
-          "doc_id": "ZiTod951zoCnAcx8o1CcWJu7nEh"
-        },
-        {
-          "title": "通信",
-          "doc_id": "DhbFdt0IpojE9ExA8SXc9osGn8e"
-        }
-      ],
-      "realName": "标签页间通信",
-      "relativePath": "\\飞书知识库\\前端\\方案\\通信\\标签页间通信.md",
-      "docPath": "src\\feishu\\飞书知识库\\前端\\方案\\通信"
-    },
-    {
-      "id": "EEbddoQfuoA2Vsx4ssLciWMmnXf",
-      "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf",
-      "updated": 1779113200000,
-      "properties": {
-        "title": "AI",
-        "date": "2026-05-18 22:05:49",
-        "updated": "2026-05-18 22:06:40"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        }
-      ],
-      "realName": "AI",
-      "relativePath": "\\飞书知识库\\AI.md",
-      "docPath": "src\\feishu\\飞书知识库"
-    },
-    {
-      "id": "JXPkdt4P1oSn6Ax9qklcXNFknCb",
-      "doc_id": "JXPkdt4P1oSn6Ax9qklcXNFknCb",
-      "updated": 1779114498000,
-      "properties": {
-        "title": "1.前端 + AI 路线图",
-        "date": "2026-05-18 22:05:58",
-        "updated": "2026-05-18 22:28:18"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "AI",
-          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
-        }
-      ],
-      "realName": "1.前端 + AI 路线图",
-      "relativePath": "\\飞书知识库\\AI\\1.前端 + AI 路线图.md",
-      "docPath": "src\\feishu\\飞书知识库\\AI"
-    },
-    {
-      "id": "AI0cdYxiqom1xXxSCgTcWiHxndh",
-      "doc_id": "AI0cdYxiqom1xXxSCgTcWiHxndh",
-      "updated": 1779301156000,
-      "properties": {
-        "title": "AI 全链路（一览图）",
-        "date": "2026-05-18 22:28:33",
-        "updated": "2026-05-21 02:19:16"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "AI",
-          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
-        }
-      ],
-      "realName": "AI 全链路（一览图）",
-      "relativePath": "\\飞书知识库\\AI\\AI 全链路（一览图）.md",
-      "docPath": "src\\feishu\\飞书知识库\\AI"
-    },
-    {
-      "id": "WVXwd7Cd1oFCHCxNn8icCHuznqf",
-      "doc_id": "WVXwd7Cd1oFCHCxNn8icCHuznqf",
-      "updated": 1779114742000,
-      "properties": {
-        "title": "Codex",
-        "date": "2026-05-18 22:31:30",
-        "updated": "2026-05-18 22:32:22"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "AI",
-          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
-        }
-      ],
-      "realName": "Codex",
-      "relativePath": "\\飞书知识库\\AI\\Codex.md",
-      "docPath": "src\\feishu\\飞书知识库\\AI"
-    },
-    {
-      "id": "ZHfXdZsSloeVXax63Y1cF1sYnr1",
-      "doc_id": "ZHfXdZsSloeVXax63Y1cF1sYnr1",
-      "updated": 1779146323000,
-      "properties": {
-        "title": "实战教程Codex 程序员Sunday",
-        "date": "2026-05-18 22:31:43",
-        "updated": "2026-05-19 07:18:43"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "AI",
-          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
-        },
-        {
-          "title": "Codex",
-          "doc_id": "WVXwd7Cd1oFCHCxNn8icCHuznqf"
-        }
-      ],
-      "realName": "实战教程Codex 程序员Sunday",
-      "relativePath": "\\飞书知识库\\AI\\Codex\\实战教程Codex 程序员Sunday.md",
-      "docPath": "src\\feishu\\飞书知识库\\AI\\Codex"
-    },
-    {
-      "id": "Hdc4d3wIiopWqbxdqPkchxBrnpd",
-      "doc_id": "Hdc4d3wIiopWqbxdqPkchxBrnpd",
-      "updated": 1779114906000,
-      "properties": {
-        "title": "CC",
-        "date": "2026-05-18 22:33:48",
-        "updated": "2026-05-18 22:35:06"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "AI",
-          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
-        }
-      ],
-      "realName": "CC",
-      "relativePath": "\\飞书知识库\\AI\\CC.md",
-      "docPath": "src\\feishu\\飞书知识库\\AI"
-    },
-    {
-      "id": "I0wKdUdS0oZnk4xpJVzclKlinAh",
-      "doc_id": "I0wKdUdS0oZnk4xpJVzclKlinAh",
-      "updated": 1779301183000,
-      "properties": {
-        "title": "0.CC 常用命令",
-        "date": "2026-05-18 22:34:00",
-        "updated": "2026-05-21 02:19:43"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "AI",
-          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
-        },
-        {
-          "title": "CC",
-          "doc_id": "Hdc4d3wIiopWqbxdqPkchxBrnpd"
-        }
-      ],
-      "realName": "0.CC 常用命令",
-      "relativePath": "\\飞书知识库\\AI\\CC\\0.CC 常用命令.md",
-      "docPath": "src\\feishu\\飞书知识库\\AI\\CC"
-    },
-    {
-      "id": "JhUhdJu3Xo1x99xNGvYcieYSnyf",
-      "doc_id": "JhUhdJu3Xo1x99xNGvYcieYSnyf",
-      "updated": 1779146395000,
-      "properties": {
-        "title": "1.ClaudeCode-使用进阶",
-        "date": "2026-05-18 22:34:35",
-        "updated": "2026-05-19 07:19:55"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "AI",
-          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
-        },
-        {
-          "title": "CC",
-          "doc_id": "Hdc4d3wIiopWqbxdqPkchxBrnpd"
-        }
-      ],
-      "realName": "1.ClaudeCode-使用进阶",
-      "relativePath": "\\飞书知识库\\AI\\CC\\1.ClaudeCode-使用进阶.md",
-      "docPath": "src\\feishu\\飞书知识库\\AI\\CC"
-    },
-    {
-      "id": "ICgRdHO7KoAoLHxIcdOchX4onsb",
-      "doc_id": "ICgRdHO7KoAoLHxIcdOchX4onsb",
-      "updated": 1779114904000,
-      "properties": {
-        "title": "2.CC 安装教程",
-        "date": "2026-05-18 22:34:55",
-        "updated": "2026-05-18 22:35:04"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "AI",
-          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
-        },
-        {
-          "title": "CC",
-          "doc_id": "Hdc4d3wIiopWqbxdqPkchxBrnpd"
-        }
-      ],
-      "realName": "2.CC 安装教程",
-      "relativePath": "\\飞书知识库\\AI\\CC\\2.CC 安装教程.md",
-      "docPath": "src\\feishu\\飞书知识库\\AI\\CC"
-    },
-    {
-      "id": "J2wqdnKV2oYraIx4GJ9cBdkhn8d",
-      "doc_id": "J2wqdnKV2oYraIx4GJ9cBdkhn8d",
-      "updated": 1779301226000,
-      "properties": {
-        "title": "工具",
-        "date": "2026-05-18 22:35:38",
-        "updated": "2026-05-21 02:20:26"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "AI",
-          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
-        }
-      ],
-      "realName": "工具",
-      "relativePath": "\\飞书知识库\\AI\\工具.md",
-      "docPath": "src\\feishu\\飞书知识库\\AI"
-    },
-    {
-      "id": "XLLcdPbuPoCXvPxxsPscdd06n4f",
-      "doc_id": "XLLcdPbuPoCXvPxxsPscdd06n4f",
-      "updated": 1779114960000,
-      "properties": {
-        "title": "markdown工具 (一个简单的本地)- TauriMarkdown",
-        "date": "2026-05-18 22:35:51",
-        "updated": "2026-05-18 22:36:00"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "AI",
-          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
-        },
-        {
-          "title": "工具",
-          "doc_id": "J2wqdnKV2oYraIx4GJ9cBdkhn8d"
-        }
-      ],
-      "realName": "markdown工具 (一个简单的本地)- TauriMarkdown",
-      "relativePath": "\\飞书知识库\\AI\\工具\\markdown工具 (一个简单的本地)- TauriMarkdown.md",
-      "docPath": "src\\feishu\\飞书知识库\\AI\\工具"
-    },
-    {
-      "id": "UIFadotq1o35i4x8SZtcheiynSg",
-      "doc_id": "UIFadotq1o35i4x8SZtcheiynSg",
-      "updated": 1779144588000,
-      "properties": {
-        "title": "2026最新前端 + AI 学习路线图",
-        "date": "2026-05-18 22:36:35",
-        "updated": "2026-05-19 06:49:48"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "AI",
-          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
-        },
-        {
-          "title": "工具",
-          "doc_id": "J2wqdnKV2oYraIx4GJ9cBdkhn8d"
-        }
-      ],
-      "realName": "2026最新前端 + AI 学习路线图",
-      "relativePath": "\\飞书知识库\\AI\\工具\\2026最新前端 + AI 学习路线图.md",
-      "docPath": "src\\feishu\\飞书知识库\\AI\\工具"
-    },
-    {
-      "id": "QVV8dLsawot7stxDiHAcIx0unab",
-      "doc_id": "QVV8dLsawot7stxDiHAcIx0unab",
-      "updated": 1779115097000,
-      "properties": {
-        "title": "CC-Switch",
-        "date": "2026-05-18 22:37:02",
-        "updated": "2026-05-18 22:38:17"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "AI",
-          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
-        }
-      ],
-      "realName": "CC-Switch",
-      "relativePath": "\\飞书知识库\\AI\\CC-Switch.md",
-      "docPath": "src\\feishu\\飞书知识库\\AI"
-    },
-    {
-      "id": "XhGydv2UnoqAj0xPIMUcYEr0nJc",
-      "doc_id": "XhGydv2UnoqAj0xPIMUcYEr0nJc",
-      "updated": 1779115094000,
-      "properties": {
-        "title": "Any牌路由器使用清障",
-        "date": "2026-05-18 22:37:34",
-        "updated": "2026-05-18 22:38:14"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "AI",
-          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
-        },
-        {
-          "title": "CC-Switch",
-          "doc_id": "QVV8dLsawot7stxDiHAcIx0unab"
-        }
-      ],
-      "realName": "Any牌路由器使用清障",
-      "relativePath": "\\飞书知识库\\AI\\CC-Switch\\Any牌路由器使用清障.md",
-      "docPath": "src\\feishu\\飞书知识库\\AI\\CC-Switch"
-    },
-    {
-      "id": "DAXIdCYZSoDXjCxfigAcnDSince",
-      "doc_id": "DAXIdCYZSoDXjCxfigAcnDSince",
-      "updated": 1779115093000,
-      "properties": {
-        "title": "《 Claude Code 终极版 FAQ 指南 》",
-        "date": "2026-05-18 22:37:52",
-        "updated": "2026-05-18 22:38:13"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "AI",
-          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
-        },
-        {
-          "title": "CC-Switch",
-          "doc_id": "QVV8dLsawot7stxDiHAcIx0unab"
-        }
-      ],
-      "realName": "《 Claude Code 终极版 FAQ 指南 》",
-      "relativePath": "\\飞书知识库\\AI\\CC-Switch\\《 Claude Code 终极版 FAQ 指南 》.md",
-      "docPath": "src\\feishu\\飞书知识库\\AI\\CC-Switch"
-    },
-    {
-      "id": "ZIaSdhuOdogn12xuHgVcY9v0nCc",
-      "doc_id": "ZIaSdhuOdogn12xuHgVcY9v0nCc",
-      "updated": 1779301232000,
-      "properties": {
-        "title": "博客",
-        "date": "2026-05-19 07:25:33",
-        "updated": "2026-05-21 02:20:32"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        }
-      ],
-      "realName": "博客",
-      "relativePath": "\\飞书知识库\\博客.md",
-      "docPath": "src\\feishu\\飞书知识库"
-    },
-    {
-      "id": "Lhnsd1KDqocI5WxzUn6cP6UNnkf",
-      "doc_id": "Lhnsd1KDqocI5WxzUn6cP6UNnkf",
-      "updated": 1779146865000,
-      "properties": {
-        "title": "Elog 接入飞书完整配置指南",
-        "date": "2026-05-19 07:25:45",
-        "updated": "2026-05-19 07:27:45"
-      },
-      "catalog": [
-        {
-          "title": "飞书知识库",
-          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
-        },
-        {
-          "title": "博客",
-          "doc_id": "ZIaSdhuOdogn12xuHgVcY9v0nCc"
-        }
-      ],
-      "realName": "Elog 接入飞书完整配置指南",
-      "relativePath": "\\飞书知识库\\博客\\Elog 接入飞书完整配置指南.md",
-      "docPath": "src\\feishu\\飞书知识库\\博客"
-    },
-    {
       "id": "QgEtd5j10ovt2IxL9uwcaPMZnDb",
       "doc_id": "QgEtd5j10ovt2IxL9uwcaPMZnDb",
       "updated": 1779301278000,
@@ -2126,6 +1603,114 @@
       "docPath": "src\\feishu\\飞书知识库\\前端\\面试\\其他"
     },
     {
+      "id": "ZiTod951zoCnAcx8o1CcWJu7nEh",
+      "doc_id": "ZiTod951zoCnAcx8o1CcWJu7nEh",
+      "updated": 1779138435000,
+      "properties": {
+        "title": "方案",
+        "date": "2026-05-18 22:43:15",
+        "updated": "2026-05-19 05:07:15"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "前端",
+          "doc_id": "CGUvd2PeFoRtT0xBQgzcsg5xn0b"
+        }
+      ],
+      "realName": "方案",
+      "relativePath": "\\飞书知识库\\前端\\方案.md",
+      "docPath": "src\\feishu\\飞书知识库\\前端"
+    },
+    {
+      "id": "XdJgdPv7QoX1wqxSyGhc8KPtnfS",
+      "doc_id": "XdJgdPv7QoX1wqxSyGhc8KPtnfS",
+      "updated": 1779115754000,
+      "properties": {
+        "title": "大厂级防重复提交方案",
+        "date": "2026-05-18 22:43:31",
+        "updated": "2026-05-18 22:49:14"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "前端",
+          "doc_id": "CGUvd2PeFoRtT0xBQgzcsg5xn0b"
+        },
+        {
+          "title": "方案",
+          "doc_id": "ZiTod951zoCnAcx8o1CcWJu7nEh"
+        }
+      ],
+      "realName": "大厂级防重复提交方案",
+      "relativePath": "\\飞书知识库\\前端\\方案\\大厂级防重复提交方案.md",
+      "docPath": "src\\feishu\\飞书知识库\\前端\\方案"
+    },
+    {
+      "id": "DhbFdt0IpojE9ExA8SXc9osGn8e",
+      "doc_id": "DhbFdt0IpojE9ExA8SXc9osGn8e",
+      "updated": 1779116124000,
+      "properties": {
+        "title": "通信",
+        "date": "2026-05-18 22:54:08",
+        "updated": "2026-05-18 22:55:24"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "前端",
+          "doc_id": "CGUvd2PeFoRtT0xBQgzcsg5xn0b"
+        },
+        {
+          "title": "方案",
+          "doc_id": "ZiTod951zoCnAcx8o1CcWJu7nEh"
+        }
+      ],
+      "realName": "通信",
+      "relativePath": "\\飞书知识库\\前端\\方案\\通信.md",
+      "docPath": "src\\feishu\\飞书知识库\\前端\\方案"
+    },
+    {
+      "id": "D7NEdgFXHovd5NxLNkBcbo5KnMd",
+      "doc_id": "D7NEdgFXHovd5NxLNkBcbo5KnMd",
+      "updated": 1779302652000,
+      "properties": {
+        "title": "标签页间通信",
+        "date": "2026-05-18 22:54:28",
+        "updated": "2026-05-21 02:44:12"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "前端",
+          "doc_id": "CGUvd2PeFoRtT0xBQgzcsg5xn0b"
+        },
+        {
+          "title": "方案",
+          "doc_id": "ZiTod951zoCnAcx8o1CcWJu7nEh"
+        },
+        {
+          "title": "通信",
+          "doc_id": "DhbFdt0IpojE9ExA8SXc9osGn8e"
+        }
+      ],
+      "realName": "标签页间通信",
+      "relativePath": "\\飞书知识库\\前端\\方案\\通信\\标签页间通信.md",
+      "docPath": "src\\feishu\\飞书知识库\\前端\\方案\\通信"
+    },
+    {
       "id": "KS71dnB9toS9QcxKxx7csfJenCe",
       "doc_id": "KS71dnB9toS9QcxKxx7csfJenCe",
       "updated": 1779304509000,
@@ -3302,6 +2887,954 @@
       "realName": "echars带引导线的饼图",
       "relativePath": "\\飞书知识库\\前端\\Echars可视化\\echars带引导线的饼图.md",
       "docPath": "src\\feishu\\飞书知识库\\前端\\Echars可视化"
+    },
+    {
+      "id": "EEbddoQfuoA2Vsx4ssLciWMmnXf",
+      "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf",
+      "updated": 1779113200000,
+      "properties": {
+        "title": "AI",
+        "date": "2026-05-18 22:05:49",
+        "updated": "2026-05-18 22:06:40"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "realName": "AI",
+      "relativePath": "\\飞书知识库\\AI.md",
+      "docPath": "src\\feishu\\飞书知识库"
+    },
+    {
+      "id": "JXPkdt4P1oSn6Ax9qklcXNFknCb",
+      "doc_id": "JXPkdt4P1oSn6Ax9qklcXNFknCb",
+      "updated": 1779114498000,
+      "properties": {
+        "title": "1.前端 + AI 路线图",
+        "date": "2026-05-18 22:05:58",
+        "updated": "2026-05-18 22:28:18"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI",
+          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
+        }
+      ],
+      "realName": "1.前端 + AI 路线图",
+      "relativePath": "\\飞书知识库\\AI\\1.前端 + AI 路线图.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI"
+    },
+    {
+      "id": "AI0cdYxiqom1xXxSCgTcWiHxndh",
+      "doc_id": "AI0cdYxiqom1xXxSCgTcWiHxndh",
+      "updated": 1779301156000,
+      "properties": {
+        "title": "AI 全链路（一览图）",
+        "date": "2026-05-18 22:28:33",
+        "updated": "2026-05-21 02:19:16"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI",
+          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
+        }
+      ],
+      "realName": "AI 全链路（一览图）",
+      "relativePath": "\\飞书知识库\\AI\\AI 全链路（一览图）.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI"
+    },
+    {
+      "id": "WVXwd7Cd1oFCHCxNn8icCHuznqf",
+      "doc_id": "WVXwd7Cd1oFCHCxNn8icCHuznqf",
+      "updated": 1779114742000,
+      "properties": {
+        "title": "Codex",
+        "date": "2026-05-18 22:31:30",
+        "updated": "2026-05-18 22:32:22"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI",
+          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
+        }
+      ],
+      "realName": "Codex",
+      "relativePath": "\\飞书知识库\\AI\\Codex.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI"
+    },
+    {
+      "id": "ZHfXdZsSloeVXax63Y1cF1sYnr1",
+      "doc_id": "ZHfXdZsSloeVXax63Y1cF1sYnr1",
+      "updated": 1779146323000,
+      "properties": {
+        "title": "实战教程Codex 程序员Sunday",
+        "date": "2026-05-18 22:31:43",
+        "updated": "2026-05-19 07:18:43"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI",
+          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
+        },
+        {
+          "title": "Codex",
+          "doc_id": "WVXwd7Cd1oFCHCxNn8icCHuznqf"
+        }
+      ],
+      "realName": "实战教程Codex 程序员Sunday",
+      "relativePath": "\\飞书知识库\\AI\\Codex\\实战教程Codex 程序员Sunday.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI\\Codex"
+    },
+    {
+      "id": "Hdc4d3wIiopWqbxdqPkchxBrnpd",
+      "doc_id": "Hdc4d3wIiopWqbxdqPkchxBrnpd",
+      "updated": 1779114906000,
+      "properties": {
+        "title": "CC",
+        "date": "2026-05-18 22:33:48",
+        "updated": "2026-05-18 22:35:06"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI",
+          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
+        }
+      ],
+      "realName": "CC",
+      "relativePath": "\\飞书知识库\\AI\\CC.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI"
+    },
+    {
+      "id": "I0wKdUdS0oZnk4xpJVzclKlinAh",
+      "doc_id": "I0wKdUdS0oZnk4xpJVzclKlinAh",
+      "updated": 1779301183000,
+      "properties": {
+        "title": "0.CC 常用命令",
+        "date": "2026-05-18 22:34:00",
+        "updated": "2026-05-21 02:19:43"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI",
+          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
+        },
+        {
+          "title": "CC",
+          "doc_id": "Hdc4d3wIiopWqbxdqPkchxBrnpd"
+        }
+      ],
+      "realName": "0.CC 常用命令",
+      "relativePath": "\\飞书知识库\\AI\\CC\\0.CC 常用命令.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI\\CC"
+    },
+    {
+      "id": "JhUhdJu3Xo1x99xNGvYcieYSnyf",
+      "doc_id": "JhUhdJu3Xo1x99xNGvYcieYSnyf",
+      "updated": 1779146395000,
+      "properties": {
+        "title": "1.ClaudeCode-使用进阶",
+        "date": "2026-05-18 22:34:35",
+        "updated": "2026-05-19 07:19:55"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI",
+          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
+        },
+        {
+          "title": "CC",
+          "doc_id": "Hdc4d3wIiopWqbxdqPkchxBrnpd"
+        }
+      ],
+      "realName": "1.ClaudeCode-使用进阶",
+      "relativePath": "\\飞书知识库\\AI\\CC\\1.ClaudeCode-使用进阶.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI\\CC"
+    },
+    {
+      "id": "ICgRdHO7KoAoLHxIcdOchX4onsb",
+      "doc_id": "ICgRdHO7KoAoLHxIcdOchX4onsb",
+      "updated": 1779114904000,
+      "properties": {
+        "title": "2.CC 安装教程",
+        "date": "2026-05-18 22:34:55",
+        "updated": "2026-05-18 22:35:04"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI",
+          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
+        },
+        {
+          "title": "CC",
+          "doc_id": "Hdc4d3wIiopWqbxdqPkchxBrnpd"
+        }
+      ],
+      "realName": "2.CC 安装教程",
+      "relativePath": "\\飞书知识库\\AI\\CC\\2.CC 安装教程.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI\\CC"
+    },
+    {
+      "id": "J2wqdnKV2oYraIx4GJ9cBdkhn8d",
+      "doc_id": "J2wqdnKV2oYraIx4GJ9cBdkhn8d",
+      "updated": 1779301226000,
+      "properties": {
+        "title": "工具",
+        "date": "2026-05-18 22:35:38",
+        "updated": "2026-05-21 02:20:26"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI",
+          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
+        }
+      ],
+      "realName": "工具",
+      "relativePath": "\\飞书知识库\\AI\\工具.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI"
+    },
+    {
+      "id": "XLLcdPbuPoCXvPxxsPscdd06n4f",
+      "doc_id": "XLLcdPbuPoCXvPxxsPscdd06n4f",
+      "updated": 1779114960000,
+      "properties": {
+        "title": "markdown工具 (一个简单的本地)- TauriMarkdown",
+        "date": "2026-05-18 22:35:51",
+        "updated": "2026-05-18 22:36:00"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI",
+          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
+        },
+        {
+          "title": "工具",
+          "doc_id": "J2wqdnKV2oYraIx4GJ9cBdkhn8d"
+        }
+      ],
+      "realName": "markdown工具 (一个简单的本地)- TauriMarkdown",
+      "relativePath": "\\飞书知识库\\AI\\工具\\markdown工具 (一个简单的本地)- TauriMarkdown.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI\\工具"
+    },
+    {
+      "id": "UIFadotq1o35i4x8SZtcheiynSg",
+      "doc_id": "UIFadotq1o35i4x8SZtcheiynSg",
+      "updated": 1779144588000,
+      "properties": {
+        "title": "2026最新前端 + AI 学习路线图",
+        "date": "2026-05-18 22:36:35",
+        "updated": "2026-05-19 06:49:48"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI",
+          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
+        },
+        {
+          "title": "工具",
+          "doc_id": "J2wqdnKV2oYraIx4GJ9cBdkhn8d"
+        }
+      ],
+      "realName": "2026最新前端 + AI 学习路线图",
+      "relativePath": "\\飞书知识库\\AI\\工具\\2026最新前端 + AI 学习路线图.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI\\工具"
+    },
+    {
+      "id": "QVV8dLsawot7stxDiHAcIx0unab",
+      "doc_id": "QVV8dLsawot7stxDiHAcIx0unab",
+      "updated": 1779115097000,
+      "properties": {
+        "title": "CC-Switch",
+        "date": "2026-05-18 22:37:02",
+        "updated": "2026-05-18 22:38:17"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI",
+          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
+        }
+      ],
+      "realName": "CC-Switch",
+      "relativePath": "\\飞书知识库\\AI\\CC-Switch.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI"
+    },
+    {
+      "id": "XhGydv2UnoqAj0xPIMUcYEr0nJc",
+      "doc_id": "XhGydv2UnoqAj0xPIMUcYEr0nJc",
+      "updated": 1779115094000,
+      "properties": {
+        "title": "Any牌路由器使用清障",
+        "date": "2026-05-18 22:37:34",
+        "updated": "2026-05-18 22:38:14"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI",
+          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
+        },
+        {
+          "title": "CC-Switch",
+          "doc_id": "QVV8dLsawot7stxDiHAcIx0unab"
+        }
+      ],
+      "realName": "Any牌路由器使用清障",
+      "relativePath": "\\飞书知识库\\AI\\CC-Switch\\Any牌路由器使用清障.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI\\CC-Switch"
+    },
+    {
+      "id": "DAXIdCYZSoDXjCxfigAcnDSince",
+      "doc_id": "DAXIdCYZSoDXjCxfigAcnDSince",
+      "updated": 1779115093000,
+      "properties": {
+        "title": "《 Claude Code 终极版 FAQ 指南 》",
+        "date": "2026-05-18 22:37:52",
+        "updated": "2026-05-18 22:38:13"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI",
+          "doc_id": "EEbddoQfuoA2Vsx4ssLciWMmnXf"
+        },
+        {
+          "title": "CC-Switch",
+          "doc_id": "QVV8dLsawot7stxDiHAcIx0unab"
+        }
+      ],
+      "realName": "《 Claude Code 终极版 FAQ 指南 》",
+      "relativePath": "\\飞书知识库\\AI\\CC-Switch\\《 Claude Code 终极版 FAQ 指南 》.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI\\CC-Switch"
+    },
+    {
+      "id": "ZIaSdhuOdogn12xuHgVcY9v0nCc",
+      "doc_id": "ZIaSdhuOdogn12xuHgVcY9v0nCc",
+      "updated": 1779301232000,
+      "properties": {
+        "title": "博客",
+        "date": "2026-05-19 07:25:33",
+        "updated": "2026-05-21 02:20:32"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "realName": "博客",
+      "relativePath": "\\飞书知识库\\博客.md",
+      "docPath": "src\\feishu\\飞书知识库"
+    },
+    {
+      "id": "Lhnsd1KDqocI5WxzUn6cP6UNnkf",
+      "doc_id": "Lhnsd1KDqocI5WxzUn6cP6UNnkf",
+      "updated": 1779146865000,
+      "properties": {
+        "title": "Elog 接入飞书完整配置指南",
+        "date": "2026-05-19 07:25:45",
+        "updated": "2026-05-19 07:27:45"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "博客",
+          "doc_id": "ZIaSdhuOdogn12xuHgVcY9v0nCc"
+        }
+      ],
+      "realName": "Elog 接入飞书完整配置指南",
+      "relativePath": "\\飞书知识库\\博客\\Elog 接入飞书完整配置指南.md",
+      "docPath": "src\\feishu\\飞书知识库\\博客"
+    },
+    {
+      "id": "IkiFdAkCvocgwrxVwEeckBFOnid",
+      "doc_id": "IkiFdAkCvocgwrxVwEeckBFOnid",
+      "updated": 1779325762000,
+      "properties": {
+        "title": "github集合",
+        "date": "2026-05-21 07:34:40",
+        "updated": "2026-05-21 09:09:22"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "realName": "github集合",
+      "relativePath": "\\飞书知识库\\github集合.md",
+      "docPath": "src\\feishu\\飞书知识库"
+    },
+    {
+      "id": "Hnv3dPKJcoWsGSxqOsEca7xnnAe",
+      "doc_id": "Hnv3dPKJcoWsGSxqOsEca7xnnAe",
+      "updated": 1779324928000,
+      "properties": {
+        "title": "每周项目合集",
+        "date": "2026-05-21 08:55:10",
+        "updated": "2026-05-21 08:55:28"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "github集合",
+          "doc_id": "IkiFdAkCvocgwrxVwEeckBFOnid"
+        }
+      ],
+      "realName": "每周项目合集",
+      "relativePath": "\\飞书知识库\\github集合\\每周项目合集.md",
+      "docPath": "src\\feishu\\飞书知识库\\github集合"
+    },
+    {
+      "id": "QcM7dbGb6ouqdbxuavactT1xn6b",
+      "doc_id": "QcM7dbGb6ouqdbxuavactT1xn6b",
+      "updated": 1779328084000,
+      "properties": {
+        "title": "2026年05月21日",
+        "date": "2026-05-21 08:55:30",
+        "updated": "2026-05-21 09:48:04"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "github集合",
+          "doc_id": "IkiFdAkCvocgwrxVwEeckBFOnid"
+        },
+        {
+          "title": "每周项目合集",
+          "doc_id": "Hnv3dPKJcoWsGSxqOsEca7xnnAe"
+        }
+      ],
+      "realName": "2026年05月21日",
+      "relativePath": "\\飞书知识库\\github集合\\每周项目合集\\2026年05月21日.md",
+      "docPath": "src\\feishu\\飞书知识库\\github集合\\每周项目合集"
+    },
+    {
+      "id": "AppqdeiuLoPfX2xmGEqcZVmgnse",
+      "doc_id": "AppqdeiuLoPfX2xmGEqcZVmgnse",
+      "updated": 1779320940000,
+      "properties": {
+        "title": "9个AI智能体&开发工具开源项目",
+        "date": "2026-05-21 07:35:13",
+        "updated": "2026-05-21 07:49:00"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "github集合",
+          "doc_id": "IkiFdAkCvocgwrxVwEeckBFOnid"
+        },
+        {
+          "title": "每周项目合集",
+          "doc_id": "Hnv3dPKJcoWsGSxqOsEca7xnnAe"
+        }
+      ],
+      "realName": "9个AI智能体&开发工具开源项目",
+      "relativePath": "\\飞书知识库\\github集合\\每周项目合集\\9个AI智能体&开发工具开源项目.md",
+      "docPath": "src\\feishu\\飞书知识库\\github集合\\每周项目合集"
+    },
+    {
+      "id": "ZnHVdpxZzofLbxxQZLoc1FBnnOg",
+      "doc_id": "ZnHVdpxZzofLbxxQZLoc1FBnnOg",
+      "updated": 1779320966000,
+      "properties": {
+        "title": "5 个 AI / 安全 / 金融工具开源项目・一页极简速查",
+        "date": "2026-05-21 07:49:06",
+        "updated": "2026-05-21 07:49:26"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "github集合",
+          "doc_id": "IkiFdAkCvocgwrxVwEeckBFOnid"
+        },
+        {
+          "title": "每周项目合集",
+          "doc_id": "Hnv3dPKJcoWsGSxqOsEca7xnnAe"
+        }
+      ],
+      "realName": "5 个 AI ! 安全 ! 金融工具开源项目・一页极简速查",
+      "relativePath": "\\飞书知识库\\github集合\\每周项目合集\\5 个 AI ! 安全 ! 金融工具开源项目・一页极简速查.md",
+      "docPath": "src\\feishu\\飞书知识库\\github集合\\每周项目合集"
+    },
+    {
+      "id": "GziLd5SVioy2N5xPXPlcTGgynFc",
+      "doc_id": "GziLd5SVioy2N5xPXPlcTGgynFc",
+      "updated": 1779321607000,
+      "properties": {
+        "title": "10 个热门开源项目",
+        "date": "2026-05-21 07:55:19",
+        "updated": "2026-05-21 08:00:07"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "github集合",
+          "doc_id": "IkiFdAkCvocgwrxVwEeckBFOnid"
+        },
+        {
+          "title": "每周项目合集",
+          "doc_id": "Hnv3dPKJcoWsGSxqOsEca7xnnAe"
+        }
+      ],
+      "realName": "10 个热门开源项目",
+      "relativePath": "\\飞书知识库\\github集合\\每周项目合集\\10 个热门开源项目.md",
+      "docPath": "src\\feishu\\飞书知识库\\github集合\\每周项目合集"
+    },
+    {
+      "id": "Uok9dTzUNoJFLTxuZohc5qzKn9d",
+      "doc_id": "Uok9dTzUNoJFLTxuZohc5qzKn9d",
+      "updated": 1779405266000,
+      "properties": {
+        "title": "oh-my-pi",
+        "date": "2026-05-22 07:14:13",
+        "updated": "2026-05-22 07:14:26"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "github集合",
+          "doc_id": "IkiFdAkCvocgwrxVwEeckBFOnid"
+        },
+        {
+          "title": "每周项目合集",
+          "doc_id": "Hnv3dPKJcoWsGSxqOsEca7xnnAe"
+        }
+      ],
+      "realName": "oh-my-pi",
+      "relativePath": "\\飞书知识库\\github集合\\每周项目合集\\oh-my-pi.md",
+      "docPath": "src\\feishu\\飞书知识库\\github集合\\每周项目合集"
+    },
+    {
+      "id": "OREyd1HPMomeKGxhZDGcQ3aLn2J",
+      "doc_id": "OREyd1HPMomeKGxhZDGcQ3aLn2J",
+      "updated": 1779402706000,
+      "properties": {
+        "title": "Git 和 github",
+        "date": "2026-05-22 06:31:27",
+        "updated": "2026-05-22 06:31:46"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "realName": "Git 和 github",
+      "relativePath": "\\飞书知识库\\Git 和 github.md",
+      "docPath": "src\\feishu\\飞书知识库"
+    },
+    {
+      "id": "Z4Omd2s1rofT4YxuVQqcIFiHngf",
+      "doc_id": "Z4Omd2s1rofT4YxuVQqcIFiHngf",
+      "updated": 1779458645000,
+      "properties": {
+        "title": "Git + GitHub 核心概念串讲笔记",
+        "date": "2026-05-22 05:25:48",
+        "updated": "2026-05-22 22:04:05"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "Git 和 github",
+          "doc_id": "OREyd1HPMomeKGxhZDGcQ3aLn2J"
+        }
+      ],
+      "realName": "Git + GitHub 核心概念串讲笔记",
+      "relativePath": "\\飞书知识库\\Git 和 github\\Git + GitHub 核心概念串讲笔记.md",
+      "docPath": "src\\feishu\\飞书知识库\\Git 和 github"
+    },
+    {
+      "id": "WTzedeWfToF0q2xjoZ1cJDcjneh",
+      "doc_id": "WTzedeWfToF0q2xjoZ1cJDcjneh",
+      "updated": 1779404898000,
+      "properties": {
+        "title": "Skill",
+        "date": "2026-05-22 07:06:19",
+        "updated": "2026-05-22 07:08:18"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "realName": "Skill",
+      "relativePath": "\\飞书知识库\\Skill.md",
+      "docPath": "src\\feishu\\飞书知识库"
+    },
+    {
+      "id": "X7sFdAlXEoTGqExpjuzcJI8Dnqg",
+      "doc_id": "X7sFdAlXEoTGqExpjuzcJI8Dnqg",
+      "updated": 1779404804000,
+      "properties": {
+        "title": "AGENTS.md",
+        "date": "2026-05-22 07:06:35",
+        "updated": "2026-05-22 07:06:44"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "Skill",
+          "doc_id": "WTzedeWfToF0q2xjoZ1cJDcjneh"
+        }
+      ],
+      "realName": "AGENTS.md",
+      "relativePath": "\\飞书知识库\\Skill\\AGENTS.md.md",
+      "docPath": "src\\feishu\\飞书知识库\\Skill"
+    },
+    {
+      "id": "SjNOdndFZomnOHx7JT1cGqAznVh",
+      "doc_id": "SjNOdndFZomnOHx7JT1cGqAznVh",
+      "updated": 1779404895000,
+      "properties": {
+        "title": "Codex",
+        "date": "2026-05-22 07:07:17",
+        "updated": "2026-05-22 07:08:15"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "Skill",
+          "doc_id": "WTzedeWfToF0q2xjoZ1cJDcjneh"
+        }
+      ],
+      "realName": "Codex",
+      "relativePath": "\\飞书知识库\\Skill\\Codex.md",
+      "docPath": "src\\feishu\\飞书知识库\\Skill"
+    },
+    {
+      "id": "UApvdYW2XoPOKZxPl2lcERKRnLg",
+      "doc_id": "UApvdYW2XoPOKZxPl2lcERKRnLg",
+      "updated": 1779404881000,
+      "properties": {
+        "title": "AGENTS.md",
+        "date": "2026-05-22 07:07:55",
+        "updated": "2026-05-22 07:08:01"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "Skill",
+          "doc_id": "WTzedeWfToF0q2xjoZ1cJDcjneh"
+        },
+        {
+          "title": "Codex",
+          "doc_id": "SjNOdndFZomnOHx7JT1cGqAznVh"
+        }
+      ],
+      "realName": "AGENTS.md",
+      "relativePath": "\\飞书知识库\\Skill\\Codex\\AGENTS.md.md",
+      "docPath": "src\\feishu\\飞书知识库\\Skill\\Codex"
+    },
+    {
+      "id": "HlNydOL9LoByG2xK3NbcQk31nkO",
+      "doc_id": "HlNydOL9LoByG2xK3NbcQk31nkO",
+      "updated": 1779406698000,
+      "properties": {
+        "title": "AI工具-使用技能",
+        "date": "2026-05-22 07:34:54",
+        "updated": "2026-05-22 07:38:18"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "realName": "AI工具-使用技能",
+      "relativePath": "\\飞书知识库\\AI工具-使用技能.md",
+      "docPath": "src\\feishu\\飞书知识库"
+    },
+    {
+      "id": "AARNdgozYo2mH8xWzoicoiplnGe",
+      "doc_id": "AARNdgozYo2mH8xWzoicoiplnGe",
+      "updated": 1779406701000,
+      "properties": {
+        "title": "阿里千问",
+        "date": "2026-05-22 07:35:12",
+        "updated": "2026-05-22 07:38:21"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI工具-使用技能",
+          "doc_id": "HlNydOL9LoByG2xK3NbcQk31nkO"
+        }
+      ],
+      "realName": "阿里千问",
+      "relativePath": "\\飞书知识库\\AI工具-使用技能\\阿里千问.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI工具-使用技能"
+    },
+    {
+      "id": "TR4fdfGUBojJTDxYDb0cYM6Ynlg",
+      "doc_id": "TR4fdfGUBojJTDxYDb0cYM6Ynlg",
+      "updated": 1779407970000,
+      "properties": {
+        "title": "视频生图",
+        "date": "2026-05-22 07:37:24",
+        "updated": "2026-05-22 07:59:30"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI工具-使用技能",
+          "doc_id": "HlNydOL9LoByG2xK3NbcQk31nkO"
+        },
+        {
+          "title": "阿里千问",
+          "doc_id": "AARNdgozYo2mH8xWzoicoiplnGe"
+        }
+      ],
+      "realName": "视频生图",
+      "relativePath": "\\飞书知识库\\AI工具-使用技能\\阿里千问\\视频生图.md",
+      "docPath": "src\\feishu\\飞书知识库\\AI工具-使用技能\\阿里千问"
+    },
+    {
+      "id": "Gh1Jd2PufoC83fxrgB2cBzDAn7g",
+      "doc_id": "Gh1Jd2PufoC83fxrgB2cBzDAn7g",
+      "updated": 1779384826000,
+      "properties": {
+        "title": "日常安装和常用使用飞书 CLI",
+        "date": "2026-05-22 01:32:51",
+        "updated": "2026-05-22 01:33:46"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "realName": "日常安装和常用使用飞书 CLI",
+      "relativePath": "\\飞书知识库\\日常安装和常用使用飞书 CLI.md",
+      "docPath": "src\\feishu\\飞书知识库"
+    },
+    {
+      "id": "PhbTdOVWnoB9CXx8sXfcHUHZnvc",
+      "doc_id": "PhbTdOVWnoB9CXx8sXfcHUHZnvc",
+      "updated": 1779384923000,
+      "properties": {
+        "title": "在 Codex 如何玩转飞书",
+        "date": "2026-05-22 01:35:21",
+        "updated": "2026-05-22 01:35:23"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "realName": "在 Codex 如何玩转飞书",
+      "relativePath": "\\飞书知识库\\在 Codex 如何玩转飞书.md",
+      "docPath": "src\\feishu\\飞书知识库"
+    },
+    {
+      "id": "FkkCdSHj2o8LSPxqQ9Dc3QqjnUg",
+      "doc_id": "FkkCdSHj2o8LSPxqQ9Dc3QqjnUg",
+      "updated": 1779407071000,
+      "properties": {
+        "title": "中转",
+        "date": "2026-05-22 07:44:21",
+        "updated": "2026-05-22 07:44:31"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "realName": "中转",
+      "relativePath": "\\飞书知识库\\中转.md",
+      "docPath": "src\\feishu\\飞书知识库"
+    },
+    {
+      "id": "LSt1db7bLo77Qext1JMcka9jnPg",
+      "doc_id": "LSt1db7bLo77Qext1JMcka9jnPg",
+      "updated": 1779408520000,
+      "properties": {
+        "title": "ChatGPT Plus 账号-平替购买-月抛型",
+        "date": "2026-05-22 08:02:23",
+        "updated": "2026-05-22 08:08:40"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "中转",
+          "doc_id": "FkkCdSHj2o8LSPxqQ9Dc3QqjnUg"
+        }
+      ],
+      "realName": "ChatGPT Plus 账号-平替购买-月抛型",
+      "relativePath": "\\飞书知识库\\中转\\ChatGPT Plus 账号-平替购买-月抛型.md",
+      "docPath": "src\\feishu\\飞书知识库\\中转"
+    },
+    {
+      "id": "ADucdbAj6oBvUoxqmJ1cRsKHnDh",
+      "doc_id": "ADucdbAj6oBvUoxqmJ1cRsKHnDh",
+      "updated": 1779407606000,
+      "properties": {
+        "title": "codex推荐",
+        "date": "2026-05-22 07:44:34",
+        "updated": "2026-05-22 07:53:26"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "中转",
+          "doc_id": "FkkCdSHj2o8LSPxqQ9Dc3QqjnUg"
+        }
+      ],
+      "realName": "codex推荐",
+      "relativePath": "\\飞书知识库\\中转\\codex推荐.md",
+      "docPath": "src\\feishu\\飞书知识库\\中转"
+    },
+    {
+      "id": "GBSEd9GzGoUAZ0xB7uNc8b5jn9c",
+      "doc_id": "GBSEd9GzGoUAZ0xB7uNc8b5jn9c",
+      "updated": 1779407326000,
+      "properties": {
+        "title": "账号",
+        "date": "2026-05-22 07:48:15",
+        "updated": "2026-05-22 07:48:46"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "中转",
+          "doc_id": "FkkCdSHj2o8LSPxqQ9Dc3QqjnUg"
+        },
+        {
+          "title": "codex推荐",
+          "doc_id": "ADucdbAj6oBvUoxqmJ1cRsKHnDh"
+        }
+      ],
+      "realName": "账号",
+      "relativePath": "\\飞书知识库\\中转\\codex推荐\\账号.md",
+      "docPath": "src\\feishu\\飞书知识库\\中转\\codex推荐"
+    },
+    {
+      "id": "LiU3dE8y5ohTv3xq3DScDW8gngb",
+      "doc_id": "LiU3dE8y5ohTv3xq3DScDW8gngb",
+      "updated": 1779407506000,
+      "properties": {
+        "title": "其他",
+        "date": "2026-05-22 07:51:42",
+        "updated": "2026-05-22 07:51:46"
+      },
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "中转",
+          "doc_id": "FkkCdSHj2o8LSPxqQ9Dc3QqjnUg"
+        }
+      ],
+      "realName": "其他",
+      "relativePath": "\\飞书知识库\\中转\\其他.md",
+      "docPath": "src\\feishu\\飞书知识库\\中转"
     },
     {
       "id": "XvP3dhP2HoKtgnxTyWXcCh7Dnee",
@@ -6381,6 +6914,493 @@
       "has_child": false,
       "node_token": "JRGbwKAn9iP9NvkumCtcJ6UUnaf",
       "parent_node_token": "S5BAwa2pfiwkZzkmXW7cv0lAnGb"
+    },
+    {
+      "doc_id": "IkiFdAkCvocgwrxVwEeckBFOnid",
+      "id": "IkiFdAkCvocgwrxVwEeckBFOnid",
+      "title": "github集合",
+      "createdAt": 1779320080000,
+      "updated": 1779325762000,
+      "updatedAt": 1779325762000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "has_child": true,
+      "node_token": "U354wdxEqiuC16kvR9yc6ZbeneE",
+      "parent_node_token": "FqBowmHMfiuorvkUluNcSxSqn5g"
+    },
+    {
+      "doc_id": "Hnv3dPKJcoWsGSxqOsEca7xnnAe",
+      "id": "Hnv3dPKJcoWsGSxqOsEca7xnnAe",
+      "title": "每周项目合集",
+      "createdAt": 1779324910000,
+      "updated": 1779324928000,
+      "updatedAt": 1779324928000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "github集合",
+          "doc_id": "IkiFdAkCvocgwrxVwEeckBFOnid"
+        }
+      ],
+      "has_child": true,
+      "node_token": "YkrbwJng7i4x1LkjaHrctJLQnph",
+      "parent_node_token": "U354wdxEqiuC16kvR9yc6ZbeneE"
+    },
+    {
+      "doc_id": "QcM7dbGb6ouqdbxuavactT1xn6b",
+      "id": "QcM7dbGb6ouqdbxuavactT1xn6b",
+      "title": "2026年05月21日",
+      "createdAt": 1779324930000,
+      "updated": 1779328084000,
+      "updatedAt": 1779328084000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "github集合",
+          "doc_id": "IkiFdAkCvocgwrxVwEeckBFOnid"
+        },
+        {
+          "title": "每周项目合集",
+          "doc_id": "Hnv3dPKJcoWsGSxqOsEca7xnnAe"
+        }
+      ],
+      "has_child": false,
+      "node_token": "UprDwTkY5imECrkxIK5cVATbnke",
+      "parent_node_token": "YkrbwJng7i4x1LkjaHrctJLQnph"
+    },
+    {
+      "doc_id": "AppqdeiuLoPfX2xmGEqcZVmgnse",
+      "id": "AppqdeiuLoPfX2xmGEqcZVmgnse",
+      "title": "9个AI智能体&开发工具开源项目",
+      "createdAt": 1779320113000,
+      "updated": 1779320940000,
+      "updatedAt": 1779320940000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "github集合",
+          "doc_id": "IkiFdAkCvocgwrxVwEeckBFOnid"
+        },
+        {
+          "title": "每周项目合集",
+          "doc_id": "Hnv3dPKJcoWsGSxqOsEca7xnnAe"
+        }
+      ],
+      "has_child": false,
+      "node_token": "Rx3mwCYgJiMuMMkT91ZcYNsZnDh",
+      "parent_node_token": "YkrbwJng7i4x1LkjaHrctJLQnph"
+    },
+    {
+      "doc_id": "ZnHVdpxZzofLbxxQZLoc1FBnnOg",
+      "id": "ZnHVdpxZzofLbxxQZLoc1FBnnOg",
+      "title": "5 个 AI / 安全 / 金融工具开源项目・一页极简速查",
+      "createdAt": 1779320946000,
+      "updated": 1779320966000,
+      "updatedAt": 1779320966000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "github集合",
+          "doc_id": "IkiFdAkCvocgwrxVwEeckBFOnid"
+        },
+        {
+          "title": "每周项目合集",
+          "doc_id": "Hnv3dPKJcoWsGSxqOsEca7xnnAe"
+        }
+      ],
+      "has_child": false,
+      "node_token": "HRslwjHNGiuS3ZktCIVcglQ1nKb",
+      "parent_node_token": "YkrbwJng7i4x1LkjaHrctJLQnph"
+    },
+    {
+      "doc_id": "GziLd5SVioy2N5xPXPlcTGgynFc",
+      "id": "GziLd5SVioy2N5xPXPlcTGgynFc",
+      "title": "10 个热门开源项目",
+      "createdAt": 1779321319000,
+      "updated": 1779321607000,
+      "updatedAt": 1779321607000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "github集合",
+          "doc_id": "IkiFdAkCvocgwrxVwEeckBFOnid"
+        },
+        {
+          "title": "每周项目合集",
+          "doc_id": "Hnv3dPKJcoWsGSxqOsEca7xnnAe"
+        }
+      ],
+      "has_child": false,
+      "node_token": "GMbWwQoaxiuPqdk83DbcRNc1nrh",
+      "parent_node_token": "YkrbwJng7i4x1LkjaHrctJLQnph"
+    },
+    {
+      "doc_id": "Uok9dTzUNoJFLTxuZohc5qzKn9d",
+      "id": "Uok9dTzUNoJFLTxuZohc5qzKn9d",
+      "title": "oh-my-pi",
+      "createdAt": 1779405253000,
+      "updated": 1779405266000,
+      "updatedAt": 1779405266000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "github集合",
+          "doc_id": "IkiFdAkCvocgwrxVwEeckBFOnid"
+        },
+        {
+          "title": "每周项目合集",
+          "doc_id": "Hnv3dPKJcoWsGSxqOsEca7xnnAe"
+        }
+      ],
+      "has_child": false,
+      "node_token": "ZByfwncBwi1B41keUdScBawsnnh",
+      "parent_node_token": "YkrbwJng7i4x1LkjaHrctJLQnph"
+    },
+    {
+      "doc_id": "OREyd1HPMomeKGxhZDGcQ3aLn2J",
+      "id": "OREyd1HPMomeKGxhZDGcQ3aLn2J",
+      "title": "Git 和 github",
+      "createdAt": 1779402687000,
+      "updated": 1779402706000,
+      "updatedAt": 1779402706000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "has_child": true,
+      "node_token": "WqrLweBXIiLTHYkbQSccVhCknJg",
+      "parent_node_token": "FqBowmHMfiuorvkUluNcSxSqn5g"
+    },
+    {
+      "doc_id": "Z4Omd2s1rofT4YxuVQqcIFiHngf",
+      "id": "Z4Omd2s1rofT4YxuVQqcIFiHngf",
+      "title": "Git + GitHub 核心概念串讲笔记",
+      "createdAt": 1779398748000,
+      "updated": 1779458645000,
+      "updatedAt": 1779458645000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "Git 和 github",
+          "doc_id": "OREyd1HPMomeKGxhZDGcQ3aLn2J"
+        }
+      ],
+      "has_child": false,
+      "node_token": "DmBPwe0MCiV6Zckp4TVcGy3Jnaf",
+      "parent_node_token": "WqrLweBXIiLTHYkbQSccVhCknJg"
+    },
+    {
+      "doc_id": "WTzedeWfToF0q2xjoZ1cJDcjneh",
+      "id": "WTzedeWfToF0q2xjoZ1cJDcjneh",
+      "title": "Skill",
+      "createdAt": 1779404779000,
+      "updated": 1779404898000,
+      "updatedAt": 1779404898000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "has_child": true,
+      "node_token": "OLv9wrVOmis7bTko8JIcQGkOnRg",
+      "parent_node_token": "FqBowmHMfiuorvkUluNcSxSqn5g"
+    },
+    {
+      "doc_id": "X7sFdAlXEoTGqExpjuzcJI8Dnqg",
+      "id": "X7sFdAlXEoTGqExpjuzcJI8Dnqg",
+      "title": "AGENTS.md",
+      "createdAt": 1779404795000,
+      "updated": 1779404804000,
+      "updatedAt": 1779404804000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "Skill",
+          "doc_id": "WTzedeWfToF0q2xjoZ1cJDcjneh"
+        }
+      ],
+      "has_child": false,
+      "node_token": "MNnRwyzEqiIJm8kfMQmcjiJonff",
+      "parent_node_token": "OLv9wrVOmis7bTko8JIcQGkOnRg"
+    },
+    {
+      "doc_id": "SjNOdndFZomnOHx7JT1cGqAznVh",
+      "id": "SjNOdndFZomnOHx7JT1cGqAznVh",
+      "title": "Codex",
+      "createdAt": 1779404837000,
+      "updated": 1779404895000,
+      "updatedAt": 1779404895000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "Skill",
+          "doc_id": "WTzedeWfToF0q2xjoZ1cJDcjneh"
+        }
+      ],
+      "has_child": true,
+      "node_token": "T0TPw1VqOiUJXykvQdNcE7T1nFd",
+      "parent_node_token": "OLv9wrVOmis7bTko8JIcQGkOnRg"
+    },
+    {
+      "doc_id": "UApvdYW2XoPOKZxPl2lcERKRnLg",
+      "id": "UApvdYW2XoPOKZxPl2lcERKRnLg",
+      "title": "AGENTS.md",
+      "createdAt": 1779404875000,
+      "updated": 1779404881000,
+      "updatedAt": 1779404881000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "Skill",
+          "doc_id": "WTzedeWfToF0q2xjoZ1cJDcjneh"
+        },
+        {
+          "title": "Codex",
+          "doc_id": "SjNOdndFZomnOHx7JT1cGqAznVh"
+        }
+      ],
+      "has_child": false,
+      "node_token": "O6BmwtnqUi9wsKkCuvLcaxUVnMZ",
+      "parent_node_token": "T0TPw1VqOiUJXykvQdNcE7T1nFd"
+    },
+    {
+      "doc_id": "HlNydOL9LoByG2xK3NbcQk31nkO",
+      "id": "HlNydOL9LoByG2xK3NbcQk31nkO",
+      "title": "AI工具-使用技能",
+      "createdAt": 1779406494000,
+      "updated": 1779406698000,
+      "updatedAt": 1779406698000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "has_child": true,
+      "node_token": "ChHTwUIbjiyDWQk6Rj3cKw2ZnBb",
+      "parent_node_token": "FqBowmHMfiuorvkUluNcSxSqn5g"
+    },
+    {
+      "doc_id": "AARNdgozYo2mH8xWzoicoiplnGe",
+      "id": "AARNdgozYo2mH8xWzoicoiplnGe",
+      "title": "阿里千问",
+      "createdAt": 1779406512000,
+      "updated": 1779406701000,
+      "updatedAt": 1779406701000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI工具-使用技能",
+          "doc_id": "HlNydOL9LoByG2xK3NbcQk31nkO"
+        }
+      ],
+      "has_child": true,
+      "node_token": "W4umwvD6HiD30CkZOeLcrMr4nEb",
+      "parent_node_token": "ChHTwUIbjiyDWQk6Rj3cKw2ZnBb"
+    },
+    {
+      "doc_id": "TR4fdfGUBojJTDxYDb0cYM6Ynlg",
+      "id": "TR4fdfGUBojJTDxYDb0cYM6Ynlg",
+      "title": "视频生图",
+      "createdAt": 1779406644000,
+      "updated": 1779407970000,
+      "updatedAt": 1779407970000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "AI工具-使用技能",
+          "doc_id": "HlNydOL9LoByG2xK3NbcQk31nkO"
+        },
+        {
+          "title": "阿里千问",
+          "doc_id": "AARNdgozYo2mH8xWzoicoiplnGe"
+        }
+      ],
+      "has_child": false,
+      "node_token": "MH97wLv1giGPPakIB3scc5UCnsx",
+      "parent_node_token": "W4umwvD6HiD30CkZOeLcrMr4nEb"
+    },
+    {
+      "doc_id": "Gh1Jd2PufoC83fxrgB2cBzDAn7g",
+      "id": "Gh1Jd2PufoC83fxrgB2cBzDAn7g",
+      "title": "日常安装和常用使用飞书 CLI",
+      "createdAt": 1779384771000,
+      "updated": 1779384826000,
+      "updatedAt": 1779384826000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "has_child": false,
+      "node_token": "TjIlwMiidiHUFbkk3b4cVNi0nof",
+      "parent_node_token": "FqBowmHMfiuorvkUluNcSxSqn5g"
+    },
+    {
+      "doc_id": "PhbTdOVWnoB9CXx8sXfcHUHZnvc",
+      "id": "PhbTdOVWnoB9CXx8sXfcHUHZnvc",
+      "title": "在 Codex 如何玩转飞书",
+      "createdAt": 1779384921000,
+      "updated": 1779384923000,
+      "updatedAt": 1779384923000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "has_child": false,
+      "node_token": "TL5hw5rQRi6heRkupCzcCRttnug",
+      "parent_node_token": "FqBowmHMfiuorvkUluNcSxSqn5g"
+    },
+    {
+      "doc_id": "FkkCdSHj2o8LSPxqQ9Dc3QqjnUg",
+      "id": "FkkCdSHj2o8LSPxqQ9Dc3QqjnUg",
+      "title": "中转",
+      "createdAt": 1779407061000,
+      "updated": 1779407071000,
+      "updatedAt": 1779407071000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        }
+      ],
+      "has_child": true,
+      "node_token": "Eb9Zw7hDFizrXOkFB0rcM0N3nsb",
+      "parent_node_token": "FqBowmHMfiuorvkUluNcSxSqn5g"
+    },
+    {
+      "doc_id": "LSt1db7bLo77Qext1JMcka9jnPg",
+      "id": "LSt1db7bLo77Qext1JMcka9jnPg",
+      "title": "ChatGPT Plus 账号-平替购买-月抛型",
+      "createdAt": 1779408143000,
+      "updated": 1779408520000,
+      "updatedAt": 1779408520000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "中转",
+          "doc_id": "FkkCdSHj2o8LSPxqQ9Dc3QqjnUg"
+        }
+      ],
+      "has_child": false,
+      "node_token": "XEElwEAG3ioQyfk7DpZco9RFnDe",
+      "parent_node_token": "Eb9Zw7hDFizrXOkFB0rcM0N3nsb"
+    },
+    {
+      "doc_id": "ADucdbAj6oBvUoxqmJ1cRsKHnDh",
+      "id": "ADucdbAj6oBvUoxqmJ1cRsKHnDh",
+      "title": "codex推荐",
+      "createdAt": 1779407074000,
+      "updated": 1779407606000,
+      "updatedAt": 1779407606000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "中转",
+          "doc_id": "FkkCdSHj2o8LSPxqQ9Dc3QqjnUg"
+        }
+      ],
+      "has_child": true,
+      "node_token": "UkYZw2Xb7iucG9kABtDcHd43nYd",
+      "parent_node_token": "Eb9Zw7hDFizrXOkFB0rcM0N3nsb"
+    },
+    {
+      "doc_id": "GBSEd9GzGoUAZ0xB7uNc8b5jn9c",
+      "id": "GBSEd9GzGoUAZ0xB7uNc8b5jn9c",
+      "title": "账号",
+      "createdAt": 1779407295000,
+      "updated": 1779407326000,
+      "updatedAt": 1779407326000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "中转",
+          "doc_id": "FkkCdSHj2o8LSPxqQ9Dc3QqjnUg"
+        },
+        {
+          "title": "codex推荐",
+          "doc_id": "ADucdbAj6oBvUoxqmJ1cRsKHnDh"
+        }
+      ],
+      "has_child": false,
+      "node_token": "AbpSwF8mUi3VqGkQPzJc9YgVnac",
+      "parent_node_token": "UkYZw2Xb7iucG9kABtDcHd43nYd"
+    },
+    {
+      "doc_id": "LiU3dE8y5ohTv3xq3DScDW8gngb",
+      "id": "LiU3dE8y5ohTv3xq3DScDW8gngb",
+      "title": "其他",
+      "createdAt": 1779407502000,
+      "updated": 1779407506000,
+      "updatedAt": 1779407506000,
+      "catalog": [
+        {
+          "title": "飞书知识库",
+          "doc_id": "QVf7dvUb8oFt74x61RzcaFsmnPg"
+        },
+        {
+          "title": "中转",
+          "doc_id": "FkkCdSHj2o8LSPxqQ9Dc3QqjnUg"
+        }
+      ],
+      "has_child": false,
+      "node_token": "NiKswaAmpi4jcpkfU2YcC1XZnSc",
+      "parent_node_token": "Eb9Zw7hDFizrXOkFB0rcM0N3nsb"
     },
     {
       "doc_id": "XvP3dhP2HoKtgnxTyWXcCh7Dnee",
