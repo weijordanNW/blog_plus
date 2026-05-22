@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "commonjs",
   "scripts": {
-    "build": "node -e \"require('fs').rmSync('src/.vuepress/.temp',{recursive:true,force:true});require('fs').rmSync('src/.vuepress/.cache',{recursive:true,force:true})\" && vuepress-vite build src",
+    "build": "node -e \"require('fs').rmSync('src/.vuepress/.temp',{recursive:true,force:true});require('fs').rmSync('src/.vuepress/.cache',{recursive:true,force:true})\" && vuepress-vite build src && node -e \"require('fs').copyFileSync('.nojekyll','src/.vuepress/dist/.nojekyll')\"",
     "clean-dev": "vuepress-vite dev src --clean-cache",
     "dev": "vuepress-vite dev src",
     "update-package": "pnpm dlx vp-update",
