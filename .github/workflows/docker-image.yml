@@ -22,7 +22,33 @@ on:
 
 # 项目任务，任务之间可以并行调度
 jobs:
+  check-deploy-toggle:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: 检查部署开关状态
+        id: check
+        run: |
+          if [ -f .vercel-deploy ]; then
+            STATE=$(cat .vercel-deploy | tr -d '[:space:]')
+            if [ "$STATE" = "disabled" ]; then
+              echo "should_run=false" >> $GITHUB_OUTPUT
+              echo "🔴 部署开关已关闭，跳过本次构建"
+            else
+              echo "should_run=true" >> $GITHUB_OUTPUT
+              echo "🟢 部署开关已开启，继续构建"
+            fi
+          else
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          fi
+
   build:
+    needs: check-deploy-toggle
+    if: needs.check-deploy-toggle.outputs.should_run == 'true'
   # 选择云端运行的环境
     runs-on: ubuntu-latest
     steps:

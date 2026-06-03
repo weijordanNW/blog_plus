@@ -15,7 +15,10 @@
     "sync-yuque": "node scripts/sync-yuque.js",
     "sync-feishu": "node scripts/sync-feishu.js",
     "audit-images": "node scripts/audit-images.js",
-    "compress-images": "node scripts/compress-images.js"
+    "compress-images": "node scripts/compress-images.js",
+    "deploy:status": "node scripts/deploy-toggle.js status",
+    "deploy:on": "node scripts/deploy-toggle.js on",
+    "deploy:off": "node scripts/deploy-toggle.js off"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",

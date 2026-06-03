@@ -84,12 +84,35 @@ This file gives future AI agents project-level context for this repository. The 
 
 ## Deployment
 
+- Vercel (production): Linked to GitHub repo, auto-deploys on push to `main`.
+- GitHub Actions `deploy-docs.yml`: Deploys to `blog_plus_pages` branch (GitHub Pages).
+- GitHub Actions `docker-image.yml`: Builds Docker image and pushes to DockerHub.
 - `Dockerfile` uses a multi-stage build:
   - Node 20 builder installs dependencies and runs `pnpm build`.
   - Nginx runtime serves `src/.vuepress/dist`.
 - `docker-compose.yml` serves the built static site through a fixed Nginx image.
 - GitHub Actions workflows live in `.github/workflows/`.
 - If Docker is unavailable locally, note that Docker build verification could not be run instead of assuming it passed.
+
+## Deploy Toggle (部署开关)
+
+Control whether remote deployment triggers on push:
+
+| Command | Effect |
+|---|---|
+| `pnpm run deploy:status` | View current toggle state |
+| `pnpm run deploy:on` | Enable auto-deploy (default) |
+| `pnpm run deploy:off` | Disable auto-deploy |
+
+**How it works**: The `.vercel-deploy` file at project root acts as a marker.
+- Content `enabled` → all pipelines run normally.
+- Content `disabled` → Vercel build is skipped (via Ignored Build Step), and GitHub Actions check the file and exit early.
+
+**Vercel Ignored Build Step** (configured in Vercel Dashboard → Project Settings → Git):
+```
+[ "$(cat .vercel-deploy | tr -d '[:space:]')" = "disabled" ]
+```
+This command exits `0` when disabled, telling Vercel to skip the build.
 
 ## Maintenance Rules
 
