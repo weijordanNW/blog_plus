@@ -130,6 +130,45 @@ function sanitizeFilenames(dirPath) {
   return count;
 }
 
+/**
+ * 递归去掉文件/目录名末尾的空白。
+ * 飞书文档标题常带尾随空格，Windows 普通路径会把它剥掉，
+ * 导致磁盘路径与缓存/索引不一致并触发 git 警告，这里统一规范化。
+ * 只处理尾随空白（前导空格不会触发该问题，且改了会变更已上线 URL）。
+ */
+function normalizeTrailingSpaces(dirPath) {
+  const absPath = path.join(rootDir, dirPath);
+  if (!fs.existsSync(absPath)) return 0;
+
+  let count = 0;
+
+  function walk(dir) {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const entry of entries) {
+      const trimmed = entry.name.replace(/\s+$/, '');
+      let currentPath = path.join(dir, entry.name);
+      if (trimmed && trimmed !== entry.name) {
+        const newPath = path.join(dir, trimmed);
+        try {
+          // 名字带尾随空格时 Win32 API 会剥掉空格，须用扩展路径前缀强制按原名操作
+          const from = process.platform === 'win32' ? `\\\\?\\${currentPath}` : currentPath;
+          fs.renameSync(from, newPath);
+          count++;
+          console.log(`  规范化: ${entry.name} → ${trimmed}`);
+          currentPath = newPath;
+        } catch (e) {
+          console.error(`  规范化失败: ${entry.name}`, e.message);
+          continue;
+        }
+      }
+      if (entry.isDirectory()) walk(currentPath);
+    }
+  }
+
+  walk(absPath);
+  return count;
+}
+
 async function main() {
   console.log('=== 开始同步飞书文档（支持断点续传）===');
 
@@ -193,6 +232,12 @@ async function main() {
   const renamed = sanitizeFilenames(FEISHU_OUTPUT);
   if (renamed > 0) {
     console.log(`\n已安全化 ${renamed} 个包含 % 的文件名（% → ％）`);
+  }
+
+  // 路径尾随空格规范化：去掉飞书标题带来的尾部空白，避免尾随空格目录导致的路径不一致
+  const normalized = normalizeTrailingSpaces(FEISHU_OUTPUT);
+  if (normalized > 0) {
+    console.log(`\n已规范化 ${normalized} 个含尾随空白的路径段`);
   }
 
   renameFile(CACHE_FILE, FEISHU_CACHE);
