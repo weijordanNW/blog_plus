@@ -80,6 +80,17 @@ export const devProxy = {
   bingTarget: "https://cn.bing.com",
 };
 
+// 来源：vercel.json 与 src/.vuepress/config.ts 的图片同域反代。
+// raw.githubusercontent.com 在国内网络被阻断，构建时把图片地址改写为本站同域路径，
+// 由 Vercel / dev server 代为回源，国内（含手机网络）即可正常加载。
+export const imageProxy = {
+  route: "/gh/",
+  upstreamOrigin: "https://raw.githubusercontent.com",
+  sourcePrefix: "https://raw.githubusercontent.com/",
+  // og:image / RSS 等场景需要绝对地址；注意 siteMeta.hostname 指向的是另一个站点，不能复用
+  publicOrigin: "https://blog-plus.weijordan.cn",
+};
+
 // 来源：src/.vuepress/config.ts 的看板娘模型。
 export const live2dModels = {
   sipeibojue: "https://cdn.jsdelivr.net/gh/oragekk/blog-assets/live2D/sipeibojue_5/sipeibojue_5.model3.json",
@@ -122,7 +133,8 @@ export const iconAssets = [
   "//at.alicdn.com/t/c/font_4751228_8j43wz6fesq.css",
 ];
 
-// 来源：src 下的 Markdown 文件与 Elog 配置。这里仅记录规则，不主动改写文章。
+// 来源：src 下的 Markdown 文件与 Elog 配置。
+// 原文不修改；构建时由 config.ts 把这些前缀的图片地址改写为同域代理路径（见 imageProxy）。
 export const contentLinkSources = {
   feishuImageRawPrefix: "https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/",
   yuqueImageRawPrefix: "https://raw.githubusercontent.com/weijordanNW/blog_plus/main/yuque/",

@@ -6,6 +6,10 @@
   "trailingSlash": false,
   "rewrites": [
     {
+      "source": "/gh/(.*)",
+      "destination": "https://raw.githubusercontent.com/$1"
+    },
+    {
       "source": "/bing/(.*)",
       "destination": "/api/proxy"
     }

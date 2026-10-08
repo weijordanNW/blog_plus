@@ -19,6 +19,7 @@ import {
   devProxy,
   docSearch,
   googleAnalytics,
+  imageProxy,
   live2dModels,
   meting,
   siteMeta,
@@ -58,11 +59,60 @@ export default defineUserConfig({
             changeOrigin: true,
             rewrite: (path) => path.replace(/^\/bing/, ""),
           },
+          // 本地开发时同样把 /gh/ 图片代理回源，保证 dev 环境图片可见
+          [imageProxy.route]: {
+            target: imageProxy.upstreamOrigin,
+            changeOrigin: true,
+            rewrite: (path) => path.replace(/^\/gh/, ""),
+          },
         },
       }
     },
-    // vuePluginOptions: {},
+    // 关闭绝对路径静态资源转换，避免 Vite 把 /gh/ 代理路径当作本地文件去解析
+    vuePluginOptions: {
+      template: {
+        transformAssetUrls: {
+          includeAbsolute: false,
+        },
+      },
+    },
   }),
+
+  // 构建期把 raw.githubusercontent.com 的图片地址改写为同域 /gh/ 代理路径，
+  // 规避国内网络对 raw.githubusercontent.com 的阻断；原文不被修改，重新同步后依然生效。
+  // 渲染层（Markdown 图片 + 内嵌 HTML img）：
+  extendsMarkdown: (md) => {
+    const { sourcePrefix, route } = imageProxy;
+    const rewrite = (value?: string | null) =>
+      value && value.startsWith(sourcePrefix)
+        ? value.replace(sourcePrefix, route)
+        : value;
+
+    md.core.ruler.push("rewrite-github-raw-images", (state) => {
+      const walk = (tokens: typeof state.tokens) => {
+        for (const token of tokens) {
+          if (token.type === "image") {
+            const src = token.attrGet("src");
+            const next = rewrite(src);
+            if (next !== src) token.attrSet("src", next as string);
+          } else if (token.type === "html_block" || token.type === "html_inline") {
+            token.content = token.content.split(sourcePrefix).join(route);
+          }
+          if (token.children) walk(token.children);
+        }
+      };
+      walk(state.tokens);
+      return true;
+    });
+  },
+
+  // SEO 插件的 og:image（以及 RSS 内容）取自 page.content，且必须是绝对地址，
+  // 这里改写为博客对外域名下的同域反代地址，避免分享缩略图仍指向被墙域名：
+  extendsPage: (page) => {
+    page.content = page.content
+      .split(imageProxy.sourcePrefix)
+      .join(`${imageProxy.publicOrigin}${imageProxy.route}`);
+  },
   plugins: [
     metingPlugin({
       metingOptions: {
