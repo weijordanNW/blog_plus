@@ -4,6 +4,7 @@ date: '2026-09-01 15:07:13'
 updated: '2026-09-02 00:16:02'
 ---
 ## 图解
+![图解](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/VtJMwCJzUhAFjJbSicFcKmobnNm.jpeg)
 
 ## 在线地址
 [M02 · 第2章:三层架构 —— Pi-Agent 项目的骨骼 | Pi Agent Book](https://dg-ai-notes.pages.dev/modules/ch02-three-layer-arch/#%E6%96%B9%E6%B3%95-1%E4%BE%9D%E8%B5%96%E6%BC%8F%E6%96%97%E5%88%86%E5%B1%82%E6%B3%95)

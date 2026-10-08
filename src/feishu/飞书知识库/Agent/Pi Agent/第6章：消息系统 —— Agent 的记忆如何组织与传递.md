@@ -4,6 +4,8 @@ date: '2026-09-05 12:28:20'
 updated: '2026-09-07 19:30:00'
 ---
 ## 图解
+![图解](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/CAsswDra2hCgxsbESt5c0ZEbnmf.jpeg)
+![图解](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/VGHjwLN6ihIhbXb1sGXcSjZxn8d.jpeg)
 
 ## 在线地址
 [M06 · 第6章:消息系统 —— Agent 的记忆如何组织与传递 | Pi Agent Book](https://dg-ai-notes.pages.dev/modules/ch06-messages/)

@@ -4,6 +4,7 @@ date: '2026-09-01 14:59:17'
 updated: '2026-09-02 01:14:19'
 ---
 ## 图解
+![图解](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/HvAGw6dlThuAOzbtFbCcZaG8n0c.jpeg)
 ## 在线地址
 [M01 · 第1章:开篇 —— 为什么 Pi-Agent 值得你花时间 | Pi Agent Book](https://dg-ai-notes.pages.dev/modules/ch01-overview/)
 

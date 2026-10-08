@@ -1,8 +1,62 @@
 diff --git a/dist/api.js b/dist/api.js
-index dee038c2b5e10f4eb42640017e4701c0d2c87efe..60be3dded3a3532ec9cdcaffcd642fdd29fd47b2 100644
+index dee038c2b5e10f4eb42640017e4701c0d2c87efe..05ef5c344cef9e34c6928ab7f54f6e6c6ffe846c 100644
 --- a/dist/api.js
 +++ b/dist/api.js
-@@ -224,7 +224,8 @@ class FeiShuClient {
+@@ -105,20 +105,39 @@ class FeiShuClient {
+     getResourceItem(file_token) {
+         return tslib_es6.__awaiter(this, void 0, void 0, function* () {
+             yield this.initPromise;
+-            // https://open.feishu.cn/document/server-docs/docs/drive-v1/media/download
+-            const url = `${this.config.baseUrl}/drive/v1/medias/${file_token}/download`;
+-            const res = yield shared.request(url, {
+-                dataType: 'buffer',
+-                headers: {
+-                    Authorization: `Bearer ${this.tenantAccessToken}`,
+-                },
+-            });
+-            const type = res.headers['content-type'].split('/')[1];
+-            return {
+-                buffer: res.data,
+-                type,
+-                name: file_token + '.' + type,
+-            };
++            // 优先按普通图片/文件下载：https://open.feishu.cn/document/server-docs/docs/drive-v1/media/download
++            try {
++                const url = `${this.config.baseUrl}/drive/v1/medias/${file_token}/download`;
++                const res = yield shared.request(url, {
++                    dataType: 'buffer',
++                    headers: {
++                        Authorization: `Bearer ${this.tenantAccessToken}`,
++                    },
++                });
++                const type = res.headers['content-type'].split('/')[1];
++                return {
++                    buffer: res.data,
++                    type,
++                    name: file_token + '.' + type,
++                };
++            }
++            catch (err) {
++                // 画板（白板）token 无法通过 drive medias 下载，回退到画板导出为图片接口
++                // https://open.feishu.cn/document/server-docs/docs/board-v1/whiteboard/download_as_image
++                const boardUrl = `${this.config.baseUrl}/board/v1/whiteboards/${file_token}/download_as_image`;
++                const boardRes = yield shared.request(boardUrl, {
++                    dataType: 'buffer',
++                    headers: {
++                        Authorization: `Bearer ${this.tenantAccessToken}`,
++                    },
++                });
++                const boardType = boardRes.headers['content-type'].split('/')[1];
++                return {
++                    buffer: boardRes.data,
++                    type: boardType,
++                    name: file_token + '.' + boardType,
++                };
++            }
+         });
+     }
+     /**
+@@ -224,7 +243,8 @@ class FeiShuClient {
                  });
                  result.push(...res.items);
                  if (res.has_more) {

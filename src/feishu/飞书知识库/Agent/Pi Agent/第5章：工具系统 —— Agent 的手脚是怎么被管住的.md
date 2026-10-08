@@ -4,6 +4,7 @@ date: '2026-09-01 17:19:37'
 updated: '2026-09-04 18:07:38'
 ---
 ## 图解
+![图解](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/KX9owytfqh8Ndibi6EicpKhcn1g.jpeg)
 
 ## 在线地址
 [M05 · 第5章:工具系统 —— Agent 的手脚是怎么被管住的 | Pi Agent Book](https://dg-ai-notes.pages.dev/modules/ch05-tools/)

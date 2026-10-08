@@ -4,6 +4,7 @@ date: '2026-09-01 15:44:09'
 updated: '2026-09-07 15:11:24'
 ---
 ## 图解
+![图解](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/CKe5wQ6QshVmdWbKKDJcWcJinof.jpeg)
 
 ## 在线地址
 [M03 · 第3章:Agent Loop —— 让模型转动起来的引擎 | Pi Agent Book](https://dg-ai-notes.pages.dev/modules/ch03-agent-loop/)

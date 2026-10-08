@@ -6,8 +6,11 @@ settings:
 
 patchedDependencies:
   '@feishux/api@0.3.3':
-    hash: 2ba7plj6lbdu555jf3kp7mmhr4
+    hash: qytr5usovfnevwvpym4pfg5zve
     path: patches/@feishux__api@0.3.3.patch
+  '@feishux/doc-to-md@0.3.3':
+    hash: ngq7f7vzh5ri37vsfowo3dzavi
+    path: patches/@feishux__doc-to-md@0.3.3.patch
 
 importers:
 
@@ -6774,8 +6777,8 @@ snapshots:
   '@elog/sdk-feishu@0.14.7':
     dependencies:
       '@elog/shared': 0.14.7
-      '@feishux/api': 0.3.3(patch_hash=2ba7plj6lbdu555jf3kp7mmhr4)
-      '@feishux/doc-to-md': 0.3.3
+      '@feishux/api': 0.3.3(patch_hash=qytr5usovfnevwvpym4pfg5zve)
+      '@feishux/doc-to-md': 0.3.3(patch_hash=ngq7f7vzh5ri37vsfowo3dzavi)
       '@feishux/shared': 0.3.3
       front-matter: 4.0.2
       tiny-async-pool: 1.3.0
@@ -6937,13 +6940,13 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@feishux/api@0.3.3(patch_hash=2ba7plj6lbdu555jf3kp7mmhr4)':
+  '@feishux/api@0.3.3(patch_hash=qytr5usovfnevwvpym4pfg5zve)':
     dependencies:
       '@feishux/shared': 0.3.3
 
-  '@feishux/doc-to-md@0.3.3':
+  '@feishux/doc-to-md@0.3.3(patch_hash=ngq7f7vzh5ri37vsfowo3dzavi)':
     dependencies:
-      '@feishux/api': 0.3.3(patch_hash=2ba7plj6lbdu555jf3kp7mmhr4)
+      '@feishux/api': 0.3.3(patch_hash=qytr5usovfnevwvpym4pfg5zve)
       '@feishux/shared': 0.3.3
       markdown-table: 2.0.0
 

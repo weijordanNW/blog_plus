@@ -4,6 +4,7 @@ date: '2026-09-06 20:10:06'
 updated: '2026-09-07 19:29:42'
 ---
 ## 图解
+![图解](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/Fk04wCEivh4M89bypM3cWF4Jnib.jpeg)
 ## 在线地址
 [M07 · 第7章:事件驱动 —— Agent 的神经系统 | Pi Agent Book](https://dg-ai-notes.pages.dev/modules/ch07-event-driven)
 

@@ -1,0 +1,52 @@
+diff --git a/dist/utils/feishu.d.ts b/dist/utils/feishu.d.ts
+index 449df68690a5fb03ff32c06007f221f485a6a34c..3c0fa0dbbaf6081ead2d3486183be4cb96e695c4 100644
+--- a/dist/utils/feishu.d.ts
++++ b/dist/utils/feishu.d.ts
+@@ -48,6 +48,11 @@ export declare const getQuoteValue: ({ block, blocks, pageTitle }: TransformPram
+  * @param block
+  */
+ export declare const getMediaValue: ({ block }: TransformPrams) => string;
++/**
++ * 画板（白板）
++ * @param block
++ */
++export declare const getBoardValue: ({ block }: TransformPrams) => string;
+ /**
+  * 代码块
+  * @param block
+diff --git a/dist/utils/feishu.js b/dist/utils/feishu.js
+index b22f8f468521f7993a20c463b82a9f4fe56fcc7c..eb6e6144b1e5371c3673ac78da0e1b8c043b729a 100644
+--- a/dist/utils/feishu.js
++++ b/dist/utils/feishu.js
+@@ -164,6 +164,18 @@ const getMediaValue = ({ block }) => {
+     var _a;
+     return md.image('image', (_a = block.image) === null || _a === void 0 ? void 0 : _a.token);
+ };
++/**
++ * 画板（白板）
++ * 飞书画板块无文本内容，这里输出图片占位符，token 由资源下载流程导出为图片
++ * @param block
++ */
++const getBoardValue = ({ block }) => {
++    var _a;
++    const token = (_a = block.board) === null || _a === void 0 ? void 0 : _a.token;
++    if (!token)
++        return '';
++    return md.image('图解', token);
++};
+ /**
+  * 代码块
+  * @param block
+@@ -264,9 +276,12 @@ const transform = {
+     [40 /* IBlockType.add_ons */]: _unsupported(40 /* IBlockType.add_ons */),
+     [41 /* IBlockType.jira_issue */]: _unsupported(41 /* IBlockType.jira_issue */),
+     [42 /* IBlockType.wiki_catalog */]: _unsupported(42 /* IBlockType.wiki_catalog */),
++    // 画板（白板），飞书文档块类型 43
++    [43]: getBoardValue,
+ };
+ 
+ exports._unsupported = _unsupported;
++exports.getBoardValue = getBoardValue;
+ exports.getBulletValue = getBulletValue;
+ exports.getChildren = getChildren;
+ exports.getCodeValue = getCodeValue;
