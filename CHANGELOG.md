@@ -1,5 +1,15 @@
 # 版本更新日志
 
+## v2.8.2 (2026-06-03)
+
+> 详细变更见 [changelogs/v2.8.2.md](changelogs/v2.8.2.md)
+
+**Vercel 构建修复**：修复文件名含 `%` 导致的 `URI malformed` 构建崩溃；新增 `sanitizeFilenames()` 在同步脚本中自动替换 `%` → `％`，一劳永逸；补充 `.nojekyll` 修复 SPA 路由 404；完善 `vercel.json` 路由配置
+
+**部署开关**：新增 `scripts/deploy-toggle.js` 开关脚本，支持 `pnpm run deploy:on/off/status` 三命令；新增 `.vercel-deploy` 标记文件；GitHub Actions 工作流增加前置检测 job，Vercel 端通过 Ignored Build Step 配合，实现一键关闭/开启自动部署
+
+**siteLinks.ts 恢复**：从 git 历史恢复被意外清空的 `siteLinks.ts`（131 行），修复构建报错
+
 ## v2.8.1 (2026-05-22)
 
 > 详细变更见 [changelogs/v2.8.1.md](changelogs/v2.8.1.md)
