@@ -1,13 +1,7 @@
 ---
 title: 5 个 AI / 安全 / 金融工具开源项目・一页极简速查
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/github集合/每周项目合集
-tag:
-  - feishu
+date: '2026-05-21 07:49:06'
+updated: '2026-05-21 07:49:26'
 ---
 ## free-claude-code（Claude Code 代理工具）
 **仓库**：Alishahryar1/free-claude-code**定位**：Claude Code 代理转发工具，可对接任意兼容模型，无需官方 API Key**核心亮点**：支持 10+ 模型后端（NVIDIA NIM、Kimi、DeepSeek、Ollama 等）；按模型级别分流；内置本地管理后台；支持 Discord/Telegram 机器人、语音转录**快速安装**

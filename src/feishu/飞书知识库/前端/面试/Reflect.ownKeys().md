@@ -1,13 +1,7 @@
 ---
 title: Reflect.ownKeys()
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试
-tag:
-  - feishu
+date: '2026-05-21 03:35:32'
+updated: '2026-05-21 03:35:51'
 ---
 [Reflect.ownKeys() - JavaScript | MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Reflect/ownKeys)**Reflect.ownKeys**对对象和数组都能使用
 

@@ -1,13 +1,7 @@
 ---
 title: Agent基础入门实战教程(1)：初识Agent
-date: '2026-05-25'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - Agent
-tag:
-  - feishu
+date: '2026-05-25 02:03:09'
+updated: '2026-05-25 02:07:43'
 ---
 # [Agent基础入门实战教程(1)：初识Agent](https://linux.do/t/topic/2146977)
 [开发调优](https://linux.do/c/develop/4)[开发调优, Lv1](https://linux.do/c/develop/develop-lv1/20)

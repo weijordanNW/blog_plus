@@ -1,13 +1,7 @@
 ---
 title: IndexedDB 浏览器数据库
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/浏览器 存储
-tag:
-  - feishu
+date: '2026-05-21 04:21:19'
+updated: '2026-05-21 04:21:24'
 ---
 [https://www.ruanyifeng.com/blog/2018/07/indexeddb.html](https://www.ruanyifeng.com/blog/2018/07/indexeddb.html)
 

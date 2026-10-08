@@ -1,13 +1,7 @@
 ---
 title: 通用AGENTS
-date: '2026-05-22'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/Skill
-tag:
-  - feishu
+date: '2026-05-22 07:06:35'
+updated: '2026-05-25 02:38:42'
 ---
 ## **思维框架**
 

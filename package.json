@@ -68,6 +68,9 @@
         "react",
         "react-dom"
       ]
+    },
+    "patchedDependencies": {
+      "@feishux/api@0.3.3": "patches/@feishux__api@0.3.3.patch"
     }
   },
   "config": {

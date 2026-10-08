@@ -1,13 +1,7 @@
 ---
 title: JSON Web Token (JWT)
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/跨域 CORS
-tag:
-  - feishu
+date: '2026-05-21 04:24:55'
+updated: '2026-05-21 04:25:15'
 ---
 [https://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html](https://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html)
 

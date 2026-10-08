@@ -1,13 +1,7 @@
 ---
 title: 前端在Codex里不同阶段使用不同技能
-date: '2026-05-28'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/AI/Codex/工具
-tag:
-  - feishu
+date: '2026-05-28 11:40:27'
+updated: '2026-05-28 12:39:39'
 ---
 ![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/GVn4bUVzfoBglSxYPa8cCDRanKd.png)
 

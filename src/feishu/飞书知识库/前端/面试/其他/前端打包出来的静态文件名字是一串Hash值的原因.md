@@ -1,13 +1,7 @@
 ---
 title: 前端打包出来的静态文件名字是一串Hash值的原因
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试/其他
-tag:
-  - feishu
+date: '2026-05-21 01:54:45'
+updated: '2026-05-21 01:57:03'
 ---
 # 1.前端静态文件 Hash 命名面试速记卡
 ## 一、核心灵魂问题解答

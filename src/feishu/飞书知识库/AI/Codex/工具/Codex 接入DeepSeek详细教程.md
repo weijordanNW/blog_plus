@@ -1,13 +1,7 @@
 ---
 title: Codex 接入DeepSeek详细教程
-date: '2026-05-28'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/AI/Codex/工具
-tag:
-  - feishu
+date: '2026-05-28 09:30:55'
+updated: '2026-05-28 14:57:35'
 ---
 ![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/F5PLbR2zDoPsOmx2komc6FxlnOG.png)
 文档来自：

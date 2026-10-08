@@ -1,13 +1,7 @@
 ---
 title: Vue源码里面Keep-alive的原理
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试/其他
-tag:
-  - feishu
+date: '2026-05-21 01:18:01'
+updated: '2026-05-21 01:20:34'
 ---
 # 1.Vue `keep-alive` 原理 面试笔记
 ---

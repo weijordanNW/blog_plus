@@ -1,14 +1,10 @@
 ---
 title: filter 属性 动态调整 图片或者UI
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/CSS
-tag:
-  - feishu
+date: '2026-05-21 04:27:31'
+updated: '2026-05-21 04:27:58'
 ---
+
+
 以下是CSS `filter`属性的常用函数总结表，方便快速查阅：
 ---
 ### CSS Filter 属性速查表

@@ -1,13 +1,7 @@
 ---
 title: Reflect
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试
-tag:
-  - feishu
+date: '2026-05-21 03:36:37'
+updated: '2026-05-21 03:37:32'
 ---
 [https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Reflect](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Reflect)
 

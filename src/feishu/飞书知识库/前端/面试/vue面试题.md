@@ -1,13 +1,7 @@
 ---
 title: vue面试题
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试
-tag:
-  - feishu
+date: '2026-05-21 03:39:48'
+updated: '2026-05-21 03:41:21'
 ---
 [语雀原文档](https://www.yuque.com/ziming-rrjvu/lfc7ip/shhban7owuynooxn)
 

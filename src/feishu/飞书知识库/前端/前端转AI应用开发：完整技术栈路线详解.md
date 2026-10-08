@@ -1,13 +1,7 @@
 ---
 title: 前端转AI应用开发：完整技术栈路线详解
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端
-tag:
-  - feishu
+date: '2026-05-21 02:29:24'
+updated: '2026-05-21 03:15:09'
 ---
 ![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/U89IbmgsioAkJDxfvHncQSgRnIb.png)
 ![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/AZSeboQBpoMOO6xSO7KcvxOEnyd.png)

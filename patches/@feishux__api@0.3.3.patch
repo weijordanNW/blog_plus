@@ -1,0 +1,14 @@
+diff --git a/dist/api.js b/dist/api.js
+index dee038c2b5e10f4eb42640017e4701c0d2c87efe..60be3dded3a3532ec9cdcaffcd642fdd29fd47b2 100644
+--- a/dist/api.js
++++ b/dist/api.js
+@@ -224,7 +224,8 @@ class FeiShuClient {
+                 });
+                 result.push(...res.items);
+                 if (res.has_more) {
+-                    yield getData(parent_node_token, res.page_token, result);
++                    // 分页必须沿用当前节点作为父节点，否则超过 50 个子节点时会查错父节点导致报错或静默丢文档
++                    yield getData(nodeToken, res.page_token, result);
+                 }
+                 for (const item of result) {
+                     if (item.has_child) {

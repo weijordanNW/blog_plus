@@ -1,14 +1,9 @@
 ---
 title: js 宝典
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试/JS
-tag:
-  - feishu
+date: '2026-05-21 03:42:36'
+updated: '2026-05-21 03:44:56'
 ---
+
 ## 一、JavaScript必须知道的基础
 
 ### 对this对象的理解

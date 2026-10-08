@@ -1,13 +1,7 @@
 ---
 title: 如何让AI生成的界面设计既专业统一
-date: '2026-05-25'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/Skill/UI
-tag:
-  - feishu
+date: '2026-05-25 02:54:31'
+updated: '2026-05-25 02:57:07'
 ---
 - [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
 

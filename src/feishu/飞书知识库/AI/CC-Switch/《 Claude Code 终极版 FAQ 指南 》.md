@@ -1,13 +1,7 @@
 ---
 title: 《 Claude Code 终极版 FAQ 指南 》
-date: '2026-05-18'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/AI/CC-Switch
-tag:
-  - feishu
+date: '2026-05-18 22:37:52'
+updated: '2026-05-18 22:38:13'
 ---
 [Claude Code 终极版 FAQ 指南](https://linux.do/t/topic/803265)
 

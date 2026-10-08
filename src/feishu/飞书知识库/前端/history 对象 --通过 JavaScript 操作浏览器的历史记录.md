@@ -1,13 +1,7 @@
 ---
 title: history 对象 --通过 JavaScript 操作浏览器的历史记录
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端
-tag:
-  - feishu
+date: '2026-05-21 04:10:58'
+updated: '2026-05-21 04:11:03'
 ---
 在前端开发中，`history` 对象是 Web API 的一部分，提供了与浏览器历史记录交互的方法。它允许开发者在不重新加载页面的情况下，通过 JavaScript 操作浏览器的历史记录。以下是一些常用的 `history` 方法：
 1. `history.pushState(state, title, url)`:

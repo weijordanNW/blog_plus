@@ -1,13 +1,7 @@
 ---
 title: token应该存储在cookie还是localStorage上？
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试/其他
-tag:
-  - feishu
+date: '2026-05-21 01:21:19'
+updated: '2026-05-21 01:27:26'
 ---
 # 1.Token 存储方案对比：Cookie vs localStorage
 ---

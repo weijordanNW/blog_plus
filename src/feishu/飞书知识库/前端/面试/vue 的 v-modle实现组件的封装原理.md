@@ -1,13 +1,7 @@
 ---
 title: vue 的 v-modle实现组件的封装原理
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试
-tag:
-  - feishu
+date: '2026-05-21 03:37:47'
+updated: '2026-05-21 03:38:02'
 ---
 ### 总结
 - **Vue 2.x**: 使用 `model` 选项来指定 `v-model` 绑定的 prop 和事件。

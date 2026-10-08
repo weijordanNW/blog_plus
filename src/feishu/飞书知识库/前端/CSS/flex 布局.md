@@ -1,13 +1,7 @@
 ---
 title: flex 布局
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/CSS
-tag:
-  - feishu
+date: '2026-05-21 04:28:19'
+updated: '2026-05-21 04:28:39'
 ---
 [https://yebd1h.smartapps.cn/pages/blog/index?blogId=119181163&_swebfr=1&_swebFromHost=baiduboxapp](https://yebd1h.smartapps.cn/pages/blog/index?blogId=119181163&_swebfr=1&_swebFromHost=baiduboxapp)
 

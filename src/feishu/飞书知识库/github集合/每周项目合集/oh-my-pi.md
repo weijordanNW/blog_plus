@@ -1,13 +1,7 @@
 ---
 title: oh-my-pi
-date: '2026-05-22'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/github集合/每周项目合集
-tag:
-  - feishu
+date: '2026-05-22 07:14:13'
+updated: '2026-05-22 07:14:26'
 ---
 🔗 相关链接
 

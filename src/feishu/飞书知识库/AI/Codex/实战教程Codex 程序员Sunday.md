@@ -1,13 +1,7 @@
 ---
 title: 实战教程Codex 程序员Sunday
-date: '2026-05-18'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/AI/Codex
-tag:
-  - feishu
+date: '2026-05-18 22:31:43'
+updated: '2026-05-19 07:18:43'
 ---
 # 爆肝 2.1 万字 + 讲解视频！这应该是全网最全的 Codex 实战教程了
 原创 程序员 Sunday 程序员 Sunday _2026 年 5 月 12 日 11:15_ _山东_ 听全文

@@ -1,13 +1,7 @@
 ---
 title: vue兼容 ie 浏览器
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/浏览器兼容
-tag:
-  - feishu
+date: '2026-05-21 04:26:59'
+updated: '2026-05-21 04:27:09'
 ---
 [https://worktile.com/kb/p/3666645](https://worktile.com/kb/p/3666645)
 

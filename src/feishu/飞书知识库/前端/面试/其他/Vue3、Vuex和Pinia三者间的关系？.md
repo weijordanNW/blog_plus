@@ -1,13 +1,7 @@
 ---
 title: Vue3、Vuex和Pinia三者间的关系？
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试/其他
-tag:
-  - feishu
+date: '2026-05-21 01:11:46'
+updated: '2026-05-21 01:14:43'
 ---
 # 1.Vue3 / Vuex / Pinia 面试笔记
 ---

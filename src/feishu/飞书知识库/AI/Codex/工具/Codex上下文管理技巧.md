@@ -1,13 +1,7 @@
 ---
 title: Codex上下文管理技巧
-date: '2026-05-28'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/AI/Codex/工具
-tag:
-  - feishu
+date: '2026-05-28 13:23:34'
+updated: '2026-05-28 13:37:04'
 ---
 ![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/G9RqbYrqCosnkgxTdbXc3TY9njc.png)
 # Codex 上下文持久化与防失忆完整解决方案

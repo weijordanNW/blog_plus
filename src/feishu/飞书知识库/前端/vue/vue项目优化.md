@@ -1,13 +1,7 @@
 ---
 title: vue项目优化
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/vue
-tag:
-  - feishu
+date: '2026-05-21 03:21:06'
+updated: '2026-05-21 03:28:10'
 ---
 ## [vue2项目打包优化_vue2 打包优化-CSDN博客](https://blog.csdn.net/njkl2166/article/details/135765710)vue2项目打包优化 -博客参考
 ## 总结

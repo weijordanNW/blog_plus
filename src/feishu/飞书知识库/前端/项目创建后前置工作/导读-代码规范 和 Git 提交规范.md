@@ -1,13 +1,7 @@
 ---
 title: 导读-代码规范 和 Git 提交规范
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/项目创建后前置工作
-tag:
-  - feishu
+date: '2026-05-21 04:19:54'
+updated: '2026-05-21 04:20:08'
 ---
 # ESLint+Prettier+Stylelint+EditorConfig 约束和统一前端代码规范
 参考

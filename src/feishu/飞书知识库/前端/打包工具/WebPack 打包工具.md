@@ -1,13 +1,7 @@
 ---
 title: WebPack 打包工具
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/打包工具
-tag:
-  - feishu
+date: '2026-05-21 04:25:43'
+updated: '2026-05-21 04:25:55'
 ---
 入口（entry）、输出（output）、加载器（loaders）、插件（plugins）、模式（mode）和依赖图（dependency graph）
 ## 总结

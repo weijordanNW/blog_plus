@@ -1,13 +1,7 @@
 ---
 title: Vue3 + Vite + TypeScript + Element-Plus：从零到一构建企业级后台管理系统（前后端开源）
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/模版
-tag:
-  - feishu
+date: '2026-05-21 04:15:15'
+updated: '2026-05-21 04:15:27'
 ---
 # 源码下载
 [https://gitee.com/youlaiorg/vue3-element-admin#https://gitee.com/link?target=https%3A%2F%2Fblog.csdn.net%2Fu013737132%2Farticle%2Fdetails%2F130191363](https://gitee.com/youlaiorg/vue3-element-admin#https://gitee.com/link?target=https%3A%2F%2Fblog.csdn.net%2Fu013737132%2Farticle%2Fdetails%2F130191363)

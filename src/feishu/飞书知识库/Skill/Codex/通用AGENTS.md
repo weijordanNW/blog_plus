@@ -1,13 +1,7 @@
 ---
 title: 通用AGENTS
-date: '2026-05-22'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/Skill/Codex
-tag:
-  - feishu
+date: '2026-05-22 07:07:55'
+updated: '2026-05-25 02:38:56'
 ---
 AGENTS.md
 ## 飞书文档修改偏好

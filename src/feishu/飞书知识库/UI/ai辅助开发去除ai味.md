@@ -1,13 +1,7 @@
 ---
 title: ai辅助开发去除ai味
-date: '2026-05-25'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/UI
-tag:
-  - feishu
+date: '2026-05-25 03:29:52'
+updated: '2026-05-25 03:33:26'
 ---
 参考：https://linux.do/t/topic/2219562
 

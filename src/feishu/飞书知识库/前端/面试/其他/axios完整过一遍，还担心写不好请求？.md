@@ -1,13 +1,7 @@
 ---
 title: axios完整过一遍，还担心写不好请求？
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试/其他
-tag:
-  - feishu
+date: '2026-05-21 01:37:04'
+updated: '2026-05-21 01:40:16'
 ---
 # 1.Axios 核心原理与工程化封装 面试笔记
 ---

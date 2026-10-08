@@ -1,13 +1,7 @@
 ---
 title: 前端中Webwork和Servework有什么区别
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试/JS/js 进阶
-tag:
-  - feishu
+date: '2026-05-21 03:46:14'
+updated: '2026-05-21 03:46:46'
 ---
 ### Web Socket、Web Worker、Service Worker区别解析
 ## Webwork和Servework区别

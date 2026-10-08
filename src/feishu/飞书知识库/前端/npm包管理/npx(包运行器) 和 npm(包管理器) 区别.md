@@ -1,13 +1,7 @@
 ---
 title: npx(包运行器) 和 npm(包管理器) 区别
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/npm包管理
-tag:
-  - feishu
+date: '2026-05-21 04:20:36'
+updated: '2026-05-21 04:20:42'
 ---
 ### 总结
 - **npm**：专注于包的安装、版本管理、依赖关系处理以及包的发布。

@@ -1,13 +1,7 @@
 ---
 title: Codex /goal
-date: '2026-05-25'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/AI/Codex
-tag:
-  - feishu
+date: '2026-05-25 00:58:23'
+updated: '2026-05-25 01:02:31'
 ---
 # [🚀开发者必看！Codex /goal命令你真用对了吗？goal命令高级技巧保姆级教程，Plan模式+Spec-Driven+自研Skill，三大高级技巧组合让开发效率倍增！真正内置Ralph Loop](https://www.aivi.fyi//llms/codex-goal)
 #  7 minute read

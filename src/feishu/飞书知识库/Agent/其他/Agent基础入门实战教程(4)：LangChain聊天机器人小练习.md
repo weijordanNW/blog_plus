@@ -1,13 +1,7 @@
 ---
 title: Agent基础入门实战教程(4)：LangChain聊天机器人小练习
-date: '2026-05-25'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - Agent
-tag:
-  - feishu
+date: '2026-05-25 02:04:39'
+updated: '2026-05-25 02:05:16'
 ---
 ## 【写在前面】
 1：本教程为本人学习agent的总结文档，均为手动筛选个人觉得重点的内容，也当做是一个笔记分享给想学习agent的佬友们，如有错误，请指正。

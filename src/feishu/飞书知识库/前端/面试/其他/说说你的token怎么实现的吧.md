@@ -1,13 +1,7 @@
 ---
 title: 说说你的token怎么实现的吧
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试/其他
-tag:
-  - feishu
+date: '2026-05-21 01:45:57'
+updated: '2026-05-21 01:49:37'
 ---
 # 1.Token 认证实现方案 面试速记卡片
 （按三层递进结构回答，面试官最爱）

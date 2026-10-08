@@ -1,13 +1,7 @@
 ---
 title: Webpack和Vite的核心区别？
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试/其他/工程化
-tag:
-  - feishu
+date: '2026-05-21 01:01:34'
+updated: '2026-05-21 01:10:06'
 ---
 # 1.Vite vs Webpack 面试灵魂三问 整理笔记
 ---

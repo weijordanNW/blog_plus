@@ -1,13 +1,7 @@
 ---
 title: ChatGPT Plus 账号-平替购买-月抛型
-date: '2026-05-22'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/中转
-tag:
-  - feishu
+date: '2026-05-22 08:02:23'
+updated: '2026-06-08 17:04:22'
 ---
 ## 账号购买
 https://codexcn.com/
@@ -23,6 +17,10 @@ https://codexcn.com/
 
 
 ## 接码平台
+https://sms.fur.li/
+
+
+
 https://hero-sms.com/cn/about
 
 

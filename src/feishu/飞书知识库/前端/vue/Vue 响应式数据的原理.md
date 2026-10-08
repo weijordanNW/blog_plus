@@ -1,13 +1,7 @@
 ---
 title: Vue 响应式数据的原理
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/vue
-tag:
-  - feishu
+date: '2026-05-21 03:19:20'
+updated: '2026-05-21 03:20:57'
 ---
 ## 简述 Vue 响应式数据的原理？（ 重点 ）
 [思维导图-补充-腾讯文档](https://docs.qq.com/mind/DQndiQ3B0dE1nS3dC?nlc=1&subId=BB08J2&mode=mind)

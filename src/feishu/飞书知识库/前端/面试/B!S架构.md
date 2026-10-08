@@ -1,13 +1,7 @@
 ---
 title: B/S架构
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试
-tag:
-  - feishu
+date: '2026-05-21 03:38:43'
+updated: '2026-05-21 03:38:49'
 ---
 B/S架构（Browser/Server architecture）指的是浏览器/服务器架构模式，这是一种常见的网络应用架构，其中“B”代表浏览器，即客户端，而“S”代表服务器。在这种架构下，用户通过浏览器访问服务器上的资源或服务，而服务器则负责处理请求、执行业务逻辑并返回相应的响应。
 

@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  '@feishux/api@0.3.3':
+    hash: 2ba7plj6lbdu555jf3kp7mmhr4
+    path: patches/@feishux__api@0.3.3.patch
+
 importers:
 
   .:
@@ -6769,7 +6774,7 @@ snapshots:
   '@elog/sdk-feishu@0.14.7':
     dependencies:
       '@elog/shared': 0.14.7
-      '@feishux/api': 0.3.3
+      '@feishux/api': 0.3.3(patch_hash=2ba7plj6lbdu555jf3kp7mmhr4)
       '@feishux/doc-to-md': 0.3.3
       '@feishux/shared': 0.3.3
       front-matter: 4.0.2
@@ -6932,13 +6937,13 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@feishux/api@0.3.3':
+  '@feishux/api@0.3.3(patch_hash=2ba7plj6lbdu555jf3kp7mmhr4)':
     dependencies:
       '@feishux/shared': 0.3.3
 
   '@feishux/doc-to-md@0.3.3':
     dependencies:
-      '@feishux/api': 0.3.3
+      '@feishux/api': 0.3.3(patch_hash=2ba7plj6lbdu555jf3kp7mmhr4)
       '@feishux/shared': 0.3.3
       markdown-table: 2.0.0
 

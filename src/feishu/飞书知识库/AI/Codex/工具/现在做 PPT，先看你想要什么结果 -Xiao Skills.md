@@ -1,13 +1,7 @@
 ---
 title: 现在做 PPT，先看你想要什么结果 -Xiao Skills
-date: '2026-05-28'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/AI/Codex/工具
-tag:
-  - feishu
+date: '2026-05-28 10:59:00'
+updated: '2026-05-28 11:09:47'
 ---
 ![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/KyiubrYq9oHylPxRgp0cRlvTntd.png)
 文档来自：

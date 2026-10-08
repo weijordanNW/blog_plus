@@ -1,13 +1,7 @@
 ---
 title: 请求失败会弹出一个toast如何保证批量请求弹出一个toast？
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试/其他
-tag:
-  - feishu
+date: '2026-05-21 01:58:14'
+updated: '2026-06-03 11:14:34'
 ---
 # 批量请求失败只弹出一个Toast 面试速记卡片
 ## 一、问题场景

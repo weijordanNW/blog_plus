@@ -1,13 +1,7 @@
 ---
 title: 项目部署时 console.log 为什么要去掉
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试/其他
-tag:
-  - feishu
+date: '2026-05-21 02:10:42'
+updated: '2026-05-21 02:12:39'
 ---
 # 1.📝 面试速记：项目部署时为什么要去掉 `console.log`？
 ---

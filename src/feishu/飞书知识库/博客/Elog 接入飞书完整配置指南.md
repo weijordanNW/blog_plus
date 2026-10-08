@@ -1,13 +1,7 @@
 ---
 title: Elog 接入飞书完整配置指南
-date: '2026-05-19'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/博客
-tag:
-  - feishu
+date: '2026-05-19 07:25:45'
+updated: '2026-05-19 07:27:45'
 ---
 ## 0. 前置准备
 - 已安装并登录 **飞书客户端 / 网页版**（个人版免费即可）

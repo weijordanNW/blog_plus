@@ -1,13 +1,7 @@
 ---
 title: echars带引导线的饼图
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/Echars可视化
-tag:
-  - feishu
+date: '2026-05-21 04:36:57'
+updated: '2026-05-21 04:37:42'
 ---
 ECharts 带引导线的饼图详细配置参数及解释
 ## 基础配置

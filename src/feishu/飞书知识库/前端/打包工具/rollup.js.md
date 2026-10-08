@@ -1,13 +1,7 @@
 ---
 title: rollup.js
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/打包工具
-tag:
-  - feishu
+date: '2026-05-21 04:25:58'
+updated: '2026-05-21 04:26:15'
 ---
 [https://www.ruanyifeng.com/blog/2022/05/rollup.html](https://www.ruanyifeng.com/blog/2022/05/rollup.html)
 

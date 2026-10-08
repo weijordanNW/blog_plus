@@ -1,13 +1,7 @@
 ---
 title: Promise
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/面试/JS/js 基础
-tag:
-  - feishu
+date: '2026-05-21 04:00:29'
+updated: '2026-05-21 04:00:45'
 ---
 ## 思维导图
 ![image](https://raw.githubusercontent.com/weijordanNW/blog_plus/main/feishu/IkQ8bgFjSob8eQxGQSWcTXZOn6g.jpeg)

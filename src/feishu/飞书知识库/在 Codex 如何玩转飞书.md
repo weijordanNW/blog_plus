@@ -1,13 +1,7 @@
 ---
 title: 在 Codex 如何玩转飞书
-date: '2026-05-22'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库
-tag:
-  - feishu
+date: '2026-05-22 01:35:21'
+updated: '2026-05-22 01:35:23'
 ---
 > 这篇文档面向在 Codex 中使用飞书能力的同学，目标是把飞书 CLI、Codex 技能和日常协作流程串起来，用更少的上下文切换完成更多事情。
 ## 1. 核心思路
@@ -47,15 +41,15 @@ tag:
 
 ## 3. 第一次使用前的准备
 确认飞书 CLI 已安装：
-```undefined
+```bash
 lark-cli --version
 ```
 查看当前认证状态：
-```undefined
+```bash
 lark-cli auth status
 ```
 如果没有配置或登录，需要先执行：
-```undefined
+```bash
 lark-cli config init --new
 lark-cli auth login --recommend
 ```
@@ -201,31 +195,31 @@ https://xxx.feishu.cn/wiki/<wiki_token>
 
 ## 10. 常用命令备忘
 查看认证状态：
-```undefined
+```bash
 lark-cli auth status
 ```
 查看日程：
-```undefined
+```bash
 lark-cli calendar +agenda --as user
 ```
 解析知识库节点：
-```undefined
+```bash
 lark-cli wiki +node-get --as user --token "<wiki_url>"
 ```
 列出知识库子节点：
-```undefined
+```bash
 lark-cli wiki +node-list --as user --space-id "<space_id>" --parent-node-token "<node_token>"
 ```
 创建文档：
-```undefined
+```bash
 lark-cli docs +create --as user --api-version v2 --parent-token "<parent_node_token>" --doc-format markdown --content @doc.md
 ```
 读取文档：
-```undefined
+```bash
 lark-cli docs +fetch --as user --api-version v2 --doc "<doc_url_or_token>"
 ```
 搜索用户：
-```undefined
+```bash
 lark-cli contact +search-user --as user --query "姓名或邮箱"
 ```
 ## 11. 推荐表达方式

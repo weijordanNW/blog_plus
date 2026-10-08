@@ -1,13 +1,7 @@
 ---
 title: markdown工具 (一个简单的本地)- TauriMarkdown
-date: '2026-05-18'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/AI/工具
-tag:
-  - feishu
+date: '2026-05-18 22:35:51'
+updated: '2026-05-18 22:36:00'
 ---
 鸽了 4 年的软件 TauriMarkdown 借助 AI 更新了
 

@@ -1,13 +1,7 @@
 ---
 title: 原型skill-Prototype
-date: '2026-05-25'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/UI
-tag:
-  - feishu
+date: '2026-05-25 03:49:46'
+updated: '2026-05-25 03:50:11'
 ---
 这个“prototype”技能非常务实，它来自TypeScript专家Matt Pocock近期开源的AI技能库，旨在解决真实工程中的具体问题。
 

@@ -1,13 +1,7 @@
 ---
 title: 9个AI智能体&开发工具开源项目
-date: '2026-05-21'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/github集合/每周项目合集
-tag:
-  - feishu
+date: '2026-05-21 07:35:13'
+updated: '2026-05-21 07:49:00'
 ---
 https://www.bilibili.com/video/BV15xoMBoEq5?spm_id_from=333.788.videopod.sections&vd_source=ac6ab4c3cdc5d0193edf55fd77ba0b4f
 # 9个AI智能体&开发工具开源项目 · 一页极简速查

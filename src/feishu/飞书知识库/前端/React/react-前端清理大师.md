@@ -1,13 +1,7 @@
 ---
 title: react-前端清理大师
-date: '2026-05-29'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/前端/React
-tag:
-  - feishu
+date: '2026-05-29 09:37:02'
+updated: '2026-05-29 09:37:38'
 ---
 在codex或者cc里输入
 ```bash

@@ -1,13 +1,7 @@
 ---
 title: pinkbin
-date: '2026-05-24'
-icon: bokeyuan
-star: false
-isOriginal: false
-category:
-  - 飞书知识库/电脑清理工具
-tag:
-  - feishu
+date: '2026-05-24 11:13:06'
+updated: '2026-05-24 11:13:14'
 ---
 ### 1. 项目名称及翻译
 - 项目名称：pinkbin
